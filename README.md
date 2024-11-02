@@ -44,7 +44,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 
 ### Books and Reference Materials
 
-9. **DALLE Prompt Book** - Guide on crafting prompts specifically for image generation models like DALLE.
-10. **OpenAI Cookbook** - Collection of OpenAI's best practices and examples for using language models effectively.
-11. **Prompt Engineering by Microsoft** - Resources and guides by Microsoft on prompt engineering fundamentals.
+9. [**DALLE Prompt Book**](https://dallery.gallery/the-dalle-2-prompt-book/) - Guide on crafting prompts specifically for image generation models like DALLE.
+10. [**OpenAI Cookbook**](https://github.com/openai/openai-cookbook) - Collection of OpenAI's best practices and examples for using language models effectively.
+11. [**Prompt Engineering by Microsoft**](https://microsoft.github.io/prompt-engineering/) - Resources and guides by Microsoft on prompt engineering fundamentals.
 
