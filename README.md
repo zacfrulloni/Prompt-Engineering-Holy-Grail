@@ -121,3 +121,55 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **Prompt Engineer** | [@PromptEngineer48](https://www.youtube.com/@PromptEngineer48) |
 | **All About AI** | [@AllAboutAI](https://www.youtube.com/@AllAboutAI) |
 | **The AI Advantage** | [@aiadvantage](https://www.youtube.com/@aiadvantage) |
+
+## 3. Prompt Engineering Tools
+
+📊 Prompt Marketplaces
+| **Tool**              | **Link** |
+|-----------------------|----------|
+| **PromptBase**        | [PromptBase](https://promptbase.com/) |
+
+🧑‍💻 Prompt Generation Tools
+| **Tool**                     | **Link** |
+|------------------------------|----------|
+| **YiVal**                    | [YiVal](https://github.com/YiVal/YiVal) |
+| **GPT Prompt Engineer**      | [GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer) |
+| **Promptify**                | [Promptify](https://github.com/promptslab/Promptify) |
+| **Opik**                     | [Opik](https://github.com/comet-ml/opik) |
+| **HuggingFace ChatGPT Prompt Generator** | [HuggingFace ChatGPT Prompt Generator](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator) |
+
+🗄️ Prompt Management Platforms
+| **Tool**                   | **Description** | **Link** |
+|----------------------------|-----------------|----------|
+| **Opik**                   | Open-source end-to-end LLM development platform | [Opik](https://github.com/comet-ml/opik) |
+| **Agenta**                 | All-in-one LLM developer platform with prompt management | [Agenta](https://github.com/agenta-ai/agenta) |
+| **PromptInject**           | Framework for modular prompts and adversarial prompt robustness testing | [PromptInject](https://github.com/agencyenterprise/PromptInject) |
+| **Langbear**               | Open-source AI prompt management platform | [Langbear](https://langbear.runbear.io/introduction) |
+
+🧪 Prompt Testing and Experimentation
+| **Tool**                   | **Description** | **Link** |
+|----------------------------|-----------------|----------|
+| **BetterPrompt**           | Test suite for LLM prompts | [BetterPrompt](https://github.com/stjordanis/betterprompt) |
+| **OpenPrompt**             | Open-Source framework for prompt-learning | [OpenPrompt](https://github.com/thunlp/OpenPrompt) |
+| **Guidance**               | Programming paradigm for controlling LLM output | [Guidance](https://github.com/guidance-ai/guidance) |
+| **Prompt Tools**           | Tools for prompt testing and experimentation | [Prompt Tools](https://github.com/hegelai/prompttools) |
+| **ThoughtSource**          | Resource for chain-of-thought reasoning tools | [ThoughtSource](https://github.com/OpenBioLink/ThoughtSource) |
+
+🛠️ Prompt Crafting Libraries
+| **Tool**                   | **Description** | **Link** |
+|----------------------------|-----------------|----------|
+| **Prompt Engine**          | Library for crafting prompts for large language models | [Prompt Engine](https://github.com/microsoft/prompt-engine) |
+| **ClickPrompt**            | Tool for viewing, sharing, and running prompts with one click | [ClickPrompt](https://github.com/prompt-engineering/click-prompt) |
+| **Outlines**               | Structured text generation toolkit | [Outlines](https://github.com/dottxt-ai/outlines) |
+| **PromptSource**           | Toolkit for creating and sharing natural language prompts | [PromptSource](https://github.com/bigscience-workshop/promptsource) |
+| **PromptMetheus**          | One-shot prompt engineering toolkit | [PromptMetheus](https://promptmetheus.com/) |
+
+🔄 Other
+| **Tool**                   | **Description** | **Link** |
+|----------------------------|-----------------|----------|
+| **PromptKnit**             | Playground for prompt designers | [PromptKnit](https://promptknit.com/) |
+| **Prompto Type**           | Tool for developing, testing, and monitoring structured LLM tasks | [Prompto Type](https://www.promptotype.io/) |
+| **OpenICL**                | Framework for in-context learning research and prototyping | [OpenICL](https://github.com/Shark-NLP/OpenICL) |
+| **Optimus Prompt AI**      | Experiment tracking and human annotation platform for LLM applications | [Optimus Prompt AI](https://www.optimusprompt.ai/) |
+
+
