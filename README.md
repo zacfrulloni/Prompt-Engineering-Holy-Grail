@@ -98,3 +98,12 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **[The Art of Prompt Engineering with chatGPT: A Hands-On Guide](https://www.amazon.co.uk/Art-Prompt-Engineering-chatGPT-Hands/dp/1739296710/ref=sr_1_6?crid=38L6HXGTLABQM)** | [Amazon UK](https://www.amazon.co.uk/Art-Prompt-Engineering-chatGPT-Hands/dp/1739296710)                       | ⭐ 4.1 (232 ratings)            | £9.99           | Kindle        |
 | **[The Art of Prompt Engineering with ChatGPT: Accessible Edition](https://www.amazon.co.uk/Art-Prompt-Engineering-ChatGPT-Accessible-ebook/dp/B0BZ4T68Q4/ref=sr_1_11?crid=38L6HXGTLABQM)** | [Amazon UK](https://www.amazon.co.uk/Art-Prompt-Engineering-ChatGPT-Accessible-ebook/dp/B0BZ4T68Q4)            | ⭐ 4.4 (106 reviews)            | £9.99           | Kindle        |
 | **[The Ultimate Guide to ChatGPT: A Beginner's Handbook on Prompt Engineering](https://www.amazon.co.uk/Ultimate-Guide-ChatGPT-understanding-intelligence/dp/B0C2RRQDMV/ref=sr_1_13_sspa?crid=38L6HXGTLABQM)** | [Amazon UK](https://www.amazon.co.uk/Ultimate-Guide-ChatGPT-understanding-intelligence/dp/B0C2RRQDMV)          | ⭐ 4.2 (112 reviews)            | £7.99           | Kindle        |
+
+🎥 YouTube Videos on Prompt Engineering
+🎬 Video Title	🌐 Link
+EfficientML.ai Lecture 20: Efficient Fine-tuning and Prompt Engineering (MIT 6.5940, Fall 2023)	Watch here
+Prompt-Engineering for Open-Source LLMs	Watch here
+Advanced ChatGPT Prompt Engineering	Watch here
+ChatGPT: 5 Prompt Engineering Secrets For Beginners	Watch here
+ChatGPT Guide: 10x Your Results with Better Prompts	Watch here
+
