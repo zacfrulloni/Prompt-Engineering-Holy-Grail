@@ -172,4 +172,48 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **OpenICL**                | Framework for in-context learning research and prototyping | [OpenICL](https://github.com/Shark-NLP/OpenICL) |
 | **Optimus Prompt AI**      | Experiment tracking and human annotation platform for LLM applications | [Optimus Prompt AI](https://www.optimusprompt.ai/) |
 
+## 4.	Prompt Libraries, Collections & Datasets
+
+📚 Prompt Libraries
+| **Library**                   | **Description** | **Link** |
+|-------------------------------|-----------------|----------|
+| **ai-boost/awesome-prompts**  | Curated list of ChatGPT prompts with top-rated GPTs. Includes prompt engineering, attack & protection techniques, and advanced papers. | [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) |
+| **B3o/GPTS-Prompt-Collection**| Extensive prompt collection for GPT models. | [B3o/GPTS-Prompt-Collection](https://github.com/B3o/GPTS-Prompt-Collection) |
+| **abilzerian/LLM-Prompt-Library** | Advanced code and text manipulation prompts for various LLMs, including GPT-4o, Claude, and Llama3. | [abilzerian/LLM-Prompt-Library](https://github.com/abilzerian/LLM-Prompt-Library) |
+| **f/awesome-chatgpt-prompts** | Well-curated repository of prompts to optimize ChatGPT usage. | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) |
+| **yunwei37/prompt-hacker-collections** | Prompt hacking and defense, with injection and reverse engineering examples. | [yunwei37/prompt-hacker-collections](https://github.com/yunwei37/prompt-hacker-collections) |
+| **alphatrait/100000-ai-prompts-by-contentifyai** | Extensive collection of 100,000+ prompts for ChatGPT, covering various topics like business and entertainment. | [alphatrait/100000-ai-prompts-by-contentifyai](https://github.com/alphatrait/100000-ai-prompts-by-contentifyai) |
+| **DummyKitty/Cyber-Security-chatGPT-prompt** | Security-focused ChatGPT prompt library. | [DummyKitty/Cyber-Security-chatGPT-prompt](https://github.com/DummyKitty/Cyber-Security-chatGPT-prompt) |
+
+📜 Prompt Collections
+| **Collection**                | **Description** | **Link** |
+|-------------------------------|-----------------|----------|
+| **FlowGPT**                   | Largest open-source community for sharing prompts. | [FlowGPT](https://flowgpt.com) |
+| **awesomegptprompts.com**     | Hundreds of the best curated ChatGPT prompts. | [awesomegptprompts.com](https://awesomegptprompts.com) |
+| **fka/awesome-chatgpt-prompts** | Dataset with curated ChatGPT prompts for enhanced usage. | [fka/awesome-chatgpt-prompts](https://github.com/fka/awesome-chatgpt-prompts) |
+| **PromptHub**                 | Comprehensive hub of ChatGPT prompt collections. | [PromptHub](https://prompthub.com) |
+| **Best Data Science ChatGPT Prompts** | Specialized collection of data science prompts for ChatGPT. | [Best Data Science ChatGPT Prompts](https://bestdatasciencechatgpt.com) |
+| **Ignacio Velásquez Prompt Templates** | 500+ prompt templates for various uses. | [Ignacio Velásquez Prompt Templates](https://ignacioprompttemplates.com) |
+| **Snack Prompt**              | Collection of prompts with Chrome extension for easy access. | [Snack Prompt](https://snackprompt.com) |
+| **Prompt Search**             | Search engine for locating AI prompts. | [Prompt Search](https://promptsearch.com) |
+| **The Prompt Index**          | Curated index with a wide variety of prompts. | [The Prompt Index](https://thepromptindex.com) |
+| **PromptDen**                 | Platform with thousands of prompts for text and image generation, with profile features for prompt engineers. | [PromptDen](https://promptden.com) |
+
+🛠️ GPT Stores and Libraries
+| **Store/Library**             | **Description** | **Link** |
+|-------------------------------|-----------------|----------|
+| **Awesome GPT Store**         | Comprehensive GPT store with major public GPTs. | [Awesome GPT Store](https://github.com/Anil-matcha/Awesome-GPT-Store) |
+| **Awesome GPTs Big List**     | A large list of notable GPTs available publicly. | [Awesome GPTs Big List](https://github.com/friuns2/Awesome-GPTs-Big-List) |
+| **BestGPTs**                  | Top-ranked OpenAI GPTs for various applications. | [BestGPTs](https://github.com/AgentOps-AI/BestGPTs) |
+| **Awesome GPT Agents**        | Curated list of GPT agents, particularly for cybersecurity. | [Awesome GPT Agents](https://github.com/fr0gger/Awesome-GPT-Agents) |
+
+📊 Datasets
+| **Dataset**                   | **Description** | **Link** |
+|-------------------------------|-----------------|----------|
+| **P3 (Public Pool of Prompts)** | A diverse set of prompted English datasets covering various NLP tasks. | [P3 on HuggingFace](https://huggingface.co/datasets/bigscience/P3) |
+| **Awesome ChatGPT Prompts**   | Repository of curated prompts to enhance ChatGPT usage. | [Awesome ChatGPT Prompts on GitHub](https://github.com/f/awesome-chatgpt-prompts) |
+| **Writing Prompts**           | Large dataset of human-written stories and prompts from Reddit. | [Writing Prompts on Kaggle](https://www.kaggle.com/datasets/username/writing-prompts) |
+| **Midjourney Prompts**        | Text prompts with associated images scraped from MidJourney's Discord. | [Midjourney Prompts on HuggingFace](https://huggingface.co/datasets/midjourney/prompts) |
+
+
 
