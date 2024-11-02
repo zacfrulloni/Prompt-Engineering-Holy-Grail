@@ -100,30 +100,24 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **[The Ultimate Guide to ChatGPT: A Beginner's Handbook on Prompt Engineering](https://www.amazon.co.uk/Ultimate-Guide-ChatGPT-understanding-intelligence/dp/B0C2RRQDMV/ref=sr_1_13_sspa?crid=38L6HXGTLABQM)** | [Amazon UK](https://www.amazon.co.uk/Ultimate-Guide-ChatGPT-understanding-intelligence/dp/B0C2RRQDMV)          | ⭐ 4.2 (112 reviews)            | £7.99           | Kindle        |
 
 🎥 YouTube Videos on Prompt Engineering
-markdown
-Copy code
-| **Video Title** | **Platform** |
-|-----------------|--------------|
-| **[EfficientML.ai Lecture 20: Efficient Fine-tuning and Prompt Engineering (MIT 6.5940, Fall 2023)](https://www.youtube.com/watch?v=vOPwwRCZ8q8)** | [YouTube](https://www.youtube.com/watch?v=vOPwwRCZ8q8) |
-| **[Prompt-Engineering for Open-Source LLMs](https://www.youtube.com/watch?v=f32dc5M2Mn0)** | [YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
-| **[Advanced ChatGPT Prompt Engineering](https://www.youtube.com/watch?v=f32dc5M2Mn0)** | [YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
-| **[ChatGPT: 5 Prompt Engineering Secrets For Beginners](https://www.youtube.com/watch?v=f32dc5M2Mn0)** | [YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
-| **[ChatGPT Guide: 10x Your Results with Better Prompts](https://www.youtube.com/watch?v=f3
+| **Video Title** | **Link** |
+|-----------------|----------|
+| **EfficientML.ai Lecture 20: Efficient Fine-tuning and Prompt Engineering (MIT 6.5940, Fall 2023)** | [Watch on YouTube](https://www.youtube.com/watch?v=vOPwwRCZ8q8) |
+| **Prompt-Engineering for Open-Source LLMs** | [Watch on YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
+| **Advanced ChatGPT Prompt Engineering** | [Watch on YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
+| **ChatGPT: 5 Prompt Engineering Secrets For Beginners** | [Watch on YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
+| **ChatGPT Guide: 10x Your Results with Better Prompts** | [Watch on YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
 
-📺 YouTube Channels Dedicated to Prompt Engineering
-markdown
-Copy code
-| **Channel Name** | **Platform** | **Link** |
-|------------------|--------------|----------|
-| **Prompt Engineering** | YouTube | [@engineerprompt](https://www.youtube.com/@engineerprompt) |
-| **They Call Me Hoz** | YouTube | [@theycallmehoz](https://www.youtube.com/@theycallmehoz) |
-| **Jeff Su** | YouTube | [@JeffSu](https://www.youtube.com/@JeffSu) |
-| **AI Master** | YouTube | [@iamAImaster](https://www.youtube.com/@iamAImaster) |
-| **AssemblyAI** | YouTube | [@AssemblyAI](https://www.youtube.com/@AssemblyAI) |
-| **Hasan Aboul Hasan** | YouTube | [@hasanaboulhasan](https://www.youtube.com/@hasanaboulhasan) |
-| **AI Foundations** | YouTube | [@ai-foundations](https://www.youtube.com/@ai-foundations) |
-| **Prompt Engineer** | YouTube | [@PromptEngineer48](https://www.youtube.com/@PromptEngineer48) |
-| **All About AI** | YouTube | [@AllAboutAI](https://www.youtube.com/@AllAboutAI) |
-| **The AI Advantage** | YouTube | [@aiadvantage](https://www.youtube.com/@aiadvantage) |
-
-
+📺 YouTube Channels Dedicated to AI & Prompt Engineering
+| **Channel Name** | **Link** |
+|------------------|----------|
+| **Prompt Engineering** | [@engineerprompt](https://www.youtube.com/@engineerprompt) |
+| **They Call Me Hoz** | [@theycallmehoz](https://www.youtube.com/@theycallmehoz) |
+| **Jeff Su** | [@JeffSu](https://www.youtube.com/@JeffSu) |
+| **AI Master** | [@iamAImaster](https://www.youtube.com/@iamAImaster) |
+| **AssemblyAI** | [@AssemblyAI](https://www.youtube.com/@AssemblyAI) |
+| **Hasan Aboul Hasan** | [@hasanaboulhasan](https://www.youtube.com/@hasanaboulhasan) |
+| **AI Foundations** | [@ai-foundations](https://www.youtube.com/@ai-foundations) |
+| **Prompt Engineer** | [@PromptEngineer48](https://www.youtube.com/@PromptEngineer48) |
+| **All About AI** | [@AllAboutAI](https://www.youtube.com/@AllAboutAI) |
+| **The AI Advantage** | [@aiadvantage](https://www.youtube.com/@aiadvantage) |
