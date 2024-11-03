@@ -266,5 +266,17 @@ Facebook Communities
 | onehack.us     | Platform for discovering and sharing GPT prompts. | [onehack.us Prompts](https://onehack.us/prompt) |
 | Hugging Face Forum | Forum for discussing Hugging Face models, including transformers and GPT. | [Hugging Face Forum](https://discuss.huggingface.co/) |
 
+## 6. Freelance & Job Opportunities
+## 🌐 Job Websites for Prompt Engineers
+
+1. [Prompt Engineer Jobs](https://promptengineerjobs.io/jobs) - Dedicated to various prompt engineering roles.
+2. [Moai Jobs - Prompt Engineering](https://www.moaijobs.com/prompt-engineering-jobs) - Lists prompt engineering and AI-related positions.
+3. [Prompt Engineer Jobs Org](https://promptengineerjobs.org/) - Platform featuring prompt engineering jobs.
+4. [AI Jobs Net - Prompt Engineering](https://aijobs.net/list/prompt-engineering-related-jobs/) - Collection of jobs in AI, with a section for prompt engineers.
+5. [AI Jobs](https://aijobs.ai/prompt-engineer) - A specialized site for jobs in AI, including prompt engineering roles.
+6. [Promptly Hired](https://promptlyhired.com/) - Jobs in prompt engineering and related fields.
+7. [Upwork - Prompt Engineering](https://www.upwork.com/en-gb/freelance-jobs/prompt-engineering/) - Freelance prompt engineering roles.
+8. [Prompt Engineering Jobs](https://prompt-engineering-jobs.com/) - Portal for finding prompt engineering jobs.
+9. [AI Careers - Prompt Engineer](https://aicareers.jobs/job-category/prompt-engineer/) - Job board for various AI careers, including prompt engineering.
 
 
