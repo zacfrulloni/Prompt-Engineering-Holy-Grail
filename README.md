@@ -1,23 +1,23 @@
 ## Table of Contents
 
-1. [Introduction](#1-introduction)
+1. [Introduction](#introduction)
    - [Overview of Prompt Engineering](#overview-of-prompt-engineering)
    - [Purpose of This Repository](#purpose-of-this-repository)
 
-2. [Learning Resources](#2-learning-resources)
+2. [Learning Resources](#learning-resources)
    - [Free Tutorials, Videos & Guides](#free-tutorials-videos--guides)
    - [Additional Guides and Repositories](#additional-guides-and-repositories)
    - [Books and Reference Materials](#books-and-reference-materials)
 
-3. [Comprehensive List of Online Courses](#3-comprehensive-list-of-online-courses)
+3. [Comprehensive List of Online Courses on Prompt Engineering](#comprehensive-list-of-online-courses-on-prompt-engineering)
 
-4. [Essential Books on Prompt Engineering](#4-essential-books-on-prompt-engineering)
+4. [Essential Books on Prompt Engineering and ChatGPT](#essential-books-on-prompt-engineering-and-chatgpt)
 
-5. [YouTube Resources](#5-youtube-resources)
-   - [Video Tutorials](#video-tutorials)
-   - [Dedicated Channels](#dedicated-channels)
+5. [YouTube Resources on Prompt Engineering](#youtube-resources-on-prompt-engineering)
+   - [YouTube Video Tutorials](#youtube-video-tutorials)
+   - [YouTube Channels Dedicated to AI & Prompt Engineering](#youtube-channels-dedicated-to-ai--prompt-engineering)
 
-6. [Prompt Engineering Tools](#6-prompt-engineering-tools)
+6. [Prompt Engineering Tools](#prompt-engineering-tools)
    - [Prompt Marketplaces](#prompt-marketplaces)
    - [Prompt Generation Tools](#prompt-generation-tools)
    - [Prompt Management Platforms](#prompt-management-platforms)
@@ -25,30 +25,32 @@
    - [Prompt Crafting Libraries](#prompt-crafting-libraries)
    - [Other Tools](#other-tools)
 
-7. [Prompt Libraries, Collections & Datasets](#7-prompt-libraries-collections--datasets)
+7. [Prompt Libraries, Collections & Datasets](#prompt-libraries-collections--datasets)
    - [Prompt Libraries](#prompt-libraries)
    - [Prompt Collections](#prompt-collections)
    - [GPT Stores and Libraries](#gpt-stores-and-libraries)
    - [Datasets](#datasets)
 
-8. [Prompt Engineering Communities](#8-prompt-engineering-communities)
-   - [Social Media Groups](#social-media-groups)
-   - [Discord Communities](#discord-communities)
-   - [Other Forums](#other-forums)
+8. [Prompt Engineering Communities](#prompt-engineering-communities)
+   - [Social Media Groups for Prompt Engineering](#social-media-groups-for-prompt-engineering)
+   - [Discord Communities for Prompt Engineering](#discord-communities-for-prompt-engineering)
+   - [Other Prompt Engineering Communities and Forums](#other-prompt-engineering-communities-and-forums)
 
-9. [Freelance & Job Opportunities](#9-freelance--job-opportunities)
+9. [Freelance & Job Opportunities in Prompt Engineering](#freelance--job-opportunities-in-prompt-engineering)
    - [Job Websites for Prompt Engineers](#job-websites-for-prompt-engineers)
    - [Freelance Platforms](#freelance-platforms)
 
-10. [Contributing & Code of Conduct](#10-contributing--code-of-conduct)
-   - [Contributing](#contributing)
+10. [Contributing & Code of Conduct](#contributing--code-of-conduct)
+   - [Contributing Guidelines](#contributing-guidelines)
    - [Code of Conduct](#code-of-conduct)
 
-11. [Support My Work](#11-support-my-work)
+11. [Support My Work](#support-my-work)
 
-12. [License](#12-license)
+12. [Join Our Community on Discord](#join-our-community-on-discord)
 
-13. [Contact Me](#13-contact-me)
+13. [License](#license)
+
+14. [Contact Me](#contact-me)
 
 ## 1. Introduction
 
