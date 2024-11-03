@@ -304,4 +304,8 @@ If you have ideas for improvements, feel free to open an issue or submit a pull 
 
 If you find this project helpful, consider supporting me! You can [sponsor me on GitHub](https://github.com/sponsors/zacfrulloni) or [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zazacattack). Your support helps me continue maintaining and improving this repository. Thank you! 🙏
 
+## 9. License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+© 2024 [zac frulloni]. All rights reserved.
