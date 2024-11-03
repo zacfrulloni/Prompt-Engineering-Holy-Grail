@@ -13,11 +13,7 @@
 
 4. [Essential Books on Prompt Engineering and ChatGPT](#essential-books-on-prompt-engineering-and-chatgpt)
 
-5. [YouTube Resources on Prompt Engineering](#youtube-resources-on-prompt-engineering)
-   - [YouTube Video Tutorials](#youtube-video-tutorials)
-   - [YouTube Channels Dedicated to AI & Prompt Engineering](#youtube-channels-dedicated-to-ai--prompt-engineering)
-
-6. [Prompt Engineering Tools](#prompt-engineering-tools)
+5. [Prompt Engineering Tools](#prompt-engineering-tools)
    - [Prompt Marketplaces](#prompt-marketplaces)
    - [Prompt Generation Tools](#prompt-generation-tools)
    - [Prompt Management Platforms](#prompt-management-platforms)
@@ -25,32 +21,32 @@
    - [Prompt Crafting Libraries](#prompt-crafting-libraries)
    - [Other Tools](#other-tools)
 
-7. [Prompt Libraries, Collections & Datasets](#prompt-libraries-collections--datasets)
+6. [Prompt Libraries, Collections & Datasets](#prompt-libraries-collections--datasets)
    - [Prompt Libraries](#prompt-libraries)
    - [Prompt Collections](#prompt-collections)
    - [GPT Stores and Libraries](#gpt-stores-and-libraries)
    - [Datasets](#datasets)
 
-8. [Prompt Engineering Communities](#prompt-engineering-communities)
+7. [Prompt Engineering Communities](#prompt-engineering-communities)
    - [Social Media Groups for Prompt Engineering](#social-media-groups-for-prompt-engineering)
    - [Discord Communities for Prompt Engineering](#discord-communities-for-prompt-engineering)
    - [Other Prompt Engineering Communities and Forums](#other-prompt-engineering-communities-and-forums)
 
-9. [Freelance & Job Opportunities in Prompt Engineering](#freelance--job-opportunities-in-prompt-engineering)
+8. [Freelance & Job Opportunities in Prompt Engineering](#freelance--job-opportunities-in-prompt-engineering)
    - [Job Websites for Prompt Engineers](#job-websites-for-prompt-engineers)
    - [Freelance Platforms](#freelance-platforms)
 
-10. [Contributing & Code of Conduct](#contributing--code-of-conduct)
+9. [Contributing & Code of Conduct](#contributing--code-of-conduct)
    - [Contributing Guidelines](#contributing-guidelines)
    - [Code of Conduct](#code-of-conduct)
 
-11. [Support My Work](#support-my-work)
+10. [Support My Work](#support-my-work)
 
-12. [Join Our Community on Discord](#join-our-community-on-discord)
+11. [Join Our Community on Discord](#join-our-community-on-discord)
 
-13. [License](#license)
+12. [License](#license)
 
-14. [Contact Me](#contact-me)
+13. [Contact Me](#contact-me)
 
 ## 1. Introduction
 
