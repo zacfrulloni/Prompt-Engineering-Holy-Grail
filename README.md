@@ -300,5 +300,5 @@ We strive to maintain a respectful and inclusive community. Please read our Code
 Feedback and Suggestions
 If you have ideas for improvements, feel free to open an issue or submit a pull request. Constructive feedback is always welcome!
 
-## 9. Support
+## 8. Support
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zazacattack)
