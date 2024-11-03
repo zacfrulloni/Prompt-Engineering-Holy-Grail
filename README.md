@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./hotdog.png" alt="Description of Image" width="800">
-</p>
-
 Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques.
 
 ## Table of Contents
