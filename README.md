@@ -1,5 +1,56 @@
-Consider giving it a ⭐️ if you like it to show your support! or if this project benefits you, consider [sponsoring me on GitHub](https://github.com/sponsors/zacfrulloni) or [buying me a coffee](https://www.buymeacoffee.com/zazacattack) to help me keep it going. Thank you! 🙏
+Consider giving it a ⭐️ if you like it to show your support! or if this project benefits you, consider [sponsoring me on GitHub](https://github.com/sponsors/zacfrulloni) or [buying me a coffee](https://www.buymeacoffee.com/zazacattack) to help me keep it going. Your support enables ongoing updates and improvements. Thank you!![image](https://github.com/user-attachments/assets/3f23ee83-a5cd-48ab-b863-d2cf3655261d)
 
+## Table of Contents
+
+1. [Introduction](#1-introduction)
+   - [Overview of Prompt Engineering](#overview-of-prompt-engineering)
+   - [Purpose of This Repository](#purpose-of-this-repository)
+
+2. [Learning Resources](#2-learning-resources)
+   - [Free Tutorials, Videos & Guides](#free-tutorials-videos--guides)
+   - [Additional Guides and Repositories](#additional-guides-and-repositories)
+   - [Books and Reference Materials](#books-and-reference-materials)
+
+3. [Comprehensive List of Online Courses](#3-comprehensive-list-of-online-courses)
+
+4. [Essential Books on Prompt Engineering](#4-essential-books-on-prompt-engineering)
+
+5. [YouTube Resources](#5-youtube-resources)
+   - [Video Tutorials](#video-tutorials)
+   - [Dedicated Channels](#dedicated-channels)
+
+6. [Prompt Engineering Tools](#6-prompt-engineering-tools)
+   - [Prompt Marketplaces](#prompt-marketplaces)
+   - [Prompt Generation Tools](#prompt-generation-tools)
+   - [Prompt Management Platforms](#prompt-management-platforms)
+   - [Prompt Testing and Experimentation](#prompt-testing-and-experimentation)
+   - [Prompt Crafting Libraries](#prompt-crafting-libraries)
+   - [Other Tools](#other-tools)
+
+7. [Prompt Libraries, Collections & Datasets](#7-prompt-libraries-collections--datasets)
+   - [Prompt Libraries](#prompt-libraries)
+   - [Prompt Collections](#prompt-collections)
+   - [GPT Stores and Libraries](#gpt-stores-and-libraries)
+   - [Datasets](#datasets)
+
+8. [Prompt Engineering Communities](#8-prompt-engineering-communities)
+   - [Social Media Groups](#social-media-groups)
+   - [Discord Communities](#discord-communities)
+   - [Other Forums](#other-forums)
+
+9. [Freelance & Job Opportunities](#9-freelance--job-opportunities)
+   - [Job Websites for Prompt Engineers](#job-websites-for-prompt-engineers)
+   - [Freelance Platforms](#freelance-platforms)
+
+10. [Contributing & Code of Conduct](#10-contributing--code-of-conduct)
+   - [Contributing](#contributing)
+   - [Code of Conduct](#code-of-conduct)
+
+11. [Support My Work](#11-support-my-work)
+
+12. [License](#12-license)
+
+13. [Contact Me](#13-contact-me)
 
 ## 1. Introduction
 
@@ -301,7 +352,8 @@ If you have ideas for improvements, feel free to open an issue or submit a pull 
 
 ## 8. ☕ Support My Work
 
-If you find this project helpful, consider supporting me! You can [sponsor me on GitHub](https://github.com/sponsors/zacfrulloni) or [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zazacattack). Your support helps me continue maintaining and improving this repository. Thank you! 🙏
+If you find this project helpful, consider supporting me! You can [sponsor me on GitHub](https://github.com/sponsors/zacfrulloni) or [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zazacattack). Your support enables ongoing updates and improvements. Thank you!![image](https://github.com/user-attachments/assets/ceadbd8e-df72-445f-9667-30e6de0e89ba)
+
 
 ## 9. License
 
