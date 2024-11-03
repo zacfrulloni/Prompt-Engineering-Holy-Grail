@@ -287,3 +287,15 @@ Facebook Communities
 | **Freelancer**    | Freelance platform for prompt engineering roles. | [Freelancer Prompt Engineering](https://www.freelancer.com/jobs/prompt-engineering#) |
 | **Toptal**        | Platform connecting top prompt engineers for freelance opportunities. | [Toptal Prompt Engineers](https://www.toptal.com/prompt-engineers) |
 
+## 7. Contributing & Code of Conduct
+🛠️ Contributing
+We welcome contributions to make this repository a comprehensive resource for prompt engineering enthusiasts. Here’s how you can help:
+
+Guidelines for Contributing
+Follow our step-by-step guide in the CONTRIBUTING.md file to learn how to add new resources, fix errors, or enhance existing sections.
+
+Code of Conduct
+We strive to maintain a respectful and inclusive community. Please read our Code of Conduct to understand the expected behavior when contributing.
+
+Feedback and Suggestions
+If you have ideas for improvements, feel free to open an issue or submit a pull request. Constructive feedback is always welcome!
