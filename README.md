@@ -354,13 +354,21 @@ Consider giving this repository a ⭐️ if you find it helpful, or share it wit
 
 If you'd like to reach out, feel free to check the [Contact Me section](#13-contact-me). Thank you for your support! 🙏
 
-## 9. License
+## 9. 🎉 Join Our Community on Discord
+
+Connect with other developers, AI enthusiasts, and prompt engineers! We’ve created a Discord server where you can share insights, ask questions, and stay updated on the latest in prompt engineering. It’s a place to collaborate, network, and learn together.
+
+[Join the Discord Server](https://discord.gg/BYKsABxW)
+
+Feel free to reach out if you have questions or suggestions in our **#general** or **#feedback** channels. Let’s build a community of knowledge and support!
+
+## 10. License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 © 2024 [zac frulloni]. All rights reserved.
 
-## 10. 📬 Contact Me
+## 11. 📬 Contact Me
 
 If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me via email at [zacfrull@hotmail.com](mailto:zacfrull@hotmail.com).
 
