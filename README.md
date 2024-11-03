@@ -308,3 +308,10 @@ If you find this project helpful, consider supporting me! You can [sponsor me on
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 © 2024 [zac frulloni]. All rights reserved.
+
+## 10. 📬 Contact Me
+
+If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me via email at [zacfrull@hotmail.com](mailto:zacfrull@hotmail.com).
+
+Looking forward to hearing from you!
+
