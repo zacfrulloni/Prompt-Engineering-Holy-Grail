@@ -215,5 +215,52 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **Writing Prompts**           | Large dataset of human-written stories and prompts from Reddit. | [Writing Prompts on Kaggle](https://www.kaggle.com/datasets/username/writing-prompts) |
 | **Midjourney Prompts**        | Text prompts with associated images scraped from MidJourney's Discord. | [Midjourney Prompts on HuggingFace](https://huggingface.co/datasets/midjourney/prompts) |
 
+## 5. Online Communities
+🌐 Social Media Groups for Prompt Engineering
+Reddit Communities
+| **Community Name**            | **Description** | **Link** |
+|-------------------------------|-----------------|----------|
+| r/ChatGPTJailbreak            | Community dedicated to ChatGPT jailbreak techniques. | [r/ChatGPTJailbreak](https://www.reddit.com/r/ChatGPTJailbreak/) |
+| r/ChatGPTPromptGenius         | Subreddit focused on sharing and discovering GPT prompts. | [r/ChatGPTPromptGenius](https://www.reddit.com/r/ChatGPTPromptGenius/) |
+| r/chatgpt_promptDesign        | Dedicated to designing effective ChatGPT prompts. | [r/chatgpt_promptDesign](https://www.reddit.com/r/chatgpt_promptDesign/) |
+| r/PromptEngineering           | Discussion subreddit for prompt engineering topics. | [r/PromptEngineering](https://www.reddit.com/r/PromptEngineering/) |
+| r/PromptDesign                | Community for discussing prompt design strategies. | [r/PromptDesign](https://www.reddit.com/r/PromptDesign/) |
+| r/MachineLearning             | Machine learning discussions, including GPT and LLMs. | [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) |
+| r/GPT_jailbreaks              | A forum for discussions on GPT jailbreak methods. | [r/GPT_jailbreaks](https://www.reddit.com/r/GPT_jailbreaks/) |
+| r/ChatGptDAN                  | Community focused on DAN mode and ChatGPT jailbreaks. | [r/ChatGptDAN](https://www.reddit.com/r/ChatGptDAN/) |
+| r/PromptSharing               | Platform to share and discover prompts with the community. | [r/PromptSharing](https://www.reddit.com/r/PromptSharing/) |
+| r/PromptWizardry              | A subreddit for creative and advanced prompting techniques. | [r/PromptWizardry](https://www.reddit.com/r/PromptWizardry/) |
+| r/PromptWizards               | A community for experts in prompt engineering. | [r/PromptWizards](https://www.reddit.com/r/PromptWizards/) |
+| r/ChatGPT_Prompts             | Community for sharing ChatGPT prompts. | [r/ChatGPT_Prompts](https://www.reddit.com/r/ChatGPT_Prompts/) |
+
+Facebook Communities
+| **Community Name**                     | **Description**                                           | **Link** |
+|----------------------------------------|-----------------------------------------------------------|----------|
+| ChatGPT Prompt Engineers               | Group for discussions on ChatGPT, AI news, and LLMs.      | [Facebook Group](https://www.facebook.com/groups/chatgptpromptengineers/) |
+| AI Image Creator Prompts               | Group dedicated to sharing prompts for AI image generation.| [Facebook Group](https://www.facebook.com/groups/291344450322662/) |
+| Prompt Engineering: ChatGPT Hiring and Recruiting | Group focused on prompt engineering hiring and recruitment.| [Facebook Group](https://www.facebook.com/groups/950660259275734/) |
+| AI Prompt Shares                       | Community for sharing AI-generated prompts.               | [Facebook Group](https://www.facebook.com/groups/aipromptshares/) |
+
+🗣️ Discord Communities for Prompt Engineering
+| **Community Name**            | **Description** | **Link** |
+|-------------------------------|-----------------|----------|
+| Attention Architects          | Open-source community for prompt engineering experts. | [Attention Architects](https://discord.gg/yourlink) |
+| ChatGPT Prompt Engineering     | Discord server dedicated to prompt engineering. | [ChatGPT Prompt Engineering](https://discord.gg/yourlink) |
+| ChatGPT Community             | General ChatGPT community on Discord. | [ChatGPT Community](https://discord.gg/yourlink) |
+| Reddit's ChatGPT Discord      | r/chatgpt's official Discord server. | [Reddit ChatGPT](https://discord.gg/yourlink) |
+| PromptsLab                    | Knowledge-sharing community for generative models and LLMs. | [PromptsLab](https://discord.gg/yourlink) |
+| Learn Prompting               | Discord server dedicated to learning prompt techniques. | [Learn Prompting](https://discord.gg/yourlink) |
+| Artificial Intelligence       | Discord server for AI enthusiasts and prompt engineers. | [Artificial Intelligence](https://discord.gg/yourlink) |
+| OpenAI Discord                | Official Discord server for OpenAI. | [OpenAI Discord](https://discord.gg/yourlink) |
+| Promptify Discord             | Promptify's Discord for prompt engineering and LLMs. | [Promptify Discord](https://discord.gg/m88xfYMbK6) |
+| MidJourney Discord            | Community focused on MidJourney AI models. | [MidJourney Discord](https://discord.gg/yourlink) |
+
+📢 Other Prompt Engineering Communities and Forums
+| **Platform**   | **Description** | **Link** |
+|----------------|-----------------|----------|
+| altenens.is    | Forum for sharing ChatGPT tools and resources. | [altenens ChatGPT Tools](https://altenens.is/forums/chatgpt-tools) |
+| onehack.us     | Platform for discovering and sharing GPT prompts. | [onehack.us Prompts](https://onehack.us/prompt) |
+| Hugging Face Forum | Forum for discussing Hugging Face models, including transformers and GPT. | [Hugging Face Forum](https://discuss.huggingface.co/) |
+
 
 
