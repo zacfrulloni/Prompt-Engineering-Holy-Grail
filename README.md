@@ -105,9 +105,9 @@ Each section is crafted to support your growth in prompt engineering, making it 
 |-----------------|----------|
 | **EfficientML.ai Lecture 20: Efficient Fine-tuning and Prompt Engineering (MIT 6.5940, Fall 2023)** | [Watch on YouTube](https://www.youtube.com/watch?v=vOPwwRCZ8q8) |
 | **Prompt-Engineering for Open-Source LLMs** | [Watch on YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
-| **Advanced ChatGPT Prompt Engineering** | [Watch on YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
-| **ChatGPT: 5 Prompt Engineering Secrets For Beginners** | [Watch on YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
-| **ChatGPT Guide: 10x Your Results with Better Prompts** | [Watch on YouTube](https://www.youtube.com/watch?v=f32dc5M2Mn0) |
+| **Advanced ChatGPT Prompt Engineering** | [Watch on YouTube](https://www.youtube.com/watch?v=bBiTR_1sEmI) |
+| **ChatGPT: 5 Prompt Engineering Secrets For Beginners** | [Watch on YouTube](https://www.youtube.com/watch?v=2zg3V66-Fzs) |
+| **ChatGPT Guide: 10x Your Results with Better Prompts** | [Watch on YouTube](https://www.youtube.com/watch?v=os-JX1ZQwIA) |
 
 📺 YouTube Channels Dedicated to AI & Prompt Engineering
 | **Channel Name** | **Link** |
@@ -136,7 +136,6 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **YiVal**                    | [YiVal](https://github.com/YiVal/YiVal) |
 | **GPT Prompt Engineer**      | [GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer) |
 | **Promptify**                | [Promptify](https://github.com/promptslab/Promptify) |
-| **Opik**                     | [Opik](https://github.com/comet-ml/opik) |
 | **HuggingFace ChatGPT Prompt Generator** | [HuggingFace ChatGPT Prompt Generator](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator) |
 
 🗄️ Prompt Management Platforms
@@ -181,7 +180,6 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **ai-boost/awesome-prompts**  | Curated list of ChatGPT prompts with top-rated GPTs. Includes prompt engineering, attack & protection techniques, and advanced papers. | [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) |
 | **B3o/GPTS-Prompt-Collection**| Extensive prompt collection for GPT models. | [B3o/GPTS-Prompt-Collection](https://github.com/B3o/GPTS-Prompt-Collection) |
 | **abilzerian/LLM-Prompt-Library** | Advanced code and text manipulation prompts for various LLMs, including GPT-4o, Claude, and Llama3. | [abilzerian/LLM-Prompt-Library](https://github.com/abilzerian/LLM-Prompt-Library) |
-| **f/awesome-chatgpt-prompts** | Well-curated repository of prompts to optimize ChatGPT usage. | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) |
 | **yunwei37/prompt-hacker-collections** | Prompt hacking and defense, with injection and reverse engineering examples. | [yunwei37/prompt-hacker-collections](https://github.com/yunwei37/prompt-hacker-collections) |
 | **alphatrait/100000-ai-prompts-by-contentifyai** | Extensive collection of 100,000+ prompts for ChatGPT, covering various topics like business and entertainment. | [alphatrait/100000-ai-prompts-by-contentifyai](https://github.com/alphatrait/100000-ai-prompts-by-contentifyai) |
 | **DummyKitty/Cyber-Security-chatGPT-prompt** | Security-focused ChatGPT prompt library. | [DummyKitty/Cyber-Security-chatGPT-prompt](https://github.com/DummyKitty/Cyber-Security-chatGPT-prompt) |
@@ -220,7 +218,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **Real Toxicity Prompts**               | A dataset of 100k sentence snippets from the web for research on reducing toxic degeneration in neural models.                                                                                              | [HuggingFace](https://huggingface.co/datasets/allenai/real-toxicity-prompts) |
 | **Stable Diffusion Prompts**            | A set of about 80,000 prompts from "Lexica.art" for Stable Diffusion. Data extraction was challenging due to API limitations.                                                                              | [HuggingFace](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) |
 
-## 5. Online Communities
+## 5. Prompt Engineering Communities
 🌐 Social Media Groups for Prompt Engineering
 Reddit Communities
 | **Community Name**            | **Description** | **Link** |
