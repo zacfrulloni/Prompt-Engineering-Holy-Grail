@@ -100,7 +100,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 10. [**OpenAI Cookbook**](https://github.com/openai/openai-cookbook) - Collection of OpenAI's best practices and examples for using language models effectively.
 11. [**Prompt Engineering by Microsoft**](https://microsoft.github.io/prompt-engineering/) - Resources and guides by Microsoft on prompt engineering fundamentals.
 
-## Comprehensive List of Online Courses on Prompt Engineering ⭐
+## Comprehensive List of Online Courses on Prompt Engineering
 
 | **Course Name**                                                                                                     | 🏫 **Platform**      | ⭐ **Ratings/Reviews**            | ⏰ **Duration**                  | 💰 **Cost**   | 🎓 **Certification** |
 |------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------------------|----------------------------------|---------------|-----------------------|
