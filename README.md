@@ -100,9 +100,9 @@ Each section is crafted to support your growth in prompt engineering, making it 
 10. [**OpenAI Cookbook**](https://github.com/openai/openai-cookbook) - Collection of OpenAI's best practices and examples for using language models effectively.
 11. [**Prompt Engineering by Microsoft**](https://microsoft.github.io/prompt-engineering/) - Resources and guides by Microsoft on prompt engineering fundamentals.
 
-## ⭐ Comprehensive List of Online Courses on Prompt Engineering ⭐
+## Comprehensive List of Online Courses on Prompt Engineering ⭐
 
-| 🌐 **Course Name**                                                                                                     | 🏫 **Platform**      | ⭐ **Ratings/Reviews**            | ⏰ **Duration**                  | 💰 **Cost**   | 🎓 **Certification** |
+| **Course Name**                                                                                                     | 🏫 **Platform**      | ⭐ **Ratings/Reviews**            | ⏰ **Duration**                  | 💰 **Cost**   | 🎓 **Certification** |
 |------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------------------|----------------------------------|---------------|-----------------------|
 | [Understanding Prompt Engineering](https://www.datacamp.com/courses/understanding-prompt-engineering)                  | DataCamp             | ⭐ 4.4 (55 reviews)               | n/a                              | n/a           | ✔️ Yes               |
 | [Introduction to ChatGPT](https://www.datacamp.com/courses/introduction-to-chatgpt)                                    | DataCamp             | ⭐ 4.3 (295 reviews)              | n/a                              | n/a           | ✔️ Yes               |
@@ -139,7 +139,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | [How to ChatGPT: Master the Art of Prompt Engineering](https://www.udemy.com/course/chatgpt-a-master-guide-for-professionals/?couponCode=LEARNNOWPLANS) | Udemy | ⭐ 4.4 (19634 reviews) | 2.5 hours                         | £29.99      | ✔️ Yes               |
 | [LangChain- Develop LLM powered applications with LangChain](https://www.udemy.com/course/langchain/?couponCode=LEARNNOWPLANS) | Udemy | ⭐ 4.6 (19450 reviews) | 9.5 hours                         | £54.99      | ✔️ Yes               |
 
-## 📚 Essential Books on Prompt Engineering and ChatGPT 📚
+## Essential Books on Prompt Engineering and ChatGPT 📚
 
 | 📘 **Book Title**                                                                                                                                | 🌍 **Link**                                                                                                                                          | ⭐ **Rating/Reviews**          | 💵 **Price**    | 📱 **Format** |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|-----------------|---------------|
@@ -151,7 +151,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **[The Art of Prompt Engineering with ChatGPT: Accessible Edition](https://www.amazon.co.uk/Art-Prompt-Engineering-ChatGPT-Accessible-ebook/dp/B0BZ4T68Q4/ref=sr_1_11?crid=38L6HXGTLABQM)** | [Amazon UK](https://www.amazon.co.uk/Art-Prompt-Engineering-ChatGPT-Accessible-ebook/dp/B0BZ4T68Q4)            | ⭐ 4.4 (106 reviews)            | £9.99           | Kindle        |
 | **[The Ultimate Guide to ChatGPT: A Beginner's Handbook on Prompt Engineering](https://www.amazon.co.uk/Ultimate-Guide-ChatGPT-understanding-intelligence/dp/B0C2RRQDMV/ref=sr_1_13_sspa?crid=38L6HXGTLABQM)** | [Amazon UK](https://www.amazon.co.uk/Ultimate-Guide-ChatGPT-understanding-intelligence/dp/B0C2RRQDMV)          | ⭐ 4.2 (112 reviews)            | £7.99           | Kindle        |
 
-🎥 YouTube Videos on Prompt Engineering
+YouTube Videos on Prompt Engineering
 | **Video Title** | **Link** |
 |-----------------|----------|
 | **EfficientML.ai Lecture 20: Efficient Fine-tuning and Prompt Engineering (MIT 6.5940, Fall 2023)** | [Watch on YouTube](https://www.youtube.com/watch?v=vOPwwRCZ8q8) |
@@ -160,7 +160,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **ChatGPT: 5 Prompt Engineering Secrets For Beginners** | [Watch on YouTube](https://www.youtube.com/watch?v=2zg3V66-Fzs) |
 | **ChatGPT Guide: 10x Your Results with Better Prompts** | [Watch on YouTube](https://www.youtube.com/watch?v=os-JX1ZQwIA) |
 
-📺 YouTube Channels Dedicated to AI & Prompt Engineering
+YouTube Channels Dedicated to AI & Prompt Engineering
 | **Channel Name** | **Link** |
 |------------------|----------|
 | **Prompt Engineering** | [@engineerprompt](https://www.youtube.com/@engineerprompt) |
@@ -176,12 +176,12 @@ Each section is crafted to support your growth in prompt engineering, making it 
 
 ## 3. Prompt Engineering Tools
 
-📊 Prompt Marketplaces
+Prompt Marketplaces
 | **Tool**              | **Link** |
 |-----------------------|----------|
 | **PromptBase**        | [PromptBase](https://promptbase.com/) |
 
-🧑‍💻 Prompt Generation Tools
+Prompt Generation Tools
 | **Tool**                     | **Link** |
 |------------------------------|----------|
 | **YiVal**                    | [YiVal](https://github.com/YiVal/YiVal) |
@@ -189,7 +189,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **Promptify**                | [Promptify](https://github.com/promptslab/Promptify) |
 | **HuggingFace ChatGPT Prompt Generator** | [HuggingFace ChatGPT Prompt Generator](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator) |
 
-🗄️ Prompt Management Platforms
+Prompt Management Platforms
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
 | **Opik**                   | Open-source end-to-end LLM development platform | [Opik](https://github.com/comet-ml/opik) |
@@ -197,7 +197,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **PromptInject**           | Framework for modular prompts and adversarial prompt robustness testing | [PromptInject](https://github.com/agencyenterprise/PromptInject) |
 | **Langbear**               | Open-source AI prompt management platform | [Langbear](https://langbear.runbear.io/introduction) |
 
-🧪 Prompt Testing and Experimentation
+Prompt Testing and Experimentation
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
 | **BetterPrompt**           | Test suite for LLM prompts | [BetterPrompt](https://github.com/stjordanis/betterprompt) |
@@ -206,7 +206,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **Prompt Tools**           | Tools for prompt testing and experimentation | [Prompt Tools](https://github.com/hegelai/prompttools) |
 | **ThoughtSource**          | Resource for chain-of-thought reasoning tools | [ThoughtSource](https://github.com/OpenBioLink/ThoughtSource) |
 
-🛠️ Prompt Crafting Libraries
+Prompt Crafting Libraries
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
 | **Prompt Engine**          | Library for crafting prompts for large language models | [Prompt Engine](https://github.com/microsoft/prompt-engine) |
@@ -215,7 +215,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **PromptSource**           | Toolkit for creating and sharing natural language prompts | [PromptSource](https://github.com/bigscience-workshop/promptsource) |
 | **PromptMetheus**          | One-shot prompt engineering toolkit | [PromptMetheus](https://promptmetheus.com/) |
 
-🔄 Other
+Other
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
 | **PromptKnit**             | Playground for prompt designers | [PromptKnit](https://promptknit.com/) |
@@ -225,7 +225,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 
 ## 4.	Prompt Libraries, Collections & Datasets
 
-📚 Prompt Libraries
+Prompt Libraries
 | **Library**                   | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
 | **ai-boost/awesome-prompts**  | Curated list of ChatGPT prompts with top-rated GPTs. Includes prompt engineering, attack & protection techniques, and advanced papers. | [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) |
@@ -235,7 +235,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **alphatrait/100000-ai-prompts-by-contentifyai** | Extensive collection of 100,000+ prompts for ChatGPT, covering various topics like business and entertainment. | [alphatrait/100000-ai-prompts-by-contentifyai](https://github.com/alphatrait/100000-ai-prompts-by-contentifyai) |
 | **DummyKitty/Cyber-Security-chatGPT-prompt** | Security-focused ChatGPT prompt library. | [DummyKitty/Cyber-Security-chatGPT-prompt](https://github.com/DummyKitty/Cyber-Security-chatGPT-prompt) |
 
-📜 Prompt Collections
+Prompt Collections
 | **Collection**                | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
 | **FlowGPT**                   | Largest open-source community for sharing prompts. | [FlowGPT](https://flowgpt.com) |
@@ -249,7 +249,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **The Prompt Index**          | Curated index with a wide variety of prompts. | [The Prompt Index](https://thepromptindex.com) |
 | **PromptDen**                 | Platform with thousands of prompts for text and image generation, with profile features for prompt engineers. | [PromptDen](https://promptden.com) |
 
-🛠️ GPT Stores and Libraries
+GPT Stores and Libraries
 | **Store/Library**             | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
 | **Awesome GPT Store**         | Comprehensive GPT store with major public GPTs. | [Awesome GPT Store](https://github.com/Anil-matcha/Awesome-GPT-Store) |
@@ -257,7 +257,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **BestGPTs**                  | Top-ranked OpenAI GPTs for various applications. | [BestGPTs](https://github.com/AgentOps-AI/BestGPTs) |
 | **Awesome GPT Agents**        | Curated list of GPT agents, particularly for cybersecurity. | [Awesome GPT Agents](https://github.com/fr0gger/Awesome-GPT-Agents) |
 
-📊 Datasets
+Datasets
 | **Dataset Name**                        | **Description**                                                                                                                                                                                                                                     | **Link** |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | **P3 (Public Pool of Prompts)**         | A collection of prompted English datasets covering a diverse set of NLP tasks.                                                                                                                              | [HuggingFace](https://huggingface.co/datasets/bigscience/P3) |
@@ -270,7 +270,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **Stable Diffusion Prompts**            | A set of about 80,000 prompts from "Lexica.art" for Stable Diffusion. Data extraction was challenging due to API limitations.                                                                              | [HuggingFace](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) |
 
 ## 5. Prompt Engineering Communities
-🌐 Social Media Groups for Prompt Engineering
+Social Media Groups for Prompt Engineering
 Reddit Communities
 | **Community Name**            | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
@@ -295,7 +295,7 @@ Facebook Communities
 | Prompt Engineering: ChatGPT Hiring and Recruiting | Group focused on prompt engineering hiring and recruitment.| [Facebook Group](https://www.facebook.com/groups/950660259275734/) |
 | AI Prompt Shares                       | Community for sharing AI-generated prompts.               | [Facebook Group](https://www.facebook.com/groups/aipromptshares/) |
 
-🗣️ Discord Communities for Prompt Engineering
+Discord Communities for Prompt Engineering
 | **Community Name**            | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
 | Attention Architects          | Open-source community for prompt engineering experts. | [Attention Architects](https://discord.gg/yourlink) |
@@ -309,7 +309,7 @@ Facebook Communities
 | Promptify Discord             | Promptify's Discord for prompt engineering and LLMs. | [Promptify Discord](https://discord.gg/m88xfYMbK6) |
 | MidJourney Discord            | Community focused on MidJourney AI models. | [MidJourney Discord](https://discord.gg/yourlink) |
 
-📢 Other Prompt Engineering Communities and Forums
+Other Prompt Engineering Communities and Forums
 | **Platform**   | **Description** | **Link** |
 |----------------|-----------------|----------|
 | altenens.is    | Forum for sharing ChatGPT tools and resources. | [altenens ChatGPT Tools](https://altenens.is/forums/chatgpt-tools) |
@@ -317,7 +317,7 @@ Facebook Communities
 | Hugging Face Forum | Forum for discussing Hugging Face models, including transformers and GPT. | [Hugging Face Forum](https://discuss.huggingface.co/) |
 
 ## 6. Freelance & Job Opportunities
-## 🌐 Job Websites for Prompt Engineers
+## Job Websites for Prompt Engineers
 
 1. [Prompt Engineer Jobs](https://promptengineerjobs.io/jobs) - Dedicated to various prompt engineering roles.
 2. [Moai Jobs - Prompt Engineering](https://www.moaijobs.com/prompt-engineering-jobs) - Lists prompt engineering and AI-related positions.
@@ -329,7 +329,7 @@ Facebook Communities
 8. [Prompt Engineering Jobs](https://prompt-engineering-jobs.com/) - Portal for finding prompt engineering jobs.
 9. [AI Careers - Prompt Engineer](https://aicareers.jobs/job-category/prompt-engineer/) - Job board for various AI careers, including prompt engineering.
 
-💼 Freelance Platforms
+Freelance Platforms
 | **Platform**      | **Description**                                | **Link**                                                         |
 |-------------------|-----------------------------------------------|------------------------------------------------------------------|
 | **Upwork**        | Freelance platform with prompt engineering jobs. | [Upwork Prompt Engineering Jobs](https://www.upwork.com/en-gb/freelance-jobs/prompt-engineering/) |
@@ -338,7 +338,7 @@ Facebook Communities
 | **Toptal**        | Platform connecting top prompt engineers for freelance opportunities. | [Toptal Prompt Engineers](https://www.toptal.com/prompt-engineers) |
 
 ## 7. Contributing & Code of Conduct
-🛠️ Contributing
+Contributing
 We welcome contributions to make this repository a comprehensive resource for prompt engineering enthusiasts. Here’s how you can help:
 
 Guidelines for Contributing
@@ -350,13 +350,13 @@ We strive to maintain a respectful and inclusive community. Please read our Code
 Feedback and Suggestions
 If you have ideas for improvements, feel free to open an issue or submit a pull request. Constructive feedback is always welcome!
 
-## 8. ☕ Support My Work
+## 8. Support My Work
 
 Consider giving this repository a ⭐️ if you find it helpful, or share it with others who might benefit! Contributions are always welcome—your input and additions help make this resource better for the entire community. If this project benefits you, consider [sponsoring me on GitHub](https://github.com/sponsors/zacfrulloni) or [buying me a coffee](https://www.buymeacoffee.com/zazacattack) to help support ongoing updates and improvements. 
 
 If you'd like to reach out, feel free to check the [Contact Me section](#13-contact-me). Thank you for your support! 🙏
 
-## 9. 🎉 Join Our Community on Discord
+## 9. Join Our Community on Discord
 
 Connect with other developers, AI enthusiasts, and prompt engineers! We’ve created a Discord server where you can share insights, ask questions, and stay updated on the latest in prompt engineering. It’s a place to collaborate, network, and learn together.
 
@@ -370,7 +370,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 © 2024 [zac frulloni]. All rights reserved.
 
-## 11. 📬 Contact Me
+## 11. Contact Me
 
 If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me via email at [zacfrull@hotmail.com](mailto:zacfrull@hotmail.com).
 
