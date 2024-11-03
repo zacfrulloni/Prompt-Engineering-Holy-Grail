@@ -283,7 +283,7 @@ Facebook Communities
 | **Platform**      | **Description**                                | **Link**                                                         |
 |-------------------|-----------------------------------------------|------------------------------------------------------------------|
 | **Upwork**        | Freelance platform with prompt engineering jobs. | [Upwork Prompt Engineering Jobs](https://www.upwork.com/en-gb/freelance-jobs/prompt-engineering/) |
-| **Fiverr**        | Hire prompt engineers for freelance projects. | [Fiverr Prompt Engineers](https://go.fiverr.com/visit/?bta=1056572&brand=fp) |
+| **Fiverr**        | Hire prompt engineers for freelance projects. | [Fiverr Prompt Engineers](https://www.fiverr.com/hire/prompt-engineering) |
 | **Freelancer**    | Freelance platform for prompt engineering roles. | [Freelancer Prompt Engineering](https://www.freelancer.com/jobs/prompt-engineering#) |
 | **Toptal**        | Platform connecting top prompt engineers for freelance opportunities. | [Toptal Prompt Engineers](https://www.toptal.com/prompt-engineers) |
 
