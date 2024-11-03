@@ -208,12 +208,16 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **Awesome GPT Agents**        | Curated list of GPT agents, particularly for cybersecurity. | [Awesome GPT Agents](https://github.com/fr0gger/Awesome-GPT-Agents) |
 
 📊 Datasets
-| **Dataset**                   | **Description** | **Link** |
-|-------------------------------|-----------------|----------|
-| **P3 (Public Pool of Prompts)** | A diverse set of prompted English datasets covering various NLP tasks. | [P3 on HuggingFace](https://huggingface.co/datasets/bigscience/P3) |
-| **Awesome ChatGPT Prompts**   | Repository of curated prompts to enhance ChatGPT usage. | [Awesome ChatGPT Prompts on GitHub](https://github.com/f/awesome-chatgpt-prompts) |
-| **Writing Prompts**           | Large dataset of human-written stories and prompts from Reddit. | [Writing Prompts on Kaggle](https://www.kaggle.com/datasets/username/writing-prompts) |
-| **Midjourney Prompts**        | Text prompts with associated images scraped from MidJourney's Discord. | [Midjourney Prompts on HuggingFace](https://huggingface.co/datasets/midjourney/prompts) |
+| **Dataset Name**                        | **Description**                                                                                                                                                                                                                                     | **Link** |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| **P3 (Public Pool of Prompts)**         | A collection of prompted English datasets covering a diverse set of NLP tasks.                                                                                                                              | [HuggingFace](https://huggingface.co/datasets/bigscience/P3) |
+| **Awesome ChatGPT Prompts**             | Repository includes curated ChatGPT prompts to enhance interactions.                                                                                                                                         | [GitHub](https://github.com/f/awesome-chatgpt-prompts) |
+| **Writing Prompts**                     | Large dataset of 300K human-written stories paired with writing prompts from an online forum (Reddit).                                                                                                       | [Kaggle](https://www.kaggle.com/datasets/yourlink) |
+| **Midjourney Prompts**                  | Text prompts and image URLs scraped from MidJourney's public Discord server for generating images.                                                                                                           | [HuggingFace](https://huggingface.co/datasets/yourlink) |
+| **Red Team Attempts**                   | A dataset of "red team" attempts for adversarial testing on models, created by Anthropic for testing potential harmful outputs.                                                                            | [GitHub](https://github.com/anthropics/hh-rlhf/tree/master/red-team-attempts) |
+| **DiffusionDB**                         | A large-scale text-to-image prompt dataset, providing a gallery of prompts based on Stable Diffusion models.                                                                                                | [GitHub](https://github.com/poloclub/diffusiondb) |
+| **Real Toxicity Prompts**               | A dataset of 100k sentence snippets from the web for research on reducing toxic degeneration in neural models.                                                                                              | [HuggingFace](https://huggingface.co/datasets/allenai/real-toxicity-prompts) |
+| **Stable Diffusion Prompts**            | A set of about 80,000 prompts from "Lexica.art" for Stable Diffusion. Data extraction was challenging due to API limitations.                                                                              | [HuggingFace](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) |
 
 ## 5. Online Communities
 🌐 Social Media Groups for Prompt Engineering
