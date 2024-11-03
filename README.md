@@ -279,4 +279,11 @@ Facebook Communities
 8. [Prompt Engineering Jobs](https://prompt-engineering-jobs.com/) - Portal for finding prompt engineering jobs.
 9. [AI Careers - Prompt Engineer](https://aicareers.jobs/job-category/prompt-engineer/) - Job board for various AI careers, including prompt engineering.
 
+💼 Freelance Platforms
+| **Platform**      | **Description**                                | **Link**                                                         |
+|-------------------|-----------------------------------------------|------------------------------------------------------------------|
+| **Upwork**        | Freelance platform with prompt engineering jobs. | [Upwork Prompt Engineering Jobs](https://www.upwork.com/en-gb/freelance-jobs/prompt-engineering/) |
+| **Fiverr**        | Hire prompt engineers for freelance projects. | [Fiverr Prompt Engineers](https://www.fiverr.com/hire/prompt-engineering) |
+| **Freelancer**    | Freelance platform for prompt engineering roles. | [Freelancer Prompt Engineering](https://www.freelancer.com/jobs/prompt-engineering#) |
+| **Toptal**        | Platform connecting top prompt engineers for freelance opportunities. | [Toptal Prompt Engineers](https://www.toptal.com/prompt-engineers) |
 
