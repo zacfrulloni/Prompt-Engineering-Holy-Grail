@@ -139,7 +139,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | [How to ChatGPT: Master the Art of Prompt Engineering](https://www.udemy.com/course/chatgpt-a-master-guide-for-professionals/?couponCode=LEARNNOWPLANS) | Udemy | ⭐ 4.4 (19634 reviews) | 2.5 hours                         | £29.99      | ✔️ Yes               |
 | [LangChain- Develop LLM powered applications with LangChain](https://www.udemy.com/course/langchain/?couponCode=LEARNNOWPLANS) | Udemy | ⭐ 4.6 (19450 reviews) | 9.5 hours                         | £54.99      | ✔️ Yes               |
 
-## Essential Books on Prompt Engineering and ChatGPT 📚
+## Essential Books on Prompt Engineering and ChatGPT
 
 | 📘 **Book Title**                                                                                                                                | 🌍 **Link**                                                                                                                                          | ⭐ **Rating/Reviews**          | 💵 **Price**    | 📱 **Format** |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|-----------------|---------------|
