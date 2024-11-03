@@ -1,4 +1,5 @@
-Consider giving it a ⭐️ if you like it to show your support!
+Consider giving it a ⭐️ if you like it to show your support! or if this project benefits you, consider [sponsoring me on GitHub](https://github.com/sponsors/zacfrulloni) or [buying me a coffee](https://www.buymeacoffee.com/zazacattack) to help me keep it going. Thank you! 🙏
+
 
 ## 1. Introduction
 
