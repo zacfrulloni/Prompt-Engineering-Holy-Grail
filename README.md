@@ -368,9 +368,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 11. Contact Me
 
-If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me via email at [zacfrull@hotmail.com](mailto:zacfrull@hotmail.com).
-If you have any questions, reach out to me at: zacfrull&#64;hotmail&#46;com
-For questions or suggestions, you can reach me at: zacfrull `[at]` hotmail `[dot]` com.
+If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me via email at: zacfrull `[at]` hotmail `[dot]` com.
 
 
 Looking forward to hearing from you!
