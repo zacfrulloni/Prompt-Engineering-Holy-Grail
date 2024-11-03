@@ -348,7 +348,7 @@ If you have ideas for improvements, feel free to open an issue or submit a pull 
 
 ## 8. Support My Work
 
-Consider giving this repository a ⭐️ if you find it helpful, or share it with others who might benefit! Contributions are always welcome—your input and additions help make this resource better for the entire community. If this project benefits you, consider [sponsoring me on GitHub](https://github.com/sponsors/zacfrulloni) or [buying me a coffee](https://www.buymeacoffee.com/zazacattack) to help support ongoing updates and improvements. 
+Consider giving this repository a ⭐️ if you find it helpful, or share it with others who might benefit! Contributions are always welcome—your input and additions help make this resource better for the entire community. Some of the links here may contribute to supporting the project at no extra cost to you. If this project benefits you, consider [sponsoring me on GitHub](https://github.com/sponsors/zacfrulloni) or [buying me a coffee](https://www.buymeacoffee.com/zazacattack) to help support ongoing updates and improvements. 
 
 If you'd like to reach out, feel free to check the [Contact Me section](#13-contact-me). Thank you for your support! 🙏
 
