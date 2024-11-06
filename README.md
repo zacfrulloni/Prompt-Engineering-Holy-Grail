@@ -67,6 +67,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 ### Free Tutorials, Videos & Guides
 
 1. **Learn Prompting** - Overview of Prompt Engineering and various techniques.
+   - [A Complete Guide to Meta Prompting](https://www.prompthub.us/blog/a-complete-guide-to-meta-prompting#what-is-meta-prompting?) - Meta prompting is a prompt engineering method that uses large language models (LLMs) to create and refine prompts.
 2. **Best Practices for Prompt Engineering with the OpenAI API** - OpenAI guide on best practices for prompt engineering.
    - [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) - Tips and tricks for working with Large Language Models like OpenAI's GPT-4.
    - [Prompt Engineering Tutorial – Master ChatGPT and LLM Responses](https://www.youtube.com/watch?v=_ZvnD73m40o)
@@ -157,6 +158,7 @@ YouTube Videos on Prompt Engineering
 | **Advanced ChatGPT Prompt Engineering** | [Watch on YouTube](https://www.youtube.com/watch?v=bBiTR_1sEmI) |
 | **ChatGPT: 5 Prompt Engineering Secrets For Beginners** | [Watch on YouTube](https://www.youtube.com/watch?v=2zg3V66-Fzs) |
 | **ChatGPT Guide: 10x Your Results with Better Prompts** | [Watch on YouTube](https://www.youtube.com/watch?v=os-JX1ZQwIA) |
+| **Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution (Paper Explained)** | [Watch on Youtube](https://www.youtube.com/watch?v=tkX0EfNl4Fc) |
 
 YouTube Channels Dedicated to AI & Prompt Engineering
 | **Channel Name** | **Link** |
@@ -171,6 +173,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **Prompt Engineer** | [@PromptEngineer48](https://www.youtube.com/@PromptEngineer48) |
 | **All About AI** | [@AllAboutAI](https://www.youtube.com/@AllAboutAI) |
 | **The AI Advantage** | [@aiadvantage](https://www.youtube.com/@aiadvantage) |
+| **Yannic Kilcher** | [@YannicKilcher](https://www.youtube.com/@YannicKilcher) |
 
 ## 3. Prompt Engineering Tools
 
