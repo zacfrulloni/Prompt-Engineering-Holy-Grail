@@ -249,6 +249,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **Prompt Search**             | Search engine for locating AI prompts. | [Prompt Search](https://promptsearch.com) |
 | **The Prompt Index**          | Curated index with a wide variety of prompts. | [The Prompt Index](https://thepromptindex.com) |
 | **PromptDen**                 | Platform with thousands of prompts for text and image generation, with profile features for prompt engineers. | [PromptDen](https://promptden.com) |
+| **PromptChains**              | Prompt chains maximize intelligence and results when using LLMs. | [PromptChains](https://github.com/MIATECHPARTNERS/PromptChains) |
 
 ## GPT Stores and Libraries
 | **Store/Library**             | **Description** | **Link** |
@@ -287,6 +288,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | r/PromptWizardry              | A subreddit for creative and advanced prompting techniques. | [r/PromptWizardry](https://www.reddit.com/r/PromptWizardry/) |
 | r/PromptWizards               | A community for experts in prompt engineering. | [r/PromptWizards](https://www.reddit.com/r/PromptWizards/) |
 | r/ChatGPT_Prompts             | Community for sharing ChatGPT prompts. | [r/ChatGPT_Prompts](https://www.reddit.com/r/ChatGPT_Prompts/) |
+| r/promptrequest               | A community for users to request help with generating prompts for AI art, writing, games, and more. | [r/promptrequest](https://www.reddit.com/r/promptrequest/) |
 
 ## Facebook Communities
 | **Community Name**                     | **Description**                                           | **Link** |
