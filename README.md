@@ -194,6 +194,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **Agenta**                 | All-in-one LLM developer platform with prompt management | [Agenta](https://github.com/agenta-ai/agenta) |
 | **PromptInject**           | Framework for modular prompts and adversarial prompt robustness testing | [PromptInject](https://github.com/agencyenterprise/PromptInject) |
 | **Langbear**               | Open-source AI prompt management platform | [Langbear](https://langbear.runbear.io/introduction) |
+| **Agentic Workers**        | One Click Advanced ChatGPT Workflows  | [AgenticWorkers](https://agenticworkers.com/) |
 
 ## Prompt Testing and Experimentation
 | **Tool**                   | **Description** | **Link** |
@@ -203,6 +204,8 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **Guidance**               | Programming paradigm for controlling LLM output | [Guidance](https://github.com/guidance-ai/guidance) |
 | **Prompt Tools**           | Tools for prompt testing and experimentation | [Prompt Tools](https://github.com/hegelai/prompttools) |
 | **ThoughtSource**          | Resource for chain-of-thought reasoning tools | [ThoughtSource](https://github.com/OpenBioLink/ThoughtSource) |
+| **ChatGPT Queue**          | Tool for Bulk Prompting and Prompt Chaining | [ChatGPT Queue](https://chromewebstore.google.com/detail/chatgpt-queue-save-time-w/iabnajjakkfbclflgaghociafnjclbem?hl=en&authuser=0) |
+
 
 ## Prompt Crafting Libraries
 | **Tool**                   | **Description** | **Link** |
