@@ -189,6 +189,8 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **GPT Prompt Engineer**      | [GPT Prompt Engineer](https://github.com/mshumer/gpt-prompt-engineer) |
 | **Promptify**                | [Promptify](https://github.com/promptslab/Promptify) |
 | **HuggingFace ChatGPT Prompt Generator** | [HuggingFace ChatGPT Prompt Generator](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator) |
+| **PromptHub Prompt Generator** | [PromptHub Prompt Generator](https://www.prompthub.us/features/prompt-generator) |
+
 
 ## Prompt Management Platforms
 | **Tool**                   | **Description** | **Link** |
@@ -198,6 +200,8 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **PromptInject**           | Framework for modular prompts and adversarial prompt robustness testing | [PromptInject](https://github.com/agencyenterprise/PromptInject) |
 | **Langbear**               | Open-source AI prompt management platform | [Langbear](https://langbear.runbear.io/introduction) |
 | **Agentic Workers**        | One Click Advanced ChatGPT Workflows  | [AgenticWorkers](https://agenticworkers.com/) |
+| **PromptHub**              | Test, collaborate, version, and deploy prompts, from a single place | [PromptHub](https://www.prompthub.us/) |
+
 
 ## Prompt Testing and Experimentation
 | **Tool**                   | **Description** | **Link** |
@@ -245,7 +249,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **FlowGPT**                   | Largest open-source community for sharing prompts. | [FlowGPT](https://flowgpt.com) |
 | **awesomegptprompts.com**     | Hundreds of the best curated ChatGPT prompts. | [awesomegptprompts.com](https://awesomegptprompts.com) |
 | **fka/awesome-chatgpt-prompts** | Dataset with curated ChatGPT prompts for enhanced usage. | [fka/awesome-chatgpt-prompts](https://github.com/fka/awesome-chatgpt-prompts) |
-| **PromptHub**                 | Comprehensive hub of ChatGPT prompt collections. | [PromptHub](https://prompthub.com) |
+| **PromptHub**                 | A variety of the latest prompt engineering templates. | [PromptHub](https://app.prompthub.us/templates) |
 | **Best Data Science ChatGPT Prompts** | Specialized collection of data science prompts for ChatGPT. | [Best Data Science ChatGPT Prompts](https://bestdatasciencechatgpt.com) |
 | **Ignacio Velásquez Prompt Templates** | 500+ prompt templates for various uses. | [Ignacio Velásquez Prompt Templates](https://ignacioprompttemplates.com) |
 | **Snack Prompt**              | Collection of prompts with Chrome extension for easy access. | [Snack Prompt](https://snackprompt.com) |
