@@ -174,6 +174,14 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **All About AI** | [@AllAboutAI](https://www.youtube.com/@AllAboutAI) |
 | **The AI Advantage** | [@aiadvantage](https://www.youtube.com/@aiadvantage) |
 | **Yannic Kilcher** | [@YannicKilcher](https://www.youtube.com/@YannicKilcher) |
+| **PromptHub** | [@PromptHub](https://www.youtube.com/@PromptHub_AI) |
+
+## Newsletters and Blogs
+
+| **Channel Name**                     | **Description**                                            | **Link**                                |
+|--------------------------------------|------------------------------------------------------------|-----------------------------------------|
+| **The Prompt Engineering Substack**  | Educational articles on prompt engineering techniques, tools, and best practices. | [Visit on Substack](https://prompthub.substack.com/) |
+| **PromptHub Blog**                   | In-depth articles, guides, and insights on prompt engineering. | [Visit Blog](https://www.prompthub.us/blog) |
 
 ## 3. Prompt Engineering Tools
 
