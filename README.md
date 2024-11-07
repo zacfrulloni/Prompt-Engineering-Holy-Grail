@@ -200,9 +200,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **PromptInject**           | Framework for modular prompts and adversarial prompt robustness testing | [PromptInject](https://github.com/agencyenterprise/PromptInject) |
 | **Langbear**               | Open-source AI prompt management platform | [Langbear](https://langbear.runbear.io/introduction) |
 | **Agentic Workers**        | One Click Advanced ChatGPT Workflows  | [AgenticWorkers](https://agenticworkers.com/) |
-| **PromptHub**              | Test, collaborate, version, and deploy prompts, from a single place |
-
-  | [PromptHub](https://www.prompthub.us/) |
+| **PromptHub**              | Test, collaborate, version, and deploy prompts, from a single place | [PromptHub](https://www.prompthub.us/) |
 
 
 ## Prompt Testing and Experimentation
