@@ -14,6 +14,17 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch all history for accurate commit
+
+      - name: Set up Git remote with GITHUB_TOKEN
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      - name: Configure Git for Commit
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Update index.md with README.md content
         run: |
@@ -26,8 +37,6 @@ jobs:
 
       - name: Commit Changes
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add index.md
           git commit -m "Sync README.md to index.md [skip ci]" || echo "No changes to commit"
-          git push
+          git push origin main
