@@ -380,7 +380,7 @@ Connect with other developers, AI enthusiasts, and prompt engineers! We’ve cre
 
 [Join the Discord Server](https://discord.gg/BYKsABxW)
 
-Feel free to reach out if you have questions or suggestions in our **#general** or **#feedback** channels. Let’s build a community of knowledge and support!
+Feel free to reach out if you have questions or suggestions in our **#general** or **#feedback** channels. Let’s build a community of knowledge and support.
 
 ## 10. License
 
