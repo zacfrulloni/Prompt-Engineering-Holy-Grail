@@ -35,9 +35,18 @@ jobs:
           echo "" >> index.md
           cat README.md >> index.md
 
+      - name: Stash Changes Before Pulling
+        run: |
+          git add index.md
+          git stash --include-untracked
+
       - name: Pull Remote Changes
         run: |
           git pull origin main --rebase
+
+      - name: Apply Stashed Changes
+        run: |
+          git stash pop || echo "Nothing to apply"
 
       - name: Commit and Push Changes
         run: |
