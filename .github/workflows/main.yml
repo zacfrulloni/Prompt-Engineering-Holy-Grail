@@ -1,0 +1,33 @@
+name: Sync README to index.md
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Update index.md with README.md content
+        run: |
+          echo '---' > index.md
+          echo 'layout: default' >> index.md
+          echo 'title: Prompt Engineering Holy Grail' >> index.md
+          echo '---' >> index.md
+          echo "" >> index.md
+          cat README.md >> index.md
+
+      - name: Commit Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.md
+          git commit -m "Sync README.md to index.md [skip ci]" || echo "No changes to commit"
+          git push
