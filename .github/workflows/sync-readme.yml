@@ -35,7 +35,11 @@ jobs:
           echo "" >> index.md
           cat README.md >> index.md
 
-      - name: Commit Changes
+      - name: Pull Remote Changes
+        run: |
+          git pull origin main --rebase
+
+      - name: Commit and Push Changes
         run: |
           git add index.md
           git commit -m "Sync README.md to index.md [skip ci]" || echo "No changes to commit"
