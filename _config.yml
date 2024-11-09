@@ -9,7 +9,7 @@ author:
   email: zacfrull@hotmail.com
 
 # Theme Configuration
-# theme: minima 
+theme: minima
 
 # Plugins (Optional but Recommended)
 plugins:
