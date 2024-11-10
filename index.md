@@ -1,6 +1,6 @@
 ---
 layout: default
-Prompt: Engineering Holy Grail
+title: Prompt Engineering Holy Grail
 ---
 
 Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques..
