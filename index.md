@@ -1,5 +1,5 @@
 ---
-layout: default
+_layouts: default
 title: Prompt Engineering Holy Grail
 ---
 
