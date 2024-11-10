@@ -1,78 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prompt Engineering Holy Grail</title>
-  
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11058169010"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-11058169010');
-  </script>
-  
-  <!-- Event snippet for Page view conversion page -->
-  <script>
-    gtag('event', 'conversion', {
-      'send_to': 'AW-11058169010/V4BGCJnqpOcZELKJ-Zgp',
-      'value': 1.0,
-      'currency': 'GBP'
-    });
-  </script>
-  
-  <!-- Include Marked.js for Markdown Rendering -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  
-  <!-- Optional: Styling for Rendered Markdown -->
-<!--   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      max-width: 800px;
-      line-height: 1.6;
-    }
-    pre {
-      background-color: #f4f4f4;
-      padding: 10px;
-      overflow-x: auto;
-    }
-    code {
-      background-color: #f4f4f4;
-      padding: 2px 4px;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1em;
-      margin-bottom: 0.5em;
-    }
-  </style> -->
-</head>
-<body>
-  <div id="content">
-    Loading content...
-  </div>
-  
-  <script>
-    // Function to fetch README.md and render it
-    async function loadReadme() {
-      try {
-        const response = await fetch('https://raw.githubusercontent.com/zacfrulloni/Prompt-Engineering-Holy-Grail/main/README.md');
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        const markdown = await response.text();
-        const htmlContent = marked.parse(markdown);
-        document.getElementById('content').innerHTML = htmlContent;
-      } catch (error) {
-        console.error('Error fetching README.md:', error);
-        document.getElementById('content').innerHTML = '<p>Failed to load content.</p>';
-      }
-    }
-    
-    // Load README.md on page load
-    window.onload = loadReadme;
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    <!-- Jekyll SEO Tag -->
+    {% seo %}
+
+    <!-- Minima Theme CSS -->
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+    <!-- Google Tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11058169010"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-11058169010');
+    </script>
+  </head>
+  <body>
+    <!-- Inject Page Content -->
+    {{ content }}
+  </body>
 </html>
