@@ -9,7 +9,7 @@ author:
   email: zacfrull@hotmail.com
 
 # Theme Configuration
-theme: hacker
+theme: minima
 
 # Plugins (Optional but Recommended)
 plugins:
