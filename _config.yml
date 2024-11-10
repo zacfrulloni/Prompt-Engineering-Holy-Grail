@@ -8,24 +8,24 @@ author:
   name: Zac Frulloni
   email: zacfrull@hotmail.com
 
-# # Theme Configuration
-# theme: minima
+# Theme Configuration
+theme: minima
 
-# # Plugins (Optional but Recommended)
-# plugins:
-#   - jekyll-feed
-#   - jekyll-seo-tag
-#   - jekyll-sitemap
-#   - jekyll-theme-minima
+# Plugins (Optional but Recommended)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-theme-minima
 
-# # Exclude Files from Processing
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor
+# Exclude Files from Processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
-# # Permalink Structure
-# permalink: /:categories/:year/:month/:day/:title/
+# Permalink Structure
+permalink: /:categories/:year/:month/:day/:title/
 
-# markdown: GFM
+markdown: GFM
