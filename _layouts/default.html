@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<!--     <meta charset="UTF-8"> -->
-<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
 
@@ -10,7 +10,7 @@
     {% seo %}
 
     <!-- Minima Theme CSS -->
-<!--     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"> -->
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
     <!-- Google Tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11058169010"></script>
@@ -20,9 +20,24 @@
       gtag('js', new Date());
       gtag('config', 'AW-11058169010');
     </script>
+
+    <!-- Add Padding Styles -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0 20px; /* Padding from both left and right */
+        font-family: Arial, sans-serif;
+      }
+      main {
+        max-width: 800px; /* Optional: Constrain content width */
+        margin: 0 auto; /* Center align the content */
+      }
+    </style>
   </head>
   <body>
-    <!-- Inject Page Content -->
-    {{ content }}
+    <main>
+      <!-- Inject Page Content -->
+      {{ content }}
+    </main>
   </body>
 </html>
