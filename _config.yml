@@ -15,8 +15,8 @@ author:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-theme-minima
+  # - jekyll-sitemap
+  # - jekyll-theme-minima
 
 # Exclude Files from Processing
 exclude:
