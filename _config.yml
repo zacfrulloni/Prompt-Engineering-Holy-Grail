@@ -2,7 +2,7 @@
 title: Prompt Engineering Holy Grail
 description: A comprehensive resource for prompt engineering best practices and techniques.
 url: "https://zacfrulloni.github.io/Prompt-Engineering-Holy-Grail/"
-# baseurl: ""
+baseurl: ""
 
 author:
   name: Zac Frulloni
