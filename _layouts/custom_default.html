@@ -18,23 +18,20 @@
       gtag('config', 'AW-11058169010');
     </script>
 
-    <!-- Minima Theme CSS -->
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <!-- Event snippet for Page view conversion page -->
+    <script>
+      gtag('event', 'conversion', {
+        'send_to': 'AW-11058169010/V4BGCJnqpOcZELKJ-Zgp',
+        'value': 1.0,
+        'currency': 'GBP'
+      });
+    </script>
 
+    <!-- Additional Head Content -->
+    {{ content }}
   </head>
   <body>
-    <header>
-      <h1>{{ site.title }}</h1>
-      <p>{{ site.description }}</p>
-    </header>
-
-    <main>
-      <!-- Body Content -->
-      {{ content }}
-    </main>
-
-    <footer>
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
-    </footer>
+    <!-- Body Content -->
+    {{ content }}
   </body>
 </html>
