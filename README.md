@@ -2,53 +2,48 @@ Welcome to the Prompt Engineering Hub! This repository is a curated resource for
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
+1. [Introduction](#1-introduction)
    - [Overview of Prompt Engineering](#overview-of-prompt-engineering)
    - [Purpose of This Repository](#purpose-of-this-repository)
-
-2. [Learning Resources](#learning-resources)
+2. [Learning Resources](#2-learning-resources)
    - [Free Tutorials, Videos & Guides](#free-tutorials-videos--guides)
    - [Additional Guides and Repositories](#additional-guides-and-repositories)
    - [Books and Reference Materials](#books-and-reference-materials)
-
-3. [Comprehensive List of Online Courses on Prompt Engineering](#comprehensive-list-of-online-courses-on-prompt-engineering)
-
-4. [Essential Books on Prompt Engineering and ChatGPT](#essential-books-on-prompt-engineering-and-chatgpt)
-
-5. [Prompt Engineering Tools](#prompt-engineering-tools)
+   - [Essential Books on Prompt Engineering and ChatGPT](#essential-books-on-prompt-engineering-and-chatgpt)
+   - [YouTube Videos on Prompt Engineering](#youtube-videos-on-prompt-engineering)
+   - [YouTube Channels Dedicated to AI & Prompt Engineering](#youtube-channels-dedicated-to-ai--prompt-engineering)
+   - [Newsletters and Blogs](#newsletters-and-blogs)
+   - [Comprehensive List of Online Courses on Prompt Engineering](#comprehensive-list-of-online-courses-on-prompt-engineering)
+3. [Prompt Engineering Tools](#3-prompt-engineering-tools)
    - [Prompt Marketplaces](#prompt-marketplaces)
    - [Prompt Generation Tools](#prompt-generation-tools)
    - [Prompt Management Platforms](#prompt-management-platforms)
    - [Prompt Testing and Experimentation](#prompt-testing-and-experimentation)
    - [Prompt Crafting Libraries](#prompt-crafting-libraries)
-   - [Other Tools](#other-tools)
-
-6. [Prompt Libraries, Collections & Datasets](#prompt-libraries-collections--datasets)
+   - [Other](#other)
+4. [Prompt Libraries, Collections & Datasets](#4-prompt-libraries-collections--datasets)
    - [Prompt Libraries](#prompt-libraries)
    - [Prompt Collections](#prompt-collections)
    - [GPT Stores and Libraries](#gpt-stores-and-libraries)
    - [Datasets](#datasets)
-
-7. [Prompt Engineering Communities](#prompt-engineering-communities)
+5. [Prompt Engineering Communities](#5-prompt-engineering-communities)
    - [Social Media Groups for Prompt Engineering](#social-media-groups-for-prompt-engineering)
+     - [Reddit Communities](#reddit-communities)
+     - [Facebook Communities](#facebook-communities)
    - [Discord Communities for Prompt Engineering](#discord-communities-for-prompt-engineering)
    - [Other Prompt Engineering Communities and Forums](#other-prompt-engineering-communities-and-forums)
-
-8. [Freelance & Job Opportunities in Prompt Engineering](#freelance--job-opportunities-in-prompt-engineering)
+6. [Freelance & Job Opportunities](#6-freelance--job-opportunities)
    - [Job Websites for Prompt Engineers](#job-websites-for-prompt-engineers)
    - [Freelance Platforms](#freelance-platforms)
-
-9. [Contributing & Code of Conduct](#contributing--code-of-conduct)
+7. [Contributing & Code of Conduct](#7-contributing--code-of-conduct)
    - [Contributing Guidelines](#contributing-guidelines)
    - [Code of Conduct](#code-of-conduct)
-
-10. [Support My Work](#support-my-work)
-
-11. [Join Our Community on Discord](#join-our-community-on-discord)
-
-12. [License](#license)
-
-13. [Contact Me](#contact-me)
+   - [Feedback and Suggestions](#feedback-and-suggestions)
+8. [Support My Work](#8-support-my-work)
+9. [Join Our Community on Discord](#9-join-our-community-on-discord)
+10. [License](#10-license)
+11. [Disclosure](#11-disclosure)
+12. [Contact Me](#12-contact-me)
 
 ## 1. Introduction
 
@@ -150,7 +145,8 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **[The Art of Prompt Engineering with ChatGPT: Accessible Edition](https://www.amazon.co.uk/Art-Prompt-Engineering-ChatGPT-Accessible-ebook/dp/B0BZ4T68Q4/ref=sr_1_11?crid=38L6HXGTLABQM&tag=zacfrulloni01-21)** | [Amazon UK](https://www.amazon.co.uk/Art-Prompt-Engineering-ChatGPT-Accessible-ebook/dp/B0BZ4T68Q4&tag=zacfrulloni01-21)            | ⭐ 4.4 (106 reviews)            | £9.99           | Kindle        |
 | **[The Ultimate Guide to ChatGPT: A Beginner's Handbook on Prompt Engineering](https://www.amazon.co.uk/Ultimate-Guide-ChatGPT-understanding-intelligence/dp/B0C2RRQDMV/ref=sr_1_13_sspa?crid=38L6HXGTLABQM&tag=zacfrulloni01-21)** | [Amazon UK](https://www.amazon.co.uk/Ultimate-Guide-ChatGPT-understanding-intelligence/dp/B0C2RRQDMV&tag=zacfrulloni01-21)          | ⭐ 4.2 (112 reviews)            | £7.99           | Kindle        |
 
-YouTube Videos on Prompt Engineering
+## YouTube Videos on Prompt Engineering
+
 | **Video Title** | **Link** |
 |-----------------|----------|
 | **EfficientML.ai Lecture 20: Efficient Fine-tuning and Prompt Engineering (MIT 6.5940, Fall 2023)** | [Watch on YouTube](https://www.youtube.com/watch?v=vOPwwRCZ8q8) |
@@ -160,7 +156,8 @@ YouTube Videos on Prompt Engineering
 | **ChatGPT Guide: 10x Your Results with Better Prompts** | [Watch on YouTube](https://www.youtube.com/watch?v=os-JX1ZQwIA) |
 | **Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution (Paper Explained)** | [Watch on Youtube](https://www.youtube.com/watch?v=tkX0EfNl4Fc) |
 
-YouTube Channels Dedicated to AI & Prompt Engineering
+## YouTube Channels Dedicated to AI & Prompt Engineering
+
 | **Channel Name** | **Link** |
 |------------------|----------|
 | **Prompt Engineering** | [@engineerprompt](https://www.youtube.com/@engineerprompt) |
@@ -186,11 +183,13 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 ## 3. Prompt Engineering Tools
 
 ## Prompt Marketplaces
+
 | **Tool**              | **Link** |
 |-----------------------|----------|
 | **PromptBase**        | [PromptBase](https://promptbase.com/) |
 
 ## Prompt Generation Tools
+
 | **Tool**                     | **Link** |
 |------------------------------|----------|
 | **YiVal**                    | [YiVal](https://github.com/YiVal/YiVal) |
@@ -201,6 +200,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 
 
 ## Prompt Management Platforms
+
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
 | **Opik**                   | Open-source end-to-end LLM development platform | [Opik](https://github.com/comet-ml/opik) |
@@ -212,6 +212,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 
 
 ## Prompt Testing and Experimentation
+
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
 | **BetterPrompt**           | Test suite for LLM prompts | [BetterPrompt](https://github.com/stjordanis/betterprompt) |
@@ -223,6 +224,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 
 
 ## Prompt Crafting Libraries
+
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
 | **Prompt Engine**          | Library for crafting prompts for large language models | [Prompt Engine](https://github.com/microsoft/prompt-engine) |
@@ -232,6 +234,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **PromptMetheus**          | One-shot prompt engineering toolkit | [PromptMetheus](https://promptmetheus.com/) |
 
 ## Other
+
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
 | **PromptKnit**             | Playground for prompt designers | [PromptKnit](https://promptknit.com/) |
@@ -252,6 +255,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **DummyKitty/Cyber-Security-chatGPT-prompt** | Security-focused ChatGPT prompt library. | [DummyKitty/Cyber-Security-chatGPT-prompt](https://github.com/DummyKitty/Cyber-Security-chatGPT-prompt) |
 
 ## Prompt Collections
+
 | **Collection**                | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
 | **FlowGPT**                   | Largest open-source community for sharing prompts. | [FlowGPT](https://flowgpt.com) |
@@ -267,6 +271,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **PromptChains**              | Prompt chains maximize intelligence and results when using LLMs. | [PromptChains](https://github.com/MIATECHPARTNERS/PromptChains) |
 
 ## GPT Stores and Libraries
+
 | **Store/Library**             | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
 | **Awesome GPT Store**         | Comprehensive GPT store with major public GPTs. | [Awesome GPT Store](https://github.com/Anil-matcha/Awesome-GPT-Store) |
@@ -275,6 +280,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **Awesome GPT Agents**        | Curated list of GPT agents, particularly for cybersecurity. | [Awesome GPT Agents](https://github.com/fr0gger/Awesome-GPT-Agents) |
 
 ## Datasets
+
 | **Dataset Name**                        | **Description**                                                                                                                                                                                                                                     | **Link** |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | **P3 (Public Pool of Prompts)**         | A collection of prompted English datasets covering a diverse set of NLP tasks.                                                                                                                              | [HuggingFace](https://huggingface.co/datasets/bigscience/P3) |
@@ -287,8 +293,11 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **Stable Diffusion Prompts**            | A set of about 80,000 prompts from "Lexica.art" for Stable Diffusion. Data extraction was challenging due to API limitations.                                                                              | [HuggingFace](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) |
 
 ## 5. Prompt Engineering Communities
+
 ## Social Media Groups for Prompt Engineering
+
 ## Reddit Communities
+
 | **Community Name**            | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
 | r/ChatGPTJailbreak            | Community dedicated to ChatGPT jailbreak techniques. | [r/ChatGPTJailbreak](https://www.reddit.com/r/ChatGPTJailbreak/) |
@@ -306,6 +315,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | r/promptrequest               | A community for users to request help with generating prompts for AI art, writing, games, and more. | [r/promptrequest](https://www.reddit.com/r/promptrequest/) |
 
 ## Facebook Communities
+
 | **Community Name**                     | **Description**                                           | **Link** |
 |----------------------------------------|-----------------------------------------------------------|----------|
 | ChatGPT Prompt Engineers               | Group for discussions on ChatGPT, AI news, and LLMs.      | [Facebook Group](https://www.facebook.com/groups/chatgptpromptengineers/) |
@@ -314,6 +324,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | AI Prompt Shares                       | Community for sharing AI-generated prompts.               | [Facebook Group](https://www.facebook.com/groups/aipromptshares/) |
 
 ## Discord Communities for Prompt Engineering
+
 | **Community Name**            | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
 | Attention Architects          | Open-source community for prompt engineering experts. | [Attention Architects](https://discord.gg/yourlink) |
@@ -328,6 +339,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | MidJourney Discord            | Community focused on MidJourney AI models. | [MidJourney Discord](https://discord.gg/yourlink) |
 
 ## Other Prompt Engineering Communities and Forums
+
 | **Platform**   | **Description** | **Link** |
 |----------------|-----------------|----------|
 | altenens.is    | Forum for sharing ChatGPT tools and resources. | [altenens ChatGPT Tools](https://altenens.is/forums/chatgpt-tools) |
@@ -335,6 +347,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | Hugging Face Forum | Forum for discussing Hugging Face models, including transformers and GPT. | [Hugging Face Forum](https://discuss.huggingface.co/) |
 
 ## 6. Freelance & Job Opportunities
+
 ## Job Websites for Prompt Engineers
 
 1. [Prompt Engineer Jobs](https://promptengineerjobs.io/jobs) - Dedicated to various prompt engineering roles.
@@ -348,6 +361,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 9. [AI Careers - Prompt Engineer](https://aicareers.jobs/job-category/prompt-engineer/) - Job board for various AI careers, including prompt engineering.
 
 ## Freelance Platforms
+
 | **Platform**      | **Description**                                | **Link**                                                         |
 |-------------------|-----------------------------------------------|------------------------------------------------------------------|
 | **Upwork**        | Freelance platform with prompt engineering jobs. | [Upwork Prompt Engineering Jobs](https://www.upwork.com/en-gb/freelance-jobs/prompt-engineering/) |
@@ -356,6 +370,7 @@ YouTube Channels Dedicated to AI & Prompt Engineering
 | **Toptal**        | Platform connecting top prompt engineers for freelance opportunities. | [Toptal Prompt Engineers](https://www.toptal.com/prompt-engineers) |
 
 ## 7. Contributing & Code of Conduct
+
 Contributing
 We welcome contributions to make this repository a comprehensive resource for prompt engineering enthusiasts. Here’s how you can help:
 
@@ -395,6 +410,5 @@ Disclosure: I am compensated through these affiliate partnerships, and this comp
 ## 12. Contact Me
 
 If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me via email at: zacfrull `[at]` hotmail `[dot]` com.
-
 
 Looking forward to hearing from you!
