@@ -388,7 +388,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 © 2024 [zac frulloni]. All rights reserved.
 
-## 11. Contact Me
+## 11. Disclosure
+
+Disclosure: I am compensated through these affiliate partnerships, and this compensation helps support the resources and ongoing work within this repository. Affiliate links are provided in sections containing resources, including but not limited to learning materials, tools, and community memberships. This disclosure appears on all applicable pages of this repository.
+
+## 12. Contact Me
 
 If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me via email at: zacfrull `[at]` hotmail `[dot]` com.
 
