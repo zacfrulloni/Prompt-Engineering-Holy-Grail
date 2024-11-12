@@ -32,12 +32,56 @@
         max-width: 800px; /* Optional: Constrain content width */
         margin: 0 auto; /* Center align the content */
       }
+      #github-link, #sponsor-button {
+        text-align: center;
+        margin-top: 20px;
+      }
+      #github-link a, #sponsor-button a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #0366d6;
+        margin: 10px 0;
+        display: inline-block;
+      }
+      #sponsor-button a {
+        padding: 10px 20px;
+        background-color: #ea4aaa;
+        color: white;
+        border-radius: 5px;
+        font-size: 16px;
+      }
     </style>
   </head>
   <body>
     <main>
       <!-- Inject Page Content -->
       {{ content }}
+
+      <!-- GitHub Link with Star Count -->
+      <div id="github-link">
+        <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank">
+          ⭐ Star this Project on GitHub: <span id="star-count">Loading...</span>
+        </a>
+      </div>
+
+      <!-- Sponsor Button -->
+      <div id="sponsor-button">
+        <a href="https://github.com/sponsors/zacfrulloni" target="_blank">
+          💖 Sponsor This Project
+        </a>
+      </div>
     </main>
+
+    <!-- Fetch GitHub Star Count -->
+    <script>
+      fetch("https://api.github.com/repos/zacfrulloni/Prompt-Engineering-Holy-Grail")
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById("star-count").textContent = data.stargazers_count || "0";
+        })
+        .catch(() => {
+          document.getElementById("star-count").textContent = "0";
+        });
+    </script>
   </body>
 </html>
