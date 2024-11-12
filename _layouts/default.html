@@ -21,56 +21,99 @@
       gtag('config', 'AW-11058169010');
     </script>
 
-    <!-- Add Padding Styles -->
+    <!-- Custom Styles -->
     <style>
       body {
         margin: 0;
-        padding: 0 20px; /* Padding from both left and right */
+        padding: 0 20px;
         font-family: Arial, sans-serif;
       }
-      main {
-        max-width: 800px; /* Optional: Constrain content width */
-        margin: 0 auto; /* Center align the content */
-      }
-      #github-link, #sponsor-button {
+      header {
         text-align: center;
-        margin-top: 20px;
+        padding: 20px 0;
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #ddd;
       }
-      #github-link a, #sponsor-button a {
-        font-size: 18px;
+      header a {
         text-decoration: none;
+        font-size: 18px;
         color: #0366d6;
-        margin: 10px 0;
-        display: inline-block;
+        margin: 10px;
       }
-      #sponsor-button a {
+      header .button {
+        display: inline-block;
+        margin: 5px 10px;
         padding: 10px 20px;
-        background-color: #ea4aaa;
-        color: white;
         border-radius: 5px;
         font-size: 16px;
+        text-decoration: none;
+      }
+      .github-button {
+        background-color: #0366d6;
+        color: white;
+      }
+      .sponsor-button {
+        background-color: #ea4aaa;
+        color: white;
+      }
+      .coffee-button {
+        background-color: #ffdd57;
+        color: #111;
+      }
+      main {
+        max-width: 800px;
+        margin: 20px auto;
+      }
+      footer {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #f5f5f5;
+        border-top: 1px solid #ddd;
+        font-size: 14px;
+      }
+      footer a {
+        color: #0366d6;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
-    <main>
-      <!-- Inject Page Content -->
-      {{ content }}
-
-      <!-- GitHub Link with Star Count -->
-      <div id="github-link">
+    <!-- Header Section -->
+    <header>
+      <h1>
         <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank">
-          ⭐ Star this Project on GitHub: <span id="star-count">Loading...</span>
+          Prompt-Engineering-Holy-Grail
         </a>
-      </div>
+      </h1>
+      <p>Your hub for all things prompt engineering.</p>
+      <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank" class="button github-button">
+        ⭐ Star on GitHub: <span id="star-count">Loading...</span>
+      </a>
+      <a href="https://github.com/sponsors/zacfrulloni" target="_blank" class="button sponsor-button">
+        💖 Sponsor
+      </a>
+      <a href="https://www.buymeacoffee.com/zazacattack" target="_blank" class="button coffee-button">
+        ☕ Buy Me a Coffee
+      </a>
+    </header>
 
-      <!-- Sponsor Button -->
-      <div id="sponsor-button">
-        <a href="https://github.com/sponsors/zacfrulloni" target="_blank">
-          💖 Sponsor This Project
-        </a>
-      </div>
+    <!-- Main Content -->
+    <main>
+      {{ content }}
     </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>
+        &copy; {{ site.time | date: "%Y" }} 
+        <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank">
+          Prompt-Engineering-Holy-Grail
+        </a>. All rights reserved.
+      </p>
+      <p>
+        Built with ❤️ using GitHub Pages and Jekyll.
+      </p>
+    </footer>
 
     <!-- Fetch GitHub Star Count -->
     <script>
