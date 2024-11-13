@@ -201,6 +201,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
+| **Puzzlet**               | Streamline your GenAI workflows with Git-Based prompt management, detailed traceability, and actionable metrics. | [Puzzlet](https://www.puzzlet.ai) |
 | **Opik**                   | Open-source end-to-end LLM development platform | [Opik](https://github.com/comet-ml/opik) |
 | **Agenta**                 | All-in-one LLM developer platform with prompt management | [Agenta](https://github.com/agenta-ai/agenta) |
 | **PromptInject**           | Framework for modular prompts and adversarial prompt robustness testing | [PromptInject](https://github.com/agencyenterprise/PromptInject) |
@@ -226,6 +227,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
 | **Prompt Engine**          | Library for crafting prompts for large language models | [Prompt Engine](https://github.com/microsoft/prompt-engine) |
+| **PromptDX**          | A declarative, extensible, and composable approach for developing LLM prompts using Markdown and JSX. | [PromptDX](https://github.com/puzzlet-ai/promptdx) |
 | **ClickPrompt**            | Tool for viewing, sharing, and running prompts with one click | [ClickPrompt](https://github.com/prompt-engineering/click-prompt) |
 | **Outlines**               | Structured text generation toolkit | [Outlines](https://github.com/dottxt-ai/outlines) |
 | **PromptSource**           | Toolkit for creating and sharing natural language prompts | [PromptSource](https://github.com/bigscience-workshop/promptsource) |
