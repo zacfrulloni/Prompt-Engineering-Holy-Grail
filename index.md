@@ -95,6 +95,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 9. [**DALLE Prompt Book**](https://dallery.gallery/the-dalle-2-prompt-book/) - Guide on crafting prompts specifically for image generation models like DALLE.
 10. [**OpenAI Cookbook**](https://github.com/openai/openai-cookbook) - Collection of OpenAI's best practices and examples for using language models effectively.
 11. [**Prompt Engineering by Microsoft**](https://microsoft.github.io/prompt-engineering/) - Resources and guides by Microsoft on prompt engineering fundamentals.
+12. [**Topic Page Research papers**](https://topics-beta.apps.semanticscholar.org/topic/20102634420) - Research papers that discuss prompt engineering techniques.
 
 ## Comprehensive List of Online Courses on Prompt Engineering
 
