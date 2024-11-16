@@ -238,7 +238,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **Tool**                   | **Description** | **Link** |
 |----------------------------|-----------------|----------|
 | **PromptKnit**             | Playground for prompt designers | [PromptKnit](https://promptknit.com/) |
-| **Prompto Type**           | Tool for developing, testing, and monitoring structured LLM tasks | [Prompto Type](https://www.promptotype.io/) |
+| **Promptotype**            | Tool for developing, testing, and monitoring structured LLM tasks | [Promptotype](https://www.promptotype.io/) |
 | **OpenICL**                | Framework for in-context learning research and prototyping | [OpenICL](https://github.com/Shark-NLP/OpenICL) |
 | **Optimus Prompt AI**      | Experiment tracking and human annotation platform for LLM applications | [Optimus Prompt AI](https://www.optimusprompt.ai/) |
 
