@@ -1,3 +1,30 @@
+# # Site Metadata
+# title: Prompt Engineering Holy Grail
+# description: A comprehensive resource for prompt engineering best practices and techniques.
+# url: "https://zacfrulloni.github.io/Prompt-Engineering-Holy-Grail/"
+# baseurl: "/Prompt-Engineering-Holy-Grail"
+
+# author:
+#   name: Zac Frulloni
+#   email: zacfrull@hotmail.com
+
+# # Theme Configuration
+# theme: minima
+
+# # Plugins (Optional but Recommended)
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
+#   - jekyll-theme-minima
+
+# # Exclude Files from Processing
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor
+
 # Site Metadata
 title: Prompt Engineering Holy Grail
 description: A comprehensive resource for prompt engineering best practices and techniques.
@@ -9,14 +36,14 @@ author:
   email: zacfrull@hotmail.com
 
 # Theme Configuration
-theme: minima
+remote_theme: daviddarnes/alembic@main
 
-# Plugins (Optional but Recommended)
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-theme-minima
+  - jekyll-remote-theme
 
 # Exclude Files from Processing
 exclude:
@@ -29,3 +56,7 @@ exclude:
 permalink: /:categories/:year/:month/:day/:title/
 
 markdown: GFM
+# # Permalink Structure
+# permalink: /:categories/:year/:month/:day/:title/
+
+# markdown: GFM
