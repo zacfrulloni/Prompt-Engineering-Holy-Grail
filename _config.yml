@@ -1,61 +1,26 @@
-# # Site Metadata
-# title: Prompt Engineering Holy Grail
-# description: A comprehensive resource for prompt engineering best practices and techniques.
-# url: "https://zacfrulloni.github.io/Prompt-Engineering-Holy-Grail/"
-# baseurl: "/Prompt-Engineering-Holy-Grail"
-
-# author:
-#   name: Zac Frulloni
-#   email: zacfrull@hotmail.com
-
-# # Theme Configuration
-# theme: minima
-
-# # Plugins (Optional but Recommended)
-# plugins:
-#   - jekyll-feed
-#   - jekyll-seo-tag
-#   - jekyll-sitemap
-#   - jekyll-theme-minima
-
-# # Exclude Files from Processing
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor
-
 # Site Metadata
 title: Prompt Engineering Holy Grail
-description: A comprehensive resource for prompt engineering.
+description: A comprehensive resource for prompt engineering best practices and techniques.
+url: "https://zacfrulloni.github.io/Prompt-Engineering-Holy-Grail/"
+baseurl: "/Prompt-Engineering-Holy-Grail"
+
 author:
   name: Zac Frulloni
   email: zacfrull@hotmail.com
 
 # Theme Configuration
-remote_theme: daviddarnes/alembic@main
+theme: minima
 
-# Plugins
+# Plugins (Optional but Recommended)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme
+  - jekyll-theme-minima
 
-# Navigation
-navigation_header:
-  - name: Home
-    link: /
-  - name: About
-    link: /about/
-  - name: Blog
-    link: /blog/
-
-navigation_footer:
-  - name: Contact
-    link: /contact/
-
-# Permalink Structure
-permalink: /:categories/:year/:month/:day/:title/
-
-markdown: GFM
+# Exclude Files from Processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
