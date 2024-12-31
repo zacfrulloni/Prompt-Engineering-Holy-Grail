@@ -78,6 +78,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
    - [ChatGPT Prompt Engineering (55 free YouTube episodes)](https://www.youtube.com/watch?v=ylEu4fz4eU8&list=PLtPgUfajvh_Z_utkISrRk9tIxvnaR17_X)
    - [Learn Prompt Engineering for ChatGPT](https://www.youtube.com/watch?v=2sEujkZ79E4)
 
+
 ### Additional Guides and Repositories
 
 7. **Prompt-Engineering-Guide** - Comprehensive guide covering the latest papers, resources, and prompt engineering techniques.
