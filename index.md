@@ -83,6 +83,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
    - [ChatGPT Prompt Engineering (55 free YouTube episodes)](https://www.youtube.com/watch?v=ylEu4fz4eU8&list=PLtPgUfajvh_Z_utkISrRk9tIxvnaR17_X)
    - [Learn Prompt Engineering for ChatGPT](https://www.youtube.com/watch?v=2sEujkZ79E4)
 
+
 ### Additional Guides and Repositories
 
 7. **Prompt-Engineering-Guide** - Comprehensive guide covering the latest papers, resources, and prompt engineering techniques.
@@ -250,7 +251,6 @@ Each section is crafted to support your growth in prompt engineering, making it 
 ## 4.	Prompt Libraries, Collections & Datasets
 
 ## Prompt Libraries
-
 | **Library**                   | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
 | **ai-boost/awesome-prompts**  | Curated list of ChatGPT prompts with top-rated GPTs. Includes prompt engineering, attack & protection techniques, and advanced papers. | [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) |
