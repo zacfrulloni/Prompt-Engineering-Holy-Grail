@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name='impact-site-verification' value='0cef11aa-eda6-4d43-9512-057b191e557f'>
+    <meta name="google-adsense-account" content="ca-pub-3989253659623995">
+    <meta name="google-adsense-account" content="ca-pub-5522728655484059">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Engineering Holy Grail | Prompt Engineering Holy Grail</title>
+    <meta name="description" content="A comprehensive resource for prompt engineering best practices and techniques.">
+
+    <!-- Jekyll SEO Tag -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Prompt Engineering Holy Grail | A comprehensive resource for prompt engineering best practices and techniques.</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Prompt Engineering Holy Grail" />
+<meta name="author" content="Zac Frulloni" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A comprehensive resource for prompt engineering best practices and techniques." />
+<meta property="og:description" content="A comprehensive resource for prompt engineering best practices and techniques." />
+<link rel="canonical" href="https://zacfrulloni.github.io/Prompt-Engineering-Holy-Grail//Prompt-Engineering-Holy-Grail/" />
+<meta property="og:url" content="https://zacfrulloni.github.io/Prompt-Engineering-Holy-Grail//Prompt-Engineering-Holy-Grail/" />
+<meta property="og:site_name" content="Prompt Engineering Holy Grail" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Prompt Engineering Holy Grail" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Zac Frulloni"},"description":"A comprehensive resource for prompt engineering best practices and techniques.","headline":"Prompt Engineering Holy Grail","name":"Prompt Engineering Holy Grail","url":"https://zacfrulloni.github.io/Prompt-Engineering-Holy-Grail//Prompt-Engineering-Holy-Grail/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- Minima Theme CSS -->
+    <link rel="stylesheet" href="/Prompt-Engineering-Holy-Grail/assets/main.css">
+
+    <!-- Google Tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11058169010"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-11058169010');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0 20px;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #ddd;
+      }
+      header a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #0366d6;
+        margin: 10px;
+      }
+      header .button {
+        display: inline-block;
+        margin: 5px 10px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        text-decoration: none;
+      }
+      .github-button {
+        background-color: #0366d6;
+        color: white;
+      }
+      .sponsor-button {
+        background-color: #ea4aaa;
+        color: white;
+      }
+      .coffee-button {
+        background-color: #ffdd57;
+        color: #111;
+      }
+      main {
+        max-width: 800px;
+        margin: 20px auto;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+      table th,
+      table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      table th {
+        background-color: #f5f5f5;
+        font-weight: bold;
+      }
+      table tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      table tr:hover {
+        background-color: #f1f1f1;
+      }
+      footer {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #f5f5f5;
+        border-top: 1px solid #ddd;
+        font-size: 14px;
+      }
+      footer a {
+        color: #0366d6;
+        text-decoration: none;
+      }
+    </style>
+  </head>  
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>
+        <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank">
+          Prompt-Engineering-Holy-Grail
+        </a>
+      </h1>
+      <p>Your hub for all things prompt engineering.</p>
+      <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank" class="button github-button">
+        ⭐ Star on GitHub: <span id="star-count">Loading...</span>
+      </a>
+<!--       <a href="https://github.com/sponsors/zacfrulloni" target="_blank" class="button sponsor-button">
+        💖 Sponsor
+      </a> -->
+      <a href="https://www.buymeacoffee.com/zazacattack" target="_blank" class="button coffee-button">
+        ☕ Buy Me a Coffee
+      </a>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <p>Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques.</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ol>
+  <li><a href="#1-introduction">Introduction</a>
+    <ul>
+      <li><a href="#overview-of-prompt-engineering">Overview of Prompt Engineering</a></li>
+      <li><a href="#purpose-of-this-repository">Purpose of This Repository</a></li>
+    </ul>
+  </li>
+  <li><a href="#2-learning-resources">Learning Resources</a>
+    <ul>
+      <li><a href="#free-tutorials-videos--guides">Free Tutorials, Videos &amp; Guides</a></li>
+      <li><a href="#additional-guides-and-repositories">Additional Guides and Repositories</a></li>
+      <li><a href="#books-and-reference-materials">Books and Reference Materials</a></li>
+      <li><a href="#essential-books-on-prompt-engineering-and-chatgpt">Essential Books on Prompt Engineering and ChatGPT</a></li>
+      <li><a href="#youtube-videos-on-prompt-engineering">YouTube Videos on Prompt Engineering</a></li>
+      <li><a href="#youtube-channels-dedicated-to-ai--prompt-engineering">YouTube Channels Dedicated to AI &amp; Prompt Engineering</a></li>
+      <li><a href="#newsletters-and-blogs">Newsletters and Blogs</a></li>
+      <li><a href="#comprehensive-list-of-online-courses-on-prompt-engineering">Comprehensive List of Online Courses on Prompt Engineering</a></li>
+    </ul>
+  </li>
+  <li><a href="#3-prompt-engineering-tools">Prompt Engineering Tools</a>
+    <ul>
+      <li><a href="#prompt-marketplaces">Prompt Marketplaces</a></li>
+      <li><a href="#prompt-generation-tools">Prompt Generation Tools</a></li>
+      <li><a href="#prompt-management-platforms">Prompt Management Platforms</a></li>
+      <li><a href="#prompt-testing-and-experimentation">Prompt Testing and Experimentation</a></li>
+      <li><a href="#prompt-crafting-libraries">Prompt Crafting Libraries</a></li>
+      <li><a href="#other">Other</a></li>
+    </ul>
+  </li>
+  <li><a href="#4-prompt-libraries-collections--datasets">Prompt Libraries, Collections &amp; Datasets</a>
+    <ul>
+      <li><a href="#prompt-libraries">Prompt Libraries</a></li>
+      <li><a href="#prompt-collections">Prompt Collections</a></li>
+      <li><a href="#gpt-stores-and-libraries">GPT Stores and Libraries</a></li>
+      <li><a href="#datasets">Datasets</a></li>
+    </ul>
+  </li>
+  <li><a href="#5-prompt-engineering-communities">Prompt Engineering Communities</a>
+    <ul>
+      <li><a href="#social-media-groups-for-prompt-engineering">Social Media Groups for Prompt Engineering</a>
+        <ul>
+          <li><a href="#reddit-communities">Reddit Communities</a></li>
+          <li><a href="#facebook-communities">Facebook Communities</a></li>
+        </ul>
+      </li>
+      <li><a href="#discord-communities-for-prompt-engineering">Discord Communities for Prompt Engineering</a></li>
+      <li><a href="#other-prompt-engineering-communities-and-forums">Other Prompt Engineering Communities and Forums</a></li>
+    </ul>
+  </li>
+  <li><a href="#6-freelance--job-opportunities">Freelance &amp; Job Opportunities</a>
+    <ul>
+      <li><a href="#job-websites-for-prompt-engineers">Job Websites for Prompt Engineers</a></li>
+      <li><a href="#freelance-platforms">Freelance Platforms</a></li>
+    </ul>
+  </li>
+  <li><a href="#7-contributing--code-of-conduct">Contributing &amp; Code of Conduct</a></li>
+  <li><a href="#8-support-my-work">Support My Work</a></li>
+  <li><a href="#9-join-our-community-on-discord">Join Our Community on Discord</a></li>
+  <li><a href="#10-license">License</a></li>
+  <li><a href="#11-disclosure">Disclosure</a></li>
+  <li><a href="#12-contact-me">Contact Me</a></li>
+</ol>
+
+<h2 id="1-introduction">1. Introduction</h2>
+
+<p>Welcome to the <strong>Prompt Engineering Hub</strong>! This repository is a curated resource for all things related to prompt engineering, from beginner fundamentals to advanced techniques.</p>
+
+<h3 id="overview-of-prompt-engineering">Overview of Prompt Engineering</h3>
+<p>Prompt engineering involves crafting effective prompts to guide AI models like GPT-4, helping them generate accurate, context-aware outputs. As AI applications grow across industries, mastering prompt engineering unlocks powerful use cases in areas like text generation, sentiment analysis, translation, and more.</p>
+
+<h3 id="purpose-of-this-repository">Purpose of This Repository</h3>
+<p>This repo gathers essential resources, tools, templates, and best practices to support anyone learning or working in prompt engineering. Whether you’re just starting or have experience, you’ll find structured learning paths, advanced techniques, and real-world examples.</p>
+
+<p>Each section is crafted to support your growth in prompt engineering, making it easy to find the resources you need. Explore, learn, and feel free to contribute!</p>
+
+<h2 id="2-learning-resources">2. Learning Resources</h2>
+
+<h3 id="free-tutorials-videos--guides">Free Tutorials, Videos &amp; Guides</h3>
+
+<ol>
+  <li><strong>Learn Prompting</strong> - Overview of Prompt Engineering and various techniques.
+    <ul>
+      <li><a href="https://www.prompthub.us/blog/a-complete-guide-to-meta-prompting#what-is-meta-prompting?">A Complete Guide to Meta Prompting</a> - Meta prompting is a prompt engineering method that uses large language models (LLMs) to create and refine prompts.</li>
+    </ul>
+  </li>
+  <li><strong>Best Practices for Prompt Engineering with the OpenAI API</strong> - OpenAI guide on best practices for prompt engineering.
+    <ul>
+      <li><a href="https://github.com/brexhq/prompt-engineering">Brex’s Prompt Engineering Guide</a> - Tips and tricks for working with Large Language Models like OpenAI’s GPT-4.</li>
+      <li><a href="https://www.youtube.com/watch?v=_ZvnD73m40o">Prompt Engineering Tutorial – Master ChatGPT and LLM Responses</a></li>
+    </ul>
+  </li>
+  <li><strong>Awesome GPT Super Prompting</strong> - Collection of advanced techniques, including jailbreaks, prompt injection, and prompt security.
+    <ul>
+      <li><a href="https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting">Awesome GPT Super Prompting</a></li>
+    </ul>
+  </li>
+  <li><strong>Microsoft Prompt Engineering Fundamentals</strong> - Comprehensive fundamentals and advanced prompt engineering from Microsoft.
+    <ul>
+      <li><a href="https://github.com/microsoft/generative-ai-for-beginners/tree/main/04-prompt-engineering-fundamentals">Microsoft - Prompt Engineering Fundamentals</a></li>
+      <li><a href="https://github.com/microsoft/generative-ai-for-beginners/tree/main/05-advanced-prompts">Microsoft - Advanced Prompts</a></li>
+    </ul>
+  </li>
+  <li><strong>Learning Prompt</strong> - Free prompt engineering course covering ChatGPT and Midjourney tutorials.
+    <ul>
+      <li><a href="https://github.com/thinkingjimmy/Learning-Prompt">Learning Prompt on GitHub</a></li>
+    </ul>
+  </li>
+  <li><strong>YouTube Video Tutorials</strong>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=jC4v5AS4RIM">Master the Perfect ChatGPT Prompt Formula (8 minutes)</a></li>
+      <li><a href="https://www.youtube.com/watch?v=T9aRN5JkmL8">AI Prompt Engineering: A Deep Dive (Anthropic)</a></li>
+      <li><a href="https://www.youtube.com/watch?v=mBYu5NoXBcs&amp;list=PLaWSKUwEzmonq85t2rHwZfuEXotqEnTyR">ChatGPT Prompt Engineering Course (16 free YouTube episodes)</a></li>
+      <li><a href="https://www.youtube.com/watch?v=LWiMwhDZ9as">Learn Prompt Engineering: Full Beginner Crash Course (5 HOURS)</a></li>
+      <li><a href="https://www.youtube.com/watch?v=ylEu4fz4eU8&amp;list=PLtPgUfajvh_Z_utkISrRk9tIxvnaR17_X">ChatGPT Prompt Engineering (55 free YouTube episodes)</a></li>
+      <li><a href="https://www.youtube.com/watch?v=2sEujkZ79E4">Learn Prompt Engineering for ChatGPT</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="additional-guides-and-repositories">Additional Guides and Repositories</h3>
+
+<ol>
+  <li><strong>Prompt-Engineering-Guide</strong> - Comprehensive guide covering the latest papers, resources, and prompt engineering techniques.
+    <ul>
+      <li><a href="https://github.com/dair-ai/Prompt-Engineering-Guide?tab=readme-ov-file">Prompt-Engineering-Guide by dair-ai</a></li>
+    </ul>
+  </li>
+  <li><strong>Prompt Engineering Techniques</strong> - Repository focused on advanced prompt engineering methods.
+    <ul>
+      <li><a href="https://github.com/NirDiamant/Prompt_Engineering?tab=readme-ov-file">Prompt Engineering Techniques by Nir Diamant</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="books-and-reference-materials">Books and Reference Materials</h3>
+
+<ol>
+  <li><a href="https://dallery.gallery/the-dalle-2-prompt-book/"><strong>DALLE Prompt Book</strong></a> - Guide on crafting prompts specifically for image generation models like DALLE.</li>
+  <li><a href="https://github.com/openai/openai-cookbook"><strong>OpenAI Cookbook</strong></a> - Collection of OpenAI’s best practices and examples for using language models effectively.</li>
+  <li><a href="https://microsoft.github.io/prompt-engineering/"><strong>Prompt Engineering by Microsoft</strong></a> - Resources and guides by Microsoft on prompt engineering fundamentals.</li>
+  <li><a href="https://topics-beta.apps.semanticscholar.org/topic/20102634420"><strong>Topic Page Research papers</strong></a> - Research papers that discuss prompt engineering techniques.</li>
+</ol>
+
+<h2 id="comprehensive-list-of-online-courses-on-prompt-engineering">Comprehensive List of Online Courses on Prompt Engineering</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Course Name</strong></th>
+      <th>🏫 <strong>Platform</strong></th>
+      <th>⭐ <strong>Ratings/Reviews</strong></th>
+      <th>⏰ <strong>Duration</strong></th>
+      <th>💰 <strong>Cost</strong></th>
+      <th>🎓 <strong>Certification</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.datacamp.com/courses/understanding-prompt-engineering">Understanding Prompt Engineering</a></td>
+      <td>DataCamp</td>
+      <td>⭐ 4.4 (55 reviews)</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.datacamp.com/courses/introduction-to-chatgpt">Introduction to ChatGPT</a></td>
+      <td>DataCamp</td>
+      <td>⭐ 4.3 (295 reviews)</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udacity.com/course/large-language-models-and-text-generation--cd13318#plans">Large Language Models (LLMs) &amp; Text Generation</a></td>
+      <td>Udacity</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.codecademy.com/learn/intro-to-chatgpt">Learn How to Use ChatGPT</a></td>
+      <td>Codecademy</td>
+      <td>⭐ 4.4 (3536 reviews)</td>
+      <td>1 hour (Beginner)</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.codecademy.com/learn/prompt-engineering-for-marketing">Prompt Engineering for Marketing</a></td>
+      <td>Codecademy</td>
+      <td>⭐ 4.4 (227 reviews)</td>
+      <td>1 hour (Beginner)</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://edx.sjv.io/QjOkLx">Prompt Engineering and Advanced ChatGPT</a></td>
+      <td>edX</td>
+      <td>⭐ 4.2 (148 ratings)</td>
+      <td>n/a</td>
+      <td>£31</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://edx.sjv.io/RGyerR">IBM: Introduction to Prompt Engineering</a></td>
+      <td>IBM on edX</td>
+      <td>⭐ 4.4 (217 ratings)</td>
+      <td>n/a</td>
+      <td>£38</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://edx.sjv.io/7amY6d">Generative AI for Everyone</a></td>
+      <td>IBM on edX</td>
+      <td>n/a</td>
+      <td>4 months (1-3 hrs/wk)</td>
+      <td>£171</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://edx.sjv.io/qznPKN">Generative AI Fundamentals</a></td>
+      <td>IBM on edX</td>
+      <td>n/a</td>
+      <td>5 months (2-4 hrs/wk)</td>
+      <td>£1,156</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://edx.sjv.io/jeWq76">IBM Applied AI Developer</a></td>
+      <td>IBM on edX</td>
+      <td>n/a</td>
+      <td>6 months (2-4 hrs/wk)</td>
+      <td>£329</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://edx.sjv.io/aO1Eoo">Large Language Model Operations (LLMOps)</a></td>
+      <td>edX</td>
+      <td>n/a</td>
+      <td>7 months (3-6 hrs/wk)</td>
+      <td>£1,910</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://imp.i384100.net/YRRVrq">Prompt Engineering Specialization</a></td>
+      <td>Coursera</td>
+      <td>⭐ 4.8 (1862 reviews)</td>
+      <td>1 month (10 hrs/wk)</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://imp.i384100.net/QjjYRz">Prompt Engineering for Law Specialization</a></td>
+      <td>Coursera</td>
+      <td>⭐ 4.8 (181 reviews)</td>
+      <td>1 month (10 hrs/wk)</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://imp.i384100.net/555kXD">Prompt Engineering for Educators Specialization</a></td>
+      <td>Coursera</td>
+      <td>⭐ 4.8 (97 reviews)</td>
+      <td>1 month (10 hrs/wk)</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://imp.i384100.net/LKK0z3">Prompt Engineering for ChatGPT</a></td>
+      <td>Coursera</td>
+      <td>⭐ 4.8 (4042 reviews)</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://imp.i384100.net/POOz2M">Generative AI: Prompt Engineering Basics</a></td>
+      <td>Coursera</td>
+      <td>⭐ 4.8 (2095 reviews)</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://imp.i384100.net/aOONBq">ChatGPT Prompt Engineering for Developers</a></td>
+      <td>Coursera</td>
+      <td>⭐ 4.7 (1086 reviews)</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/prompt-engineering-for-ai/?couponCode=LEARNNOWPLANS">The Complete Prompt Engineering for AI Bootcamp (2024)</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.5 (49378 reviews)</td>
+      <td>20.5 hours</td>
+      <td>£54.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/complete-ai-guide/?couponCode=LEARNNOWPLANS">ChatGPT Complete Guide: Learn Generative AI, ChatGPT &amp; More</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.5 (39995 reviews)</td>
+      <td>26.5 hours</td>
+      <td>£54.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/complete-prompt-engineering-practical-course-cpepc/?couponCode=LEARNNOWPLANS">Complete Prompt Engineering Practical Course</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.6 (977 reviews)</td>
+      <td>8 hours</td>
+      <td>£39.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/chatgpt-ai-masterclass/?couponCode=LEARNNOWPLANS">ChatGPT Masterclass: The Guide to AI &amp; Prompt Engineering</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.7 (3759 reviews)</td>
+      <td>16 hours</td>
+      <td>£59.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/all-of-ai-chatgpt-midjourney-stable-diffusion-app-dev/?couponCode=LEARNNOWPLANS">All of AI: ChatGPT, Midjourney, Stable Diffusion &amp; App Dev</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.7 (1124 reviews)</td>
+      <td>36.5 hours</td>
+      <td>£59.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/complete-chatgpt-prompt-engineering-course/?couponCode=LEARNNOWPLANS">Complete ChatGPT Prompt Engineering Course</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.6 (373 reviews)</td>
+      <td>10.5 hours</td>
+      <td>£19.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/chatgpt-pro-expert-prompt-engineering-strategies-udemy-course-bootcamp/?couponCode=LEARNNOWPLANS">ChatGPT-4 Prompt Engineering: ChatGPT, Generative AI &amp; LLM</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.4 (556 reviews)</td>
+      <td>4 hours</td>
+      <td>£44.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/open-source-llms-uncensored-secure-ai-locally-with-rag/?couponCode=LEARNNOWPLANS">Open-source LLMs: Uncensored &amp; secure AI locally with RAG</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.8 (475 reviews)</td>
+      <td>10 hours</td>
+      <td>£54.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/chat-gpt/?couponCode=LEARNNOWPLANS">ChatGPT Complete Course - Prompt Engineering for ChatGPT</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.4 (10082 reviews)</td>
+      <td>5.5 hours</td>
+      <td>£29.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/prompt-engineering-for-everybody/?couponCode=LEARNNOWPLANS">ChatGPT and GPT-4 LLM Guide- Prompt Engineering for Everyone</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.4 (654 reviews)</td>
+      <td>3 hours</td>
+      <td>£49.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/chatgptandpython/?couponCode=LEARNNOWPLANS">Prompt Engineering for Data Analysis Python, Pandas, ChatGPT</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.6 (680 reviews)</td>
+      <td>10.5 hours</td>
+      <td>£49.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/gptcourse/?couponCode=LEARNNOWPLANS">Prompt Engineering with ChatGPT 4 &amp; Midjourney 2000+ prompts</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.4 (1350 reviews)</td>
+      <td>22.5 hours</td>
+      <td>£54.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/ultimate-chatgpt-course-for-beginners/?couponCode=LEARNNOWPLANS">Ultimate ChatGPT Course for Beginners 2024</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.7 (1308 reviews)</td>
+      <td>n/a</td>
+      <td>£19.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/digital-marketing-guide/?couponCode=LEARNNOWPLANS">Digital Marketing Guide - 26 Courses in 1</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.6 (38119 reviews)</td>
+      <td>72 hours</td>
+      <td>£199.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/ai-content-generation/?couponCode=LEARNNOWPLANS">Master Generative AI: Automate Content Effortlessly with AI</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.4 (5081 reviews)</td>
+      <td>11 hours</td>
+      <td>£39.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/chatgpt-a-master-guide-for-professionals/?couponCode=LEARNNOWPLANS">How to ChatGPT: Master the Art of Prompt Engineering</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.4 (19634 reviews)</td>
+      <td>2.5 hours</td>
+      <td>£29.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.udemy.com/course/langchain/?couponCode=LEARNNOWPLANS">LangChain- Develop LLM powered applications with LangChain</a></td>
+      <td>Udemy</td>
+      <td>⭐ 4.6 (19450 reviews)</td>
+      <td>9.5 hours</td>
+      <td>£54.99</td>
+      <td>✔️ Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="essential-books-on-prompt-engineering-and-chatgpt">Essential Books on Prompt Engineering and ChatGPT</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>📘 <strong>Book Title</strong></th>
+      <th>🌍 <strong>Link</strong></th>
+      <th>⭐ <strong>Rating/Reviews</strong></th>
+      <th>💵 <strong>Price</strong></th>
+      <th>📱 <strong>Format</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong><a href="https://www.amazon.co.uk/Prompt-Engineering-ChatGPT-Productivity-Creativity-ebook/dp/B0CP3CKHMN/ref=sr_1_16?crid=38L6HXGTLABQM&amp;tag=zacfrulloni01-21">Prompt Engineering and ChatGPT: How to Easily 10X Your Productivity, Creativity, and Make More Money Without Working Harder</a></strong></td>
+      <td><a href="https://www.amazon.co.uk/Prompt-Engineering-ChatGPT-Productivity-Creativity-ebook/dp/B0CP3CKHMN&amp;tag=zacfrulloni01-21">Amazon UK</a></td>
+      <td>⭐ 3.9 (84 reviews)</td>
+      <td>£7.61</td>
+      <td>Kindle</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://www.amazon.co.uk/Only-ChatGPT-Prompts-Book-Youll/dp/B0CWB7KYW9/ref=sr_1_17?crid=38L6HXGTLABQM&amp;tag=zacfrulloni01-21">The Only ChatGPT Prompts Book You’ll Ever Need</a></strong></td>
+      <td><a href="https://www.amazon.co.uk/Only-ChatGPT-Prompts-Book-Youll/dp/B0CWB7KYW9&amp;tag=zacfrulloni01-21">Amazon UK</a></td>
+      <td>⭐ 4.1 (78 ratings)</td>
+      <td>£7.97</td>
+      <td>Kindle</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://www.amazon.co.uk/ChatGPT-Beginners-Made-Easy-Conversational/dp/B0CQ7SSRFP/ref=sr_1_1_sspa?crid=38L6HXGTLABQM&amp;tag=zacfrulloni01-21">ChatGPT for Beginners Made Easy: Master Prompts, Boost Productivity, and Cash In</a></strong></td>
+      <td><a href="https://www.amazon.co.uk/ChatGPT-Beginners-Made-Easy-Conversational/dp/B0CQ7SSRFP&amp;tag=zacfrulloni01-21">Amazon UK</a></td>
+      <td>⭐ 4.0 (62 reviews)</td>
+      <td>£5.99</td>
+      <td>Kindle</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://www.amazon.co.uk/Prompt-Engineering-Generative-AI-Future-Proof/dp/109815343X/ref=sr_1_3?crid=38L6HXGTLABQM&amp;tag=zacfrulloni01-21">Prompt Engineering for Generative AI: Future-Proof Inputs for Reliable AI Outputs</a></strong></td>
+      <td><a href="https://www.amazon.co.uk/Prompt-Engineering-Generative-AI-Future-Proof/dp/109815343X&amp;tag=zacfrulloni01-21">Amazon UK</a></td>
+      <td>⭐ 4.5 (30 reviews)</td>
+      <td>£46.29</td>
+      <td>Kindle</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://www.amazon.co.uk/Art-Prompt-Engineering-chatGPT-Hands/dp/1739296710/ref=sr_1_6?crid=38L6HXGTLABQM&amp;tag=zacfrulloni01-21">The Art of Prompt Engineering with chatGPT: A Hands-On Guide</a></strong></td>
+      <td><a href="https://www.amazon.co.uk/Art-Prompt-Engineering-chatGPT-Hands/dp/1739296710&amp;tag=zacfrulloni01-21">Amazon UK</a></td>
+      <td>⭐ 4.1 (232 ratings)</td>
+      <td>£9.99</td>
+      <td>Kindle</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://www.amazon.co.uk/Art-Prompt-Engineering-ChatGPT-Accessible-ebook/dp/B0BZ4T68Q4/ref=sr_1_11?crid=38L6HXGTLABQM&amp;tag=zacfrulloni01-21">The Art of Prompt Engineering with ChatGPT: Accessible Edition</a></strong></td>
+      <td><a href="https://www.amazon.co.uk/Art-Prompt-Engineering-ChatGPT-Accessible-ebook/dp/B0BZ4T68Q4&amp;tag=zacfrulloni01-21">Amazon UK</a></td>
+      <td>⭐ 4.4 (106 reviews)</td>
+      <td>£9.99</td>
+      <td>Kindle</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://www.amazon.co.uk/Ultimate-Guide-ChatGPT-understanding-intelligence/dp/B0C2RRQDMV/ref=sr_1_13_sspa?crid=38L6HXGTLABQM&amp;tag=zacfrulloni01-21">The Ultimate Guide to ChatGPT: A Beginner’s Handbook on Prompt Engineering</a></strong></td>
+      <td><a href="https://www.amazon.co.uk/Ultimate-Guide-ChatGPT-understanding-intelligence/dp/B0C2RRQDMV&amp;tag=zacfrulloni01-21">Amazon UK</a></td>
+      <td>⭐ 4.2 (112 reviews)</td>
+      <td>£7.99</td>
+      <td>Kindle</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="youtube-videos-on-prompt-engineering">YouTube Videos on Prompt Engineering</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Video Title</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>EfficientML.ai Lecture 20: Efficient Fine-tuning and Prompt Engineering (MIT 6.5940, Fall 2023)</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=vOPwwRCZ8q8">Watch on YouTube</a></td>
+    </tr>
+    <tr>
+      <td><strong>Prompt-Engineering for Open-Source LLMs</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=f32dc5M2Mn0">Watch on YouTube</a></td>
+    </tr>
+    <tr>
+      <td><strong>Advanced ChatGPT Prompt Engineering</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=bBiTR_1sEmI">Watch on YouTube</a></td>
+    </tr>
+    <tr>
+      <td><strong>ChatGPT: 5 Prompt Engineering Secrets For Beginners</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=2zg3V66-Fzs">Watch on YouTube</a></td>
+    </tr>
+    <tr>
+      <td><strong>ChatGPT Guide: 10x Your Results with Better Prompts</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=os-JX1ZQwIA">Watch on YouTube</a></td>
+    </tr>
+    <tr>
+      <td><strong>Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution (Paper Explained)</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=tkX0EfNl4Fc">Watch on Youtube</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="youtube-channels-dedicated-to-ai--prompt-engineering">YouTube Channels Dedicated to AI &amp; Prompt Engineering</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Channel Name</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Prompt Engineering</strong></td>
+      <td><a href="https://www.youtube.com/@engineerprompt">@engineerprompt</a></td>
+    </tr>
+    <tr>
+      <td><strong>They Call Me Hoz</strong></td>
+      <td><a href="https://www.youtube.com/@theycallmehoz">@theycallmehoz</a></td>
+    </tr>
+    <tr>
+      <td><strong>Jeff Su</strong></td>
+      <td><a href="https://www.youtube.com/@JeffSu">@JeffSu</a></td>
+    </tr>
+    <tr>
+      <td><strong>AI Master</strong></td>
+      <td><a href="https://www.youtube.com/@iamAImaster">@iamAImaster</a></td>
+    </tr>
+    <tr>
+      <td><strong>AssemblyAI</strong></td>
+      <td><a href="https://www.youtube.com/@AssemblyAI">@AssemblyAI</a></td>
+    </tr>
+    <tr>
+      <td><strong>Hasan Aboul Hasan</strong></td>
+      <td><a href="https://www.youtube.com/@hasanaboulhasan">@hasanaboulhasan</a></td>
+    </tr>
+    <tr>
+      <td><strong>AI Foundations</strong></td>
+      <td><a href="https://www.youtube.com/@ai-foundations">@ai-foundations</a></td>
+    </tr>
+    <tr>
+      <td><strong>Prompt Engineer</strong></td>
+      <td><a href="https://www.youtube.com/@PromptEngineer48">@PromptEngineer48</a></td>
+    </tr>
+    <tr>
+      <td><strong>All About AI</strong></td>
+      <td><a href="https://www.youtube.com/@AllAboutAI">@AllAboutAI</a></td>
+    </tr>
+    <tr>
+      <td><strong>The AI Advantage</strong></td>
+      <td><a href="https://www.youtube.com/@aiadvantage">@aiadvantage</a></td>
+    </tr>
+    <tr>
+      <td><strong>Yannic Kilcher</strong></td>
+      <td><a href="https://www.youtube.com/@YannicKilcher">@YannicKilcher</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptHub</strong></td>
+      <td><a href="https://www.youtube.com/@PromptHub_AI">@PromptHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="newsletters-and-blogs">Newsletters and Blogs</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Channel Name</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>The Prompt Engineering Substack</strong></td>
+      <td>Educational articles on prompt engineering techniques, tools, and best practices.</td>
+      <td><a href="https://prompthub.substack.com/">Visit on Substack</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptHub Blog</strong></td>
+      <td>In-depth articles, guides, and insights on prompt engineering.</td>
+      <td><a href="https://www.prompthub.us/blog">Visit Blog</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="3-prompt-engineering-tools">3. Prompt Engineering Tools</h2>
+
+<h2 id="prompt-marketplaces">Prompt Marketplaces</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Tool</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>PromptBase</strong></td>
+      <td><a href="https://promptbase.com/">PromptBase</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="prompt-generation-tools">Prompt Generation Tools</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Tool</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>YiVal</strong></td>
+      <td><a href="https://github.com/YiVal/YiVal">YiVal</a></td>
+    </tr>
+    <tr>
+      <td><strong>GPT Prompt Engineer</strong></td>
+      <td><a href="https://github.com/mshumer/gpt-prompt-engineer">GPT Prompt Engineer</a></td>
+    </tr>
+    <tr>
+      <td><strong>Promptify</strong></td>
+      <td><a href="https://github.com/promptslab/Promptify">Promptify</a></td>
+    </tr>
+    <tr>
+      <td><strong>HuggingFace ChatGPT Prompt Generator</strong></td>
+      <td><a href="https://huggingface.co/spaces/merve/ChatGPT-prompt-generator">HuggingFace ChatGPT Prompt Generator</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptHub Prompt Generator</strong></td>
+      <td><a href="https://www.prompthub.us/features/prompt-generator">PromptHub Prompt Generator</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="prompt-management-platforms">Prompt Management Platforms</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Tool</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Puzzlet</strong></td>
+      <td>Streamline your GenAI workflows with Git-Based prompt management, detailed traceability, and actionable metrics.</td>
+      <td><a href="https://www.puzzlet.ai">Puzzlet</a></td>
+    </tr>
+    <tr>
+      <td><strong>Opik</strong></td>
+      <td>Open-source end-to-end LLM development platform</td>
+      <td><a href="https://github.com/comet-ml/opik">Opik</a></td>
+    </tr>
+    <tr>
+      <td><strong>Agenta</strong></td>
+      <td>All-in-one LLM developer platform with prompt management</td>
+      <td><a href="https://github.com/agenta-ai/agenta">Agenta</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptInject</strong></td>
+      <td>Framework for modular prompts and adversarial prompt robustness testing</td>
+      <td><a href="https://github.com/agencyenterprise/PromptInject">PromptInject</a></td>
+    </tr>
+    <tr>
+      <td><strong>Langbear</strong></td>
+      <td>Open-source AI prompt management platform</td>
+      <td><a href="https://langbear.runbear.io/introduction">Langbear</a></td>
+    </tr>
+    <tr>
+      <td><strong>Agentic Workers</strong></td>
+      <td>One Click Advanced ChatGPT Workflows</td>
+      <td><a href="https://agenticworkers.com/">AgenticWorkers</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptHub</strong></td>
+      <td>Test, collaborate, version, and deploy prompts, from a single place</td>
+      <td><a href="https://www.prompthub.us/">PromptHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="prompt-testing-and-experimentation">Prompt Testing and Experimentation</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Tool</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>BetterPrompt</strong></td>
+      <td>Test suite for LLM prompts</td>
+      <td><a href="https://github.com/stjordanis/betterprompt">BetterPrompt</a></td>
+    </tr>
+    <tr>
+      <td><strong>OpenPrompt</strong></td>
+      <td>Open-Source framework for prompt-learning</td>
+      <td><a href="https://github.com/thunlp/OpenPrompt">OpenPrompt</a></td>
+    </tr>
+    <tr>
+      <td><strong>Guidance</strong></td>
+      <td>Programming paradigm for controlling LLM output</td>
+      <td><a href="https://github.com/guidance-ai/guidance">Guidance</a></td>
+    </tr>
+    <tr>
+      <td><strong>Prompt Tools</strong></td>
+      <td>Tools for prompt testing and experimentation</td>
+      <td><a href="https://github.com/hegelai/prompttools">Prompt Tools</a></td>
+    </tr>
+    <tr>
+      <td><strong>ThoughtSource</strong></td>
+      <td>Resource for chain-of-thought reasoning tools</td>
+      <td><a href="https://github.com/OpenBioLink/ThoughtSource">ThoughtSource</a></td>
+    </tr>
+    <tr>
+      <td><strong>ChatGPT Queue</strong></td>
+      <td>Tool for Bulk Prompting and Prompt Chaining</td>
+      <td><a href="https://chromewebstore.google.com/detail/chatgpt-queue-save-time-w/iabnajjakkfbclflgaghociafnjclbem?hl=en&amp;authuser=0">ChatGPT Queue</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="prompt-crafting-libraries">Prompt Crafting Libraries</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Tool</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Prompt Engine</strong></td>
+      <td>Library for crafting prompts for large language models</td>
+      <td><a href="https://github.com/microsoft/prompt-engine">Prompt Engine</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptDX</strong></td>
+      <td>A declarative, extensible, and composable approach for developing LLM prompts using Markdown and JSX.</td>
+      <td><a href="https://github.com/puzzlet-ai/promptdx">PromptDX</a></td>
+    </tr>
+    <tr>
+      <td><strong>ClickPrompt</strong></td>
+      <td>Tool for viewing, sharing, and running prompts with one click</td>
+      <td><a href="https://github.com/prompt-engineering/click-prompt">ClickPrompt</a></td>
+    </tr>
+    <tr>
+      <td><strong>Outlines</strong></td>
+      <td>Structured text generation toolkit</td>
+      <td><a href="https://github.com/dottxt-ai/outlines">Outlines</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptSource</strong></td>
+      <td>Toolkit for creating and sharing natural language prompts</td>
+      <td><a href="https://github.com/bigscience-workshop/promptsource">PromptSource</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptMetheus</strong></td>
+      <td>One-shot prompt engineering toolkit</td>
+      <td><a href="https://promptmetheus.com/">PromptMetheus</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="other">Other</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Tool</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>PromptKnit</strong></td>
+      <td>Playground for prompt designers</td>
+      <td><a href="https://promptknit.com/">PromptKnit</a></td>
+    </tr>
+    <tr>
+      <td><strong>Promptotype</strong></td>
+      <td>Tool for developing, testing, and monitoring structured LLM tasks</td>
+      <td><a href="https://www.promptotype.io/">Promptotype</a></td>
+    </tr>
+    <tr>
+      <td><strong>OpenICL</strong></td>
+      <td>Framework for in-context learning research and prototyping</td>
+      <td><a href="https://github.com/Shark-NLP/OpenICL">OpenICL</a></td>
+    </tr>
+    <tr>
+      <td><strong>Optimus Prompt AI</strong></td>
+      <td>Experiment tracking and human annotation platform for LLM applications</td>
+      <td><a href="https://www.optimusprompt.ai/">Optimus Prompt AI</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="4-prompt-libraries-collections--datasets">4.	Prompt Libraries, Collections &amp; Datasets</h2>
+
+<h2 id="prompt-libraries">Prompt Libraries</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Library</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ai-boost/awesome-prompts</strong></td>
+      <td>Curated list of ChatGPT prompts with top-rated GPTs. Includes prompt engineering, attack &amp; protection techniques, and advanced papers.</td>
+      <td><a href="https://github.com/ai-boost/awesome-prompts">ai-boost/awesome-prompts</a></td>
+    </tr>
+    <tr>
+      <td><strong>B3o/GPTS-Prompt-Collection</strong></td>
+      <td>Extensive prompt collection for GPT models.</td>
+      <td><a href="https://github.com/B3o/GPTS-Prompt-Collection">B3o/GPTS-Prompt-Collection</a></td>
+    </tr>
+    <tr>
+      <td><strong>abilzerian/LLM-Prompt-Library</strong></td>
+      <td>Advanced code and text manipulation prompts for various LLMs, including GPT-4o, Claude, and Llama3.</td>
+      <td><a href="https://github.com/abilzerian/LLM-Prompt-Library">abilzerian/LLM-Prompt-Library</a></td>
+    </tr>
+    <tr>
+      <td><strong>yunwei37/prompt-hacker-collections</strong></td>
+      <td>Prompt hacking and defense, with injection and reverse engineering examples.</td>
+      <td><a href="https://github.com/yunwei37/prompt-hacker-collections">yunwei37/prompt-hacker-collections</a></td>
+    </tr>
+    <tr>
+      <td><strong>alphatrait/100000-ai-prompts-by-contentifyai</strong></td>
+      <td>Extensive collection of 100,000+ prompts for ChatGPT, covering various topics like business and entertainment.</td>
+      <td><a href="https://github.com/alphatrait/100000-ai-prompts-by-contentifyai">alphatrait/100000-ai-prompts-by-contentifyai</a></td>
+    </tr>
+    <tr>
+      <td><strong>DummyKitty/Cyber-Security-chatGPT-prompt</strong></td>
+      <td>Security-focused ChatGPT prompt library.</td>
+      <td><a href="https://github.com/DummyKitty/Cyber-Security-chatGPT-prompt">DummyKitty/Cyber-Security-chatGPT-prompt</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="prompt-collections">Prompt Collections</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Collection</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>FlowGPT</strong></td>
+      <td>Largest open-source community for sharing prompts.</td>
+      <td><a href="https://flowgpt.com">FlowGPT</a></td>
+    </tr>
+    <tr>
+      <td><strong>awesomegptprompts.com</strong></td>
+      <td>Hundreds of the best curated ChatGPT prompts.</td>
+      <td><a href="https://awesomegptprompts.com">awesomegptprompts.com</a></td>
+    </tr>
+    <tr>
+      <td><strong>fka/awesome-chatgpt-prompts</strong></td>
+      <td>Dataset with curated ChatGPT prompts for enhanced usage.</td>
+      <td><a href="https://github.com/fka/awesome-chatgpt-prompts">fka/awesome-chatgpt-prompts</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptHub</strong></td>
+      <td>A variety of the latest prompt engineering templates.</td>
+      <td><a href="https://app.prompthub.us/templates">PromptHub</a></td>
+    </tr>
+    <tr>
+      <td><strong>Snack Prompt</strong></td>
+      <td>Collection of prompts with Chrome extension for easy access.</td>
+      <td><a href="https://snackprompt.com">Snack Prompt</a></td>
+    </tr>
+    <tr>
+      <td><strong>Prompt Search</strong></td>
+      <td>Search engine for locating AI prompts.</td>
+      <td><a href="https://promptsearch.com">Prompt Search</a></td>
+    </tr>
+    <tr>
+      <td><strong>The Prompt Index</strong></td>
+      <td>Curated index with a wide variety of prompts.</td>
+      <td><a href="https://thepromptindex.com">The Prompt Index</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptDen</strong></td>
+      <td>Platform with thousands of prompts for text and image generation, with profile features for prompt engineers.</td>
+      <td><a href="https://promptden.com">PromptDen</a></td>
+    </tr>
+    <tr>
+      <td><strong>PromptChains</strong></td>
+      <td>Prompt chains maximize intelligence and results when using LLMs.</td>
+      <td><a href="https://github.com/MIATECHPARTNERS/PromptChains">PromptChains</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="gpt-stores-and-libraries">GPT Stores and Libraries</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Store/Library</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Awesome GPT Store</strong></td>
+      <td>Comprehensive GPT store with major public GPTs.</td>
+      <td><a href="https://github.com/Anil-matcha/Awesome-GPT-Store">Awesome GPT Store</a></td>
+    </tr>
+    <tr>
+      <td><strong>Awesome GPTs Big List</strong></td>
+      <td>A large list of notable GPTs available publicly.</td>
+      <td><a href="https://github.com/friuns2/Awesome-GPTs-Big-List">Awesome GPTs Big List</a></td>
+    </tr>
+    <tr>
+      <td><strong>BestGPTs</strong></td>
+      <td>Top-ranked OpenAI GPTs for various applications.</td>
+      <td><a href="https://github.com/AgentOps-AI/BestGPTs">BestGPTs</a></td>
+    </tr>
+    <tr>
+      <td><strong>Awesome GPT Agents</strong></td>
+      <td>Curated list of GPT agents, particularly for cybersecurity.</td>
+      <td><a href="https://github.com/fr0gger/Awesome-GPT-Agents">Awesome GPT Agents</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="datasets">Datasets</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Dataset Name</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>P3 (Public Pool of Prompts)</strong></td>
+      <td>A collection of prompted English datasets covering a diverse set of NLP tasks.</td>
+      <td><a href="https://huggingface.co/datasets/bigscience/P3">HuggingFace</a></td>
+    </tr>
+    <tr>
+      <td><strong>Awesome ChatGPT Prompts</strong></td>
+      <td>Repository includes curated ChatGPT prompts to enhance interactions.</td>
+      <td><a href="https://github.com/f/awesome-chatgpt-prompts">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><strong>Red Team Attempts</strong></td>
+      <td>A dataset of “red team” attempts for adversarial testing on models, created by Anthropic for testing potential harmful outputs.</td>
+      <td><a href="https://github.com/anthropics/hh-rlhf/tree/master/red-team-attempts">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><strong>DiffusionDB</strong></td>
+      <td>A large-scale text-to-image prompt dataset, providing a gallery of prompts based on Stable Diffusion models.</td>
+      <td><a href="https://github.com/poloclub/diffusiondb">GitHub</a></td>
+    </tr>
+    <tr>
+      <td><strong>Real Toxicity Prompts</strong></td>
+      <td>A dataset of 100k sentence snippets from the web for research on reducing toxic degeneration in neural models.</td>
+      <td><a href="https://huggingface.co/datasets/allenai/real-toxicity-prompts">HuggingFace</a></td>
+    </tr>
+    <tr>
+      <td><strong>Stable Diffusion Prompts</strong></td>
+      <td>A set of about 80,000 prompts from “Lexica.art” for Stable Diffusion. Data extraction was challenging due to API limitations.</td>
+      <td><a href="https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts">HuggingFace</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="5-prompt-engineering-communities">5. Prompt Engineering Communities</h2>
+
+<h2 id="social-media-groups-for-prompt-engineering">Social Media Groups for Prompt Engineering</h2>
+
+<h2 id="reddit-communities">Reddit Communities</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Community Name</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>r/ChatGPTJailbreak</td>
+      <td>Community dedicated to ChatGPT jailbreak techniques.</td>
+      <td><a href="https://www.reddit.com/r/ChatGPTJailbreak/">r/ChatGPTJailbreak</a></td>
+    </tr>
+    <tr>
+      <td>r/ChatGPTPromptGenius</td>
+      <td>Subreddit focused on sharing and discovering GPT prompts.</td>
+      <td><a href="https://www.reddit.com/r/ChatGPTPromptGenius/">r/ChatGPTPromptGenius</a></td>
+    </tr>
+    <tr>
+      <td>r/chatgpt_promptDesign</td>
+      <td>Dedicated to designing effective ChatGPT prompts.</td>
+      <td><a href="https://www.reddit.com/r/chatgpt_promptDesign/">r/chatgpt_promptDesign</a></td>
+    </tr>
+    <tr>
+      <td>r/PromptEngineering</td>
+      <td>Discussion subreddit for prompt engineering topics.</td>
+      <td><a href="https://www.reddit.com/r/PromptEngineering/">r/PromptEngineering</a></td>
+    </tr>
+    <tr>
+      <td>r/PromptDesign</td>
+      <td>Community for discussing prompt design strategies.</td>
+      <td><a href="https://www.reddit.com/r/PromptDesign/">r/PromptDesign</a></td>
+    </tr>
+    <tr>
+      <td>r/MachineLearning</td>
+      <td>Machine learning discussions, including GPT and LLMs.</td>
+      <td><a href="https://www.reddit.com/r/MachineLearning/">r/MachineLearning</a></td>
+    </tr>
+    <tr>
+      <td>r/GPT_jailbreaks</td>
+      <td>A forum for discussions on GPT jailbreak methods.</td>
+      <td><a href="https://www.reddit.com/r/GPT_jailbreaks/">r/GPT_jailbreaks</a></td>
+    </tr>
+    <tr>
+      <td>r/ChatGptDAN</td>
+      <td>Community focused on DAN mode and ChatGPT jailbreaks.</td>
+      <td><a href="https://www.reddit.com/r/ChatGptDAN/">r/ChatGptDAN</a></td>
+    </tr>
+    <tr>
+      <td>r/PromptSharing</td>
+      <td>Platform to share and discover prompts with the community.</td>
+      <td><a href="https://www.reddit.com/r/PromptSharing/">r/PromptSharing</a></td>
+    </tr>
+    <tr>
+      <td>r/PromptWizardry</td>
+      <td>A subreddit for creative and advanced prompting techniques.</td>
+      <td><a href="https://www.reddit.com/r/PromptWizardry/">r/PromptWizardry</a></td>
+    </tr>
+    <tr>
+      <td>r/PromptWizards</td>
+      <td>A community for experts in prompt engineering.</td>
+      <td><a href="https://www.reddit.com/r/PromptWizards/">r/PromptWizards</a></td>
+    </tr>
+    <tr>
+      <td>r/ChatGPT_Prompts</td>
+      <td>Community for sharing ChatGPT prompts.</td>
+      <td><a href="https://www.reddit.com/r/ChatGPT_Prompts/">r/ChatGPT_Prompts</a></td>
+    </tr>
+    <tr>
+      <td>r/promptrequest</td>
+      <td>A community for users to request help with generating prompts for AI art, writing, games, and more.</td>
+      <td><a href="https://www.reddit.com/r/promptrequest/">r/promptrequest</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="facebook-communities">Facebook Communities</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Community Name</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ChatGPT Prompt Engineers</td>
+      <td>Group for discussions on ChatGPT, AI news, and LLMs.</td>
+      <td><a href="https://www.facebook.com/groups/chatgptpromptengineers/">Facebook Group</a></td>
+    </tr>
+    <tr>
+      <td>AI Image Creator Prompts</td>
+      <td>Group dedicated to sharing prompts for AI image generation.</td>
+      <td><a href="https://www.facebook.com/groups/291344450322662/">Facebook Group</a></td>
+    </tr>
+    <tr>
+      <td>Prompt Engineering: ChatGPT Hiring and Recruiting</td>
+      <td>Group focused on prompt engineering hiring and recruitment.</td>
+      <td><a href="https://www.facebook.com/groups/950660259275734/">Facebook Group</a></td>
+    </tr>
+    <tr>
+      <td>AI Prompt Shares</td>
+      <td>Community for sharing AI-generated prompts.</td>
+      <td><a href="https://www.facebook.com/groups/aipromptshares/">Facebook Group</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="discord-communities-for-prompt-engineering">Discord Communities for Prompt Engineering</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Community Name</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Attention Architects</td>
+      <td>Open-source community for prompt engineering experts.</td>
+      <td><a href="https://discord.gg/yourlink">Attention Architects</a></td>
+    </tr>
+    <tr>
+      <td>ChatGPT Prompt Engineering</td>
+      <td>Discord server dedicated to prompt engineering.</td>
+      <td><a href="https://discord.gg/yourlink">ChatGPT Prompt Engineering</a></td>
+    </tr>
+    <tr>
+      <td>ChatGPT Community</td>
+      <td>General ChatGPT community on Discord.</td>
+      <td><a href="https://discord.gg/yourlink">ChatGPT Community</a></td>
+    </tr>
+    <tr>
+      <td>Reddit’s ChatGPT Discord</td>
+      <td>r/chatgpt’s official Discord server.</td>
+      <td><a href="https://discord.gg/yourlink">Reddit ChatGPT</a></td>
+    </tr>
+    <tr>
+      <td>PromptsLab</td>
+      <td>Knowledge-sharing community for generative models and LLMs.</td>
+      <td><a href="https://discord.gg/yourlink">PromptsLab</a></td>
+    </tr>
+    <tr>
+      <td>Learn Prompting</td>
+      <td>Discord server dedicated to learning prompt techniques.</td>
+      <td><a href="https://discord.gg/yourlink">Learn Prompting</a></td>
+    </tr>
+    <tr>
+      <td>Artificial Intelligence</td>
+      <td>Discord server for AI enthusiasts and prompt engineers.</td>
+      <td><a href="https://discord.gg/yourlink">Artificial Intelligence</a></td>
+    </tr>
+    <tr>
+      <td>OpenAI Discord</td>
+      <td>Official Discord server for OpenAI.</td>
+      <td><a href="https://discord.gg/yourlink">OpenAI Discord</a></td>
+    </tr>
+    <tr>
+      <td>Promptify Discord</td>
+      <td>Promptify’s Discord for prompt engineering and LLMs.</td>
+      <td><a href="https://discord.gg/m88xfYMbK6">Promptify Discord</a></td>
+    </tr>
+    <tr>
+      <td>MidJourney Discord</td>
+      <td>Community focused on MidJourney AI models.</td>
+      <td><a href="https://discord.gg/yourlink">MidJourney Discord</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="other-prompt-engineering-communities-and-forums">Other Prompt Engineering Communities and Forums</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Platform</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>altenens.is</td>
+      <td>Forum for sharing ChatGPT tools and resources.</td>
+      <td><a href="https://altenens.is/forums/chatgpt-tools">altenens ChatGPT Tools</a></td>
+    </tr>
+    <tr>
+      <td>onehack.us</td>
+      <td>Platform for discovering and sharing GPT prompts.</td>
+      <td><a href="https://onehack.us/prompt">onehack.us Prompts</a></td>
+    </tr>
+    <tr>
+      <td>Hugging Face Forum</td>
+      <td>Forum for discussing Hugging Face models, including transformers and GPT.</td>
+      <td><a href="https://discuss.huggingface.co/">Hugging Face Forum</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="6-freelance--job-opportunities">6. Freelance &amp; Job Opportunities</h2>
+
+<h2 id="job-websites-for-prompt-engineers">Job Websites for Prompt Engineers</h2>
+
+<ol>
+  <li><a href="https://promptengineerjobs.io/jobs">Prompt Engineer Jobs</a> - Dedicated to various prompt engineering roles.</li>
+  <li><a href="https://www.moaijobs.com/prompt-engineering-jobs">Moai Jobs - Prompt Engineering</a> - Lists prompt engineering and AI-related positions.</li>
+  <li><a href="https://promptengineerjobs.org/">Prompt Engineer Jobs Org</a> - Platform featuring prompt engineering jobs.</li>
+  <li><a href="https://aijobs.net/list/prompt-engineering-related-jobs/">AI Jobs Net - Prompt Engineering</a> - Collection of jobs in AI, with a section for prompt engineers.</li>
+  <li><a href="https://aijobs.ai/prompt-engineer">AI Jobs</a> - A specialized site for jobs in AI, including prompt engineering roles.</li>
+  <li><a href="https://promptlyhired.com/">Promptly Hired</a> - Jobs in prompt engineering and related fields.</li>
+  <li><a href="https://www.upwork.com/en-gb/freelance-jobs/prompt-engineering/">Upwork - Prompt Engineering</a> - Freelance prompt engineering roles.</li>
+  <li><a href="https://prompt-engineering-jobs.com/">Prompt Engineering Jobs</a> - Portal for finding prompt engineering jobs.</li>
+  <li><a href="https://aicareers.jobs/job-category/prompt-engineer/">AI Careers - Prompt Engineer</a> - Job board for various AI careers, including prompt engineering.</li>
+</ol>
+
+<h2 id="freelance-platforms">Freelance Platforms</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Platform</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Upwork</strong></td>
+      <td>Freelance platform with prompt engineering jobs.</td>
+      <td><a href="https://www.upwork.com/en-gb/freelance-jobs/prompt-engineering/">Upwork Prompt Engineering Jobs</a></td>
+    </tr>
+    <tr>
+      <td><strong>Fiverr</strong></td>
+      <td>Hire prompt engineers for freelance projects.</td>
+      <td><a href="https://go.fiverr.com/visit/?bta=1056572&amp;brand=fp">Fiverr Prompt Engineers</a></td>
+    </tr>
+    <tr>
+      <td><strong>Freelancer</strong></td>
+      <td>Freelance platform for prompt engineering roles.</td>
+      <td><a href="https://www.freelancer.com/jobs/prompt-engineering#">Freelancer Prompt Engineering</a></td>
+    </tr>
+    <tr>
+      <td><strong>Toptal</strong></td>
+      <td>Platform connecting top prompt engineers for freelance opportunities.</td>
+      <td><a href="https://www.toptal.com/prompt-engineers">Toptal Prompt Engineers</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="7-contributing--code-of-conduct">7. Contributing &amp; Code of Conduct</h2>
+
+<p>Contributing
+We welcome contributions to make this repository a comprehensive resource for prompt engineering enthusiasts. Here’s how you can help:</p>
+
+<p>Guidelines for Contributing
+Follow our step-by-step guide in the CONTRIBUTING.md file to learn how to add new resources, fix errors, or enhance existing sections.</p>
+
+<p>Code of Conduct
+We strive to maintain a respectful and inclusive community. Please read our Code of Conduct to understand the expected behavior when contributing.</p>
+
+<p>Feedback and Suggestions
+If you have ideas for improvements, feel free to open an issue or submit a pull request. Constructive feedback is always welcome!</p>
+
+<h2 id="8-support-my-work">8. Support My Work</h2>
+
+<p>Consider giving this repository a ⭐️ if you find it helpful, or share it with others who might benefit! Contributions are always welcome—your input and additions help make this resource better for the entire community. Some of the links here may contribute to supporting the project at no extra cost to you. If this project benefits you, consider <a href="https://github.com/sponsors/zacfrulloni">sponsoring me on GitHub</a> or <a href="https://www.buymeacoffee.com/zazacattack">buying me a coffee</a> to help support ongoing updates and improvements.</p>
+
+<p>If you’d like to reach out, feel free to check the <a href="#13-contact-me">Contact Me section</a>. Thank you for your support! 🙏</p>
+
+<h2 id="9-join-our-community-on-discord">9. Join Our Community on Discord</h2>
+
+<p>Connect with other developers, AI enthusiasts, and prompt engineers! We’ve created a Discord server where you can share insights, ask questions, and stay updated on the latest in prompt engineering. It’s a place to collaborate, network, and learn together.</p>
+
+<p><a href="https://discord.gg/BYKsABxW">Join the Discord Server</a></p>
+
+<p>Feel free to reach out if you have questions or suggestions in our <strong>#general</strong> or <strong>#feedback</strong> channels. Let’s build a community of knowledge and support.</p>
+
+<h2 id="10-license">10. License</h2>
+
+<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+
+<p>© 2024 [zac frulloni]. All rights reserved.</p>
+
+<h2 id="11-disclosure">11. Disclosure</h2>
+
+<p>Disclosure: I am compensated through these affiliate partnerships, and this compensation helps support the resources and ongoing work within this repository. Affiliate links are provided in sections containing resources, including but not limited to learning materials, tools, and community memberships. This disclosure appears on all applicable pages of this repository.</p>
+
+<h2 id="12-contact-me">12. Contact Me</h2>
+
+<p>If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me via email at: zacfrull <code class="language-plaintext highlighter-rouge">[at]</code> hotmail <code class="language-plaintext highlighter-rouge">[dot]</code> com.</p>
+
+<p>Looking forward to hearing from you!</p>
+
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>
+        &copy; 2025 
+        <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank">
+          Prompt-Engineering-Holy-Grail
+        </a>. All rights reserved.
+      </p>
+      <p>
+        Built with ❤️ using GitHub Pages and Jekyll.
+      </p>
+    </footer>
+
+    <!-- Fetch GitHub Star Count -->
+    <script>
+      fetch("https://api.github.com/repos/zacfrulloni/Prompt-Engineering-Holy-Grail")
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById("star-count").textContent = data.stargazers_count || "0";
+        })
+        .catch(() => {
+          document.getElementById("star-count").textContent = "0";
+        });
+    </script>
+  </body>
+</html>
