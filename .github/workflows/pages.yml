@@ -3,11 +3,12 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main  # Adjust this if your default branch is not `main`
+      - main  # Change if your default branch is not `main`
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
@@ -15,10 +16,10 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0  # Use a supported Ruby version
+          ruby-version: 3.0
           bundler-cache: true
 
-      - name: Install Jekyll Dependencies
+      - name: Install Dependencies
         run: bundle install
 
       - name: Build Site
