@@ -11,8 +11,8 @@ author:
 
 # Theme Configuration
 # theme: minima
-# theme: bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
+theme: bulma-clean-theme
+# remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 
 # Plugins (Optional but Recommended)
 plugins:
