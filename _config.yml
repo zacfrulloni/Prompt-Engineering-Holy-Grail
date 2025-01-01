@@ -10,7 +10,8 @@ author:
   email: zacfrull@hotmail.com
 
 # Theme Configuration
-theme: minima
+# theme: minima
+theme: bulma-clean-theme
 
 # Plugins (Optional but Recommended)
 plugins:
