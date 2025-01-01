@@ -1,90 +1,55 @@
-# name: Sync README to index.md
-
-# on:
-#   push:
-#     branches:
-#       - main
-#     paths:
-#       - README.md
-
-# jobs:
-#   sync-readme:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - name: Checkout Repository
-#         uses: actions/checkout@v3
-#         with:
-#           fetch-depth: 0 # Fetch all history for accurate commit
-
-#       - name: Set up Git remote with GITHUB_TOKEN
-#         run: |
-#           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-
-#       - name: Configure Git for Commit
-#         run: |
-#           git config --local user.name "github-actions[bot]"
-#           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-
-#       - name: Update index.md with README.md content
-#         run: |
-#           echo '---' > index.md
-#           echo 'layout: default' >> index.md
-#           echo 'title: Prompt Engineering Holy Grail' >> index.md
-#           echo '---' >> index.md
-#           echo "" >> index.md
-#           cat README.md >> index.md
-
-#       - name: Stash Changes Before Pulling
-#         run: |
-#           git add index.md
-#           git stash --include-untracked
-
-#       - name: Pull Remote Changes
-#         run: |
-#           git pull origin main --rebase
-
-#       - name: Apply Stashed Changes
-#         run: |
-#           git stash pop || echo "Nothing to apply"
-
-#       - name: Commit and Push Changes
-#         run: |
-#           git add index.md
-#           git commit -m "Sync README.md to index.md [skip ci]" || echo "No changes to commit"
-#           git push origin main
-
-
-
-
-name: GitHub Pages
+name: Sync README to index.md
 
 on:
   push:
     branches:
       - main
+    paths:
+      - README.md
 
 jobs:
-  build-deploy:
+  sync-readme:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Checkout Repository
+        uses: actions/checkout@v3
         with:
-          ruby-version: 3.0  # Use a supported Ruby version
-          bundler-cache: true
+          fetch-depth: 0 # Fetch all history for accurate commit
 
-      - name: Install Jekyll Dependencies
-        run: bundle install
+      - name: Set up Git remote with GITHUB_TOKEN
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
-      - name: Build Site
-        run: bundle exec jekyll build
+      - name: Configure Git for Commit
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+      - name: Update index.md with README.md content
+        run: |
+          echo '---' > index.md
+          echo 'layout: default' >> index.md
+          echo 'title: Prompt Engineering Holy Grail' >> index.md
+          echo '---' >> index.md
+          echo "" >> index.md
+          cat README.md >> index.md
+
+      - name: Stash Changes Before Pulling
+        run: |
+          git add index.md
+          git stash --include-untracked
+
+      - name: Pull Remote Changes
+        run: |
+          git pull origin main --rebase
+
+      - name: Apply Stashed Changes
+        run: |
+          git stash pop || echo "Nothing to apply"
+
+      - name: Commit and Push Changes
+        run: |
+          git add index.md
+          git commit -m "Sync README.md to index.md [skip ci]" || echo "No changes to commit"
+          git push origin main
