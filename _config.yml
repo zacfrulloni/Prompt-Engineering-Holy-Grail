@@ -40,7 +40,7 @@ title: "Prompt Engineering Hub"
 description: "Your hub for all things prompt engineering."
 url: "https://promptengineeringhub.dev"   # Custom domain
 baseurl: ""                               # Usually empty for a custom domain
-theme_color: "#333333"                    # Sets meta theme color
+theme_color: "#a13f3f"                    # Sets meta theme color
 force_theme: "light"                      # or "dark" (optional, see docs)
 
 # Bulma Clean Theme remote theme
