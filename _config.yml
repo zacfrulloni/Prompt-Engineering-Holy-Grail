@@ -44,12 +44,10 @@ theme_color: "#333333"                    # Sets meta theme color
 force_theme: "light"                      # or "dark" (optional, see docs)
 
 # Bulma Clean Theme remote theme
-theme: bulma-clean-theme
-
-# Remove remote_theme if present
-# remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-feed
   - jekyll-seo-tag
