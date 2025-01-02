@@ -1,8 +1,12 @@
 ---
 layout: page
-title: "Prompting 101"
-menubar: example_menu
-show_sidebar: false
+title: "Prompt Engineering Hub"
+subtitle: "Your one-stop resource for all things prompt engineering"
+hero_image: /assets/img/hero-bg.jpg
+hero_darken: true
+callouts: home_callouts
+# show_sidebar: false
+# menubar: example_menu  # If you want the left menubar
 ---
 
 Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques!
