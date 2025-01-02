@@ -35,7 +35,7 @@ url: "https://promptengineeringhub.dev"   # Custom domain
 # baseurl: "/Prompt-Engineering-Holy-Grail" # Usually empty for a custom domain
 baseurl: ""
 theme_color: "#333333"                    # Sets meta theme color
-force_theme: "light"                      # or "dark" (optional, see docs)
+force_theme: "dark"                      # or "dark" (optional, see docs)
 
 # Bulma Clean Theme remote theme
 remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
