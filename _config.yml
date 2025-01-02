@@ -48,7 +48,7 @@ plugins:
   - jekyll-sitemap
 
 # Options for Bulma Clean Theme
-fixed_navbar: top            # Sticky top navbar
+# fixed_navbar: top            # Sticky top navbar
 show_sidebar: false          # Default: no sidebar
 # cookie_policy: /cookie-policy/  # Example if you want a cookie policy link
 
