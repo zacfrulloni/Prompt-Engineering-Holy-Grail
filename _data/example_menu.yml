@@ -1,0 +1,15 @@
+- label: Example Menu
+  items:
+    - name: Home
+      link: /
+    - name: Blog
+      link: /blog/
+    - name: Prompting 101
+      link: /prompting-101/
+      items:
+        - name: Intro to LLMs
+          link: /prompting-101/introduction/
+        - name: Best Practices
+          link: /prompting-101/best-practices/
+    - name: Sponsor
+      link: https://github.com/sponsors/zacfrulloni
