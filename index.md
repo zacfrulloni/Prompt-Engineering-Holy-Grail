@@ -1,6 +1,8 @@
 ---
-layout: default
-title: Prompt Engineering Holy Grail
+layout: page
+title: "Prompting 101"
+menubar: example_menu
+show_sidebar: false
 ---
 
 Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques!
