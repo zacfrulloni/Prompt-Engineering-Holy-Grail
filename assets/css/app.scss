@@ -1,14 +1,11 @@
 ---
 ---
-// This front-matter ensures Jekyll processes this file
 
-// Example primary color override:
-$primary: #2F80ED;
+/* Example: override your primary color first */
+$primary: #333333;
 
-// (Optional) Force a different default font, sizes, etc.
-// $body-family: 'Open Sans', sans-serif;
-// $body-size: 16px;
-// $body-background-color: #f8f9fa; // etc.
-
-// Import Main CSS file from theme
-@import "main";
+/* 
+  Import the 'main' file from the bulma-clean-theme gem.
+  This is the usual fix if your SCSS doesn't find "main" automatically. 
+*/
+@import "bulma-clean-theme/main";
