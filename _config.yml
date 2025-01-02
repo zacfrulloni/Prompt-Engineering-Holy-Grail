@@ -54,9 +54,9 @@ show_sidebar: false          # Default: no sidebar
 # Optional: GitHub Sponsor link
 gh_sponsor: zacfrulloni
 
-author:
-  name: Zac Frulloni
-  email: zacfrull@hotmail.com
+# author:
+#   name: Zac Frulloni
+#   email: zacfrull@hotmail.com
 
 # If you want to set site defaults for front matter, you can:
 defaults:
