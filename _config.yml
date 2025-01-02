@@ -44,7 +44,16 @@ theme_color: "#333333"                    # Sets meta theme color
 force_theme: "light"                      # or "dark" (optional, see docs)
 
 # Bulma Clean Theme remote theme
-remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
+theme: bulma-clean-theme
+
+# Remove remote_theme if present
+# remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Options for Bulma Clean Theme
 fixed_navbar: top            # Sticky top navbar
@@ -63,13 +72,6 @@ defaults:
       layout: "page"
       show_sidebar: false
       menubar_toc: false
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
 
 # Collections
 collections:
