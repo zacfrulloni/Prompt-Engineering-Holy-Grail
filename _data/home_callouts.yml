@@ -1,0 +1,25 @@
+style: is-light
+height: is-medium
+items:
+  - title: Build Powerful Prompts
+    subtitle: "Tips & Tricks"
+    icon: fa-magic
+    description: >
+      Master the art of prompt engineering with cutting-edge techniques and step-by-step guides.
+    call_to_action_name: Learn More
+    call_to_action_link: /docs/build-prompts/
+  - title: LLM Best Practices
+    subtitle: "Train & Fine-tune"
+    icon: fa-brain
+    description: >
+      Everything you need to know about large language models, from training data to model fine-tuning.
+    call_to_action_name: Read the Blog
+    call_to_action_link: /blog/
+  - title: Community & Support
+    subtitle: "Get Involved"
+    icon: fa-users
+    icon_brand: false
+    description: >
+      Join our community of prompt engineers, share your knowledge, and get help whenever you need it.
+    call_to_action_name: Join Slack
+    call_to_action_link: https://slack.example.com/
