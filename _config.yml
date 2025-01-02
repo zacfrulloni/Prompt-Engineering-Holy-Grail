@@ -99,3 +99,5 @@ social:
   x: https://www.x.com/
   youtube: https://www.youtube.com/
 
+sass:
+  sass_dir: assets/css
