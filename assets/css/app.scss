@@ -1,11 +1,8 @@
 ---
 ---
 
-/* Example: override your primary color first */
-$primary: #333333;
+// Example override
+$primary: #2F80ED;
 
-/* 
-  Import the 'main' file from the bulma-clean-theme gem.
-  This is the usual fix if your SCSS doesn't find "main" automatically. 
-*/
+// Import from the gem’s directory:
 @import "bulma-clean-theme/main";
