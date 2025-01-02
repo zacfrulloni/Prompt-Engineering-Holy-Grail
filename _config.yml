@@ -32,7 +32,8 @@
 title: "Prompt Engineering Hub"
 description: "Your hub for all things prompt engineering."
 url: "https://promptengineeringhub.dev"   # Custom domain
-baseurl: "/Prompt-Engineering-Holy-Grail" # Usually empty for a custom domain
+# baseurl: "/Prompt-Engineering-Holy-Grail" # Usually empty for a custom domain
+baseurl: ""
 theme_color: "#333333"                    # Sets meta theme color
 force_theme: "light"                      # or "dark" (optional, see docs)
 
@@ -54,9 +55,9 @@ show_sidebar: false          # Default: no sidebar
 # Optional: GitHub Sponsor link
 gh_sponsor: zacfrulloni
 
-# author:
-#   name: Zac Frulloni
-#   email: zacfrull@hotmail.com
+author:
+  name: Zac Frulloni
+  email: zacfrull@hotmail.com
 
 # If you want to set site defaults for front matter, you can:
 defaults:
