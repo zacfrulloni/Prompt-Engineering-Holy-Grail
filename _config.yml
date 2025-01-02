@@ -1,28 +1,101 @@
 
-# Site Metadata
-title: Prompt Engineering Holy Grail
-description: A comprehensive resource for prompt engineering best practices and techniques.
-url: "https://zacfrulloni.github.io/Prompt-Engineering-Holy-Grail/"
-baseurl: "/Prompt-Engineering-Holy-Grail"
+# # Site Metadata
+# title: Prompt Engineering Holy Grail
+# description: A comprehensive resource for prompt engineering best practices and techniques.
+# url: "https://zacfrulloni.github.io/Prompt-Engineering-Holy-Grail/"
+# baseurl: "/Prompt-Engineering-Holy-Grail"
 
-author:
-  name: Zac Frulloni
-  email: zacfrull@hotmail.com
+# author:
+#   name: Zac Frulloni
+#   email: zacfrull@hotmail.com
 
-# Theme Configuration
-# theme: minima
-# theme: bulma-clean-theme
+# # Theme Configuration
+# # theme: minima
+# # theme: bulma-clean-theme
+# remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
+
+# # Plugins (Optional but Recommended)
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
+
+# # Exclude Files from Processing
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor
+
+
+
+
+
+
+
+
+# _config.yml
+
+title: "Prompt Engineering Hub"
+description: "Your hub for all things prompt engineering."
+url: "https://promptengineeringhub.dev"   # Custom domain
+baseurl: ""                               # Usually empty for a custom domain
+theme_color: "#333333"                    # Sets meta theme color
+force_theme: "light"                      # or "dark" (optional, see docs)
+
+# Bulma Clean Theme remote theme
 remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 
-# Plugins (Optional but Recommended)
+# Options for Bulma Clean Theme
+fixed_navbar: top            # Sticky top navbar
+show_sidebar: false          # Default: no sidebar
+# cookie_policy: /cookie-policy/  # Example if you want a cookie policy link
+
+# Optional: GitHub Sponsor link
+# gh_sponsor: zacfrulloni
+
+# If you want to set site defaults for front matter, you can:
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      show_sidebar: false
+      menubar_toc: false
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Exclude Files from Processing
+# Collections
+collections:
+  products: 
+    output: true
+    layout: product
+
+# Pagination (if you have a blog)
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Exclude
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+
+# Footer navigation menu reference
+footer_menu: example_footer_menu
+
+# Social links in footer (added in v1.1.0 of the theme)
+social:
+  facebook: https://www.facebook.com/
+  instagram: https://www.instagram.com/
+  threads: https://www.threads.net/
+  tiktok: https://www.tiktok.com/
+  x: https://www.x.com/
+  youtube: https://www.youtube.com/
+
