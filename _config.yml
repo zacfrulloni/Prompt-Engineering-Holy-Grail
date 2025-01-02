@@ -101,4 +101,7 @@ social:
   youtube: https://www.youtube.com/
 
 sass:
-  sass_dir: assets/css
+  load_paths:
+    - _sass
+    - node_modules
+    - assets/css
