@@ -4,5 +4,5 @@
 // Example override
 $primary: #2F80ED;
 
-// Import from the gem’s directory:
-@import "bulma-clean-theme/main";
+// Import the main stylesheet by its short name:
+@import "main";
