@@ -1,15 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name='impact-site-verification' value='0cef11aa-eda6-4d43-9512-057b191e557f'>
-    <meta name="google-adsense-account" content="ca-pub-3989253659623995">
-    <meta name="google-adsense-account" content="ca-pub-5522728655484059">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prompt Engineering Hub | Prompt Engineering Hub</title>
-    <meta name="description" content="Your hub for all things prompt engineering.">
+<!doctype html>
 
-    <!-- Jekyll SEO Tag -->
+
+
+
+<html
+    dir="ltr"
+    lang="en"
+    
+        class="has-navbar-fixed-top"
+    
+>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#333333">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        
+            href="/favicon.png"
+        
+    >
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Prompt Engineering Hub | Your hub for all things prompt engineering.</title>
 <meta name="generator" content="Jekyll v4.3.4" />
@@ -27,119 +44,204 @@
 {"@context":"https://schema.org","@type":"WebSite","description":"Your hub for all things prompt engineering.","headline":"Prompt Engineering Hub","name":"Prompt Engineering Hub","url":"https://promptengineeringhub.dev/"}</script>
 <!-- End Jekyll SEO tag -->
 
+    <!-- head scripts -->
+</head>
 
-    <!-- Minima Theme CSS -->
-    <link rel="stylesheet" href="/assets/main.css">
+    <body>
+        
+        <nav
+    class="navbar is-primary  is-fixed-top "
+    x-data="{ openNav: false }"
+>
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Prompt Engineering Hub
+            </a>
+            <a
+                role="button"
+                class="navbar-burger burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navMenu"
+                :class="{ 'is-active': openNav }"
+                x-on:click="openNav = !openNav"
+            >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item is-active">Home</a>
+                
+                    
+                        
+                            <a
+                                href="/"
+                                class="navbar-item is-active"
+                            >Home</a>
+                        
+                    
+                        
+                            <a
+                                href="/blog/"
+                                class="navbar-item "
+                            >Blog</a>
+                        
+                    
+                        
+                            <div class="navbar-item has-dropdown is-hoverable ">
+                                <a
+                                    href="/about/"
+                                    class="navbar-link "
+                                >About</a>
+                                <div class="navbar-dropdown">
+                                    
+                                        <a
+                                            href="/about/#mission"
+                                            class="navbar-item "
+                                        >Our Mission</a>
+                                    
+                                        <a
+                                            href="/about/#contact"
+                                            class="navbar-item "
+                                        >Contact</a>
+                                    
+                                </div>
+                            </div>
+                        
+                    
+                
+            </div>
 
-    <!-- Google Tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11058169010"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-11058169010');
-    </script>
+            <div class="navbar-end">
+                
+            </div>
+        </div>
+    </div>
+</nav>
 
-    <!-- Custom Styles -->
-    <style>
-      body {
-        margin: 0;
-        padding: 0 20px;
-        font-family: Arial, sans-serif;
-      }
-      header {
-        text-align: center;
-        padding: 20px 0;
-        background-color: #f5f5f5;
-        border-bottom: 1px solid #ddd;
-      }
-      header a {
-        text-decoration: none;
-        font-size: 18px;
-        color: #0366d6;
-        margin: 10px;
-      }
-      header .button {
-        display: inline-block;
-        margin: 5px 10px;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-size: 16px;
-        text-decoration: none;
-      }
-      .github-button {
-        background-color: #0366d6;
-        color: white;
-      }
-      .sponsor-button {
-        background-color: #ea4aaa;
-        color: white;
-      }
-      .coffee-button {
-        background-color: #ffdd57;
-        color: #111;
-      }
-      main {
-        max-width: 800px;
-        margin: 20px auto;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-      }
-      table th,
-      table td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
-      }
-      table th {
-        background-color: #f5f5f5;
-        font-weight: bold;
-      }
-      table tr:nth-child(even) {
-        background-color: #f9f9f9;
-      }
-      table tr:hover {
-        background-color: #f1f1f1;
-      }
-      footer {
-        text-align: center;
-        padding: 20px 0;
-        background-color: #f5f5f5;
-        border-top: 1px solid #ddd;
-        font-size: 14px;
-      }
-      footer a {
-        color: #0366d6;
-        text-decoration: none;
-      }
-    </style>
-  </head>  
-  <body>
-    <!-- Header Section -->
-    <header>
-      <h1>
-        <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank">
-          Prompt-Engineering-Holy-Grail
-        </a>
-      </h1>
-      <p>Your hub for all things prompt engineering.</p>
-      <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank" class="button github-button">
-        ⭐ Star on GitHub: <span id="star-count">Loading...</span>
-      </a>
-<!--       <a href="https://github.com/sponsors/zacfrulloni" target="_blank" class="button sponsor-button">
-        💖 Sponsor
-      </a> -->
-      <a href="https://www.buymeacoffee.com/zazacattack" target="_blank" class="button coffee-button">
-        ☕ Buy Me a Coffee
-      </a>
-    </header>
+        
+            <section
+    class="hero  is-medium  is-bold is-primary"
+    
+        style="background: url('/assets/img/hero-bg.jpg') no-repeat center center; background-size: cover;"
+    
+>
+    <div class="hero-body  hero-darken ">
+        <div class="container">
+            <h1 class="title is-2">Prompt Engineering Hub</h1>
+            <p class="subtitle is-3">Your one-stop resource for all things prompt engineering</p>
+            
+        </div>
+    </div>
+</section>
 
-    <!-- Main Content -->
-    <main>
-      
+        
+        
+    
+    <section class="hero  is-medium  is-light">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-multiline is-centered">
+                    
+                        <div class="column is-4 has-text-centered">
+                            
+                                <div class="icon callout-icon">
+                                    
+                                        <i class="fas fa-magic fa-4x"></i>
+                                    
+                                </div>
+                            
+                            <p class="title is-5">Build Powerful Prompts</p>
+                            <p class="subtitle is-5">Tips & Tricks</p>
+
+                            
+                                <div class="content">
+                                    <p>Master the art of prompt engineering with cutting-edge techniques and step-by-step guides.<br />
+</p>
+                                </div>
+                            
+
+                            
+                                <a href="/docs/build-prompts/" class="button is-primary">
+                                    Learn More
+                                </a>
+                            
+                        </div>
+                    
+                        <div class="column is-4 has-text-centered">
+                            
+                                <div class="icon callout-icon">
+                                    
+                                        <i class="fas fa-brain fa-4x"></i>
+                                    
+                                </div>
+                            
+                            <p class="title is-5">LLM Best Practices</p>
+                            <p class="subtitle is-5">Train & Fine-tune</p>
+
+                            
+                                <div class="content">
+                                    <p>Everything you need to know about large language models, from training data to model fine-tuning.<br />
+</p>
+                                </div>
+                            
+
+                            
+                                <a href="/blog/" class="button is-primary">
+                                    Read the Blog
+                                </a>
+                            
+                        </div>
+                    
+                        <div class="column is-4 has-text-centered">
+                            
+                                <div class="icon callout-icon">
+                                    
+                                        <i class="fas fa-users fa-4x"></i>
+                                    
+                                </div>
+                            
+                            <p class="title is-5">Community & Support</p>
+                            <p class="subtitle is-5">Get Involved</p>
+
+                            
+                                <div class="content">
+                                    <p>Join our community of prompt engineers, share your knowledge, and get help whenever you need it.<br />
+</p>
+                                </div>
+                            
+
+                            
+                                <a href="https://slack.example.com/" class="button is-primary">
+                                    Join Slack
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <section class="section">
+            <div class="container">
+                <div class="columns is-multiline">
+                    
+                    <div class="column is-12">
+                        
+
+                        
+
+                        
+
+                        
+
+                        
 <div class="content">
     <p>Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques!</p>
 
@@ -1477,31 +1579,51 @@ If you have ideas for improvements, feel free to open an issue or submit a pull 
 
 </div>
 
-    </main>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+            <footer class="footer">
+    <div class="container">
+        
+            <div class="columns is-multiline">
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/" class="link">Home</a>
+                        </div>
+                    </div>
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/blog/" class="link">Blog</a>
+                        </div>
+                    </div>
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/products/" class="link">Products</a>
+                        </div>
+                    </div>
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                        </div>
+                    </div>
+                
+            </div>
+        
 
-    <!-- Footer Section -->
-    <footer>
-      <p>
-        &copy; 2025 
-        <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank">
-          Prompt-Engineering-Holy-Grail
-        </a>. All rights reserved.
-      </p>
-      <p>
-        Built with ❤️ using GitHub Pages and Jekyll.
-      </p>
-    </footer>
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
 
-    <!-- Fetch GitHub Star Count -->
-    <script>
-      fetch("https://api.github.com/repos/zacfrulloni/Prompt-Engineering-Holy-Grail")
-        .then(response => response.json())
-        .then(data => {
-          document.getElementById("star-count").textContent = data.stargazers_count || "0";
-        })
-        .catch(() => {
-          document.getElementById("star-count").textContent = "0";
-        });
-    </script>
-  </body>
+        
+        <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
 </html>
