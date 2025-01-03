@@ -7,6 +7,6 @@ $primary: #2F80ED;
 // Import the main stylesheet by its short name:
 @import "main";
 
-.hero {
-  padding-bottom: 1rem !important;
+.hero  is-medium {
+  padding-bottom: 0.1rem !important;
 }
