@@ -1,3 +1,20 @@
-<section class="hero {% if page.hero_height %}{{ page.hero_height }}{% endif %} {% if page.hero_darken %} has-background-dark{% endif %}">
-  <!-- hero contents here -->
+<!-- _includes/page-hero.html -->
+{%- if page.hide_hero %}{% assign hero_hidden = true %}{% endif -%}
+{%- unless hero_hidden -%}
+<section 
+  class="hero
+  {% if page.hero_height %}{{ page.hero_height }}{% endif %}
+  {% if page.hero_darken %} has-background-dark{% endif %}" 
+>
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      {% if page.title %}
+        <h1 class="title">{{ page.title }}</h1>
+      {% endif %}
+      {% if page.subtitle %}
+        <h2 class="subtitle">{{ page.subtitle }}</h2>
+      {% endif %}
+    </div>
+  </div>
 </section>
+{%- endunless -%}
