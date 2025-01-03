@@ -10929,8 +10929,8 @@ div.highlight {
   color: #ea4aaa;
 }
 
-.hero {
-  padding-bottom: 1rem !important;
+.hero is-medium {
+  padding-bottom: 0.1rem !important;
 }
 
 /*# sourceMappingURL=app.css.map */
