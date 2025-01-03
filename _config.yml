@@ -70,10 +70,10 @@ defaults:
       menubar_toc: false
 
 # Collections
-collections:
-  products: 
-    output: true
-    layout: product
+# collections:
+#   products: 
+#     output: true
+#     layout: product
 
 # Pagination (if you have a blog)
 paginate: 5
