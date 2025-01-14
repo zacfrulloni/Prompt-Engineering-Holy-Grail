@@ -1,17 +1,9 @@
 ---
-layout: page
-title: "Prompt Engineering Hub"
-subtitle: "Your one-stop resource for all things prompt engineering"
-# hero_image: /assets/img/hero-bg.jpg
-# hero_height: is-small
-# hero_darken: true
-hide_hero: true
-callouts: home_callouts
-# show_sidebar: false
-# menubar: example_menu  # If you want the left menubar
+layout: default
+title: Prompt Engineering Holy Grail
 ---
 
-Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques!
+Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques.
 
 ## Table of Contents
 
@@ -39,6 +31,7 @@ Welcome to the Prompt Engineering Hub! This repository is a curated resource for
    - [Prompt Collections](#prompt-collections)
    - [GPT Stores and Libraries](#gpt-stores-and-libraries)
    - [Datasets](#datasets)
+   - [Grok Prompts](#grok-prompts)
 5. [Prompt Engineering Communities](#5-prompt-engineering-communities)
    - [Social Media Groups for Prompt Engineering](#social-media-groups-for-prompt-engineering)
      - [Reddit Communities](#reddit-communities)
@@ -259,7 +252,6 @@ Each section is crafted to support your growth in prompt engineering, making it 
 ## 4.	Prompt Libraries, Collections & Datasets
 
 ## Prompt Libraries
-
 | **Library**                   | **Description** | **Link** |
 |-------------------------------|-----------------|----------|
 | **ai-boost/awesome-prompts**  | Curated list of ChatGPT prompts with top-rated GPTs. Includes prompt engineering, attack & protection techniques, and advanced papers. | [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) |
@@ -302,6 +294,14 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **DiffusionDB**                         | A large-scale text-to-image prompt dataset, providing a gallery of prompts based on Stable Diffusion models.                                                                                                | [GitHub](https://github.com/poloclub/diffusiondb) |
 | **Real Toxicity Prompts**               | A dataset of 100k sentence snippets from the web for research on reducing toxic degeneration in neural models.                                                                                              | [HuggingFace](https://huggingface.co/datasets/allenai/real-toxicity-prompts) |
 | **Stable Diffusion Prompts**            | A set of about 80,000 prompts from "Lexica.art" for Stable Diffusion. Data extraction was challenging due to API limitations.                                                                              | [HuggingFace](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) |
+
+## Grok Prompts
+
+| **Resource Title**                                         | **Link**                                                                                                                           |
+|------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **9 Prompt Tests: Grok 2.0/Flux.1, Midjourney**            | [9 Prompt Tests: Grok 2.0/Flux.1, Midjourney](https://medium.com/@tanshaoyu160/9-prompt-tests-grok-2-0-flux-1-midjourney-whos-more-powerful-595e3012d48b) |
+| **Grok 2 Prompts & Examples**                              | [Grok 2 Prompts & Examples](https://grokaimodel.com/prompts/)                                                                     |
+
 
 ## 5. Prompt Engineering Communities
 
@@ -423,4 +423,3 @@ Disclosure: I am compensated through these affiliate partnerships, and this comp
 If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me via email at: zacfrull `[at]` hotmail `[dot]` com.
 
 Looking forward to hearing from you!
-
