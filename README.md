@@ -45,19 +45,24 @@ Welcome to the Prompt Engineering Hub! This repository is a curated resource for
 
 ## 1. Introduction
 
+
 Welcome to the **Prompt Engineering Hub**! This repository is a curated resource for all things related to prompt engineering, from beginner fundamentals to advanced techniques.
 
 ### Overview of Prompt Engineering
+
 Prompt engineering involves crafting effective prompts to guide AI models like GPT-4, helping them generate accurate, context-aware outputs. As AI applications grow across industries, mastering prompt engineering unlocks powerful use cases in areas like text generation, sentiment analysis, translation, and more.
 
 ### Purpose of This Repository
+
 This repo gathers essential resources, tools, templates, and best practices to support anyone learning or working in prompt engineering. Whether you’re just starting or have experience, you’ll find structured learning paths, advanced techniques, and real-world examples.
 
 Each section is crafted to support your growth in prompt engineering, making it easy to find the resources you need. Explore, learn, and feel free to contribute!
 
+
 ## 2. Learning Resources
 
 ### Free Tutorials, Videos & Guides
+
 
 1. **Learn Prompting** - Overview of Prompt Engineering and various techniques.
    - [A Complete Guide to Meta Prompting](https://www.prompthub.us/blog/a-complete-guide-to-meta-prompting#what-is-meta-prompting?) - Meta prompting is a prompt engineering method that uses large language models (LLMs) to create and refine prompts.
@@ -81,6 +86,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 
 
 ### Additional Guides and Repositories
+
 
 7. **Prompt-Engineering-Guide** - Comprehensive guide covering the latest papers, resources, and prompt engineering techniques.
    - [Prompt-Engineering-Guide by dair-ai](https://github.com/dair-ai/Prompt-Engineering-Guide?tab=readme-ov-file)
