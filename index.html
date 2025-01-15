@@ -1,19 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name='impact-site-verification' value='0cef11aa-eda6-4d43-9512-057b191e557f'>
-    <meta name="google-adsense-account" content="ca-pub-3989253659623995">
-    <meta name="google-adsense-account" content="ca-pub-5522728655484059">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prompt Engineering Hub | Prompt Engineering Hub</title>
-    <meta name="description" content="Your hub for all things prompt engineering.">
+<!doctype html>
 
-    <!-- Jekyll SEO Tag -->
+
+
+
+<html
+    dir="ltr"
+    lang="en"
+    
+>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#333333">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        
+            href="/favicon.png"
+        
+    >
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Prompt Engineering Hub | Your hub for all things prompt engineering.</title>
+<title>Prompt Engineering Holy Grail | Prompt Engineering Hub</title>
 <meta name="generator" content="Jekyll v4.3.4" />
-<meta property="og:title" content="Prompt Engineering Hub" />
+<meta property="og:title" content="Prompt Engineering Holy Grail" />
 <meta name="author" content="Zac Frulloni" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Your hub for all things prompt engineering." />
@@ -23,124 +38,88 @@
 <meta property="og:site_name" content="Prompt Engineering Hub" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Prompt Engineering Hub" />
+<meta property="twitter:title" content="Prompt Engineering Holy Grail" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Zac Frulloni"},"description":"Your hub for all things prompt engineering.","headline":"Prompt Engineering Hub","name":"Prompt Engineering Hub","url":"https://promptengineeringhub.dev/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Zac Frulloni"},"description":"Your hub for all things prompt engineering.","headline":"Prompt Engineering Holy Grail","name":"Prompt Engineering Hub","url":"https://promptengineeringhub.dev/"}</script>
 <!-- End Jekyll SEO tag -->
 
+    <!-- head scripts -->
+</head>
 
-    <!-- Minima Theme CSS -->
-    <link rel="stylesheet" href="/assets/main.css">
+    <body>
+        
+        <nav
+    class="navbar is-primary "
+    x-data="{ openNav: false }"
+>
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Prompt Engineering Hub
+            </a>
+            <a
+                role="button"
+                class="navbar-burger burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navMenu"
+                :class="{ 'is-active': openNav }"
+                x-on:click="openNav = !openNav"
+            >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item is-active">Home</a>
+                
+            </div>
 
-    <!-- Google Tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11058169010"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-11058169010');
-    </script>
+            <div class="navbar-end">
+                
+                    <a class="navbar-item" href="https://github.com/sponsors/zacfrulloni">
+                        <span class="icon gh-sponsor"><i class="fas fa-heart"></i></span>
+                        <span>Sponsor</span>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
 
-    <!-- Custom Styles -->
-    <style>
-      body {
-        margin: 0;
-        padding: 0 20px;
-        font-family: Arial, sans-serif;
-      }
-      header {
-        text-align: center;
-        padding: 20px 0;
-        background-color: #f5f5f5;
-        border-bottom: 1px solid #ddd;
-      }
-      header a {
-        text-decoration: none;
-        font-size: 18px;
-        color: #0366d6;
-        margin: 10px;
-      }
-      header .button {
-        display: inline-block;
-        margin: 5px 10px;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-size: 16px;
-        text-decoration: none;
-      }
-      .github-button {
-        background-color: #0366d6;
-        color: white;
-      }
-      .sponsor-button {
-        background-color: #ea4aaa;
-        color: white;
-      }
-      .coffee-button {
-        background-color: #ffdd57;
-        color: #111;
-      }
-      main {
-        max-width: 800px;
-        margin: 20px auto;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-      }
-      table th,
-      table td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
-      }
-      table th {
-        background-color: #f5f5f5;
-        font-weight: bold;
-      }
-      table tr:nth-child(even) {
-        background-color: #f9f9f9;
-      }
-      table tr:hover {
-        background-color: #f1f1f1;
-      }
-      footer {
-        text-align: center;
-        padding: 20px 0;
-        background-color: #f5f5f5;
-        border-top: 1px solid #ddd;
-        font-size: 14px;
-      }
-      footer a {
-        color: #0366d6;
-        text-decoration: none;
-      }
-    </style>
-  </head>  
-  <body>
-    <!-- Header Section -->
-    <header>
-      <h1>
-        <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank">
-          Prompt-Engineering-Holy-Grail
-        </a>
-      </h1>
-      <p>Your hub for all things prompt engineering.</p>
-      <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank" class="button github-button">
-        ⭐ Star on GitHub: <span id="star-count">Loading...</span>
-      </a>
-<!--       <a href="https://github.com/sponsors/zacfrulloni" target="_blank" class="button sponsor-button">
-        💖 Sponsor
-      </a> -->
-      <a href="https://www.buymeacoffee.com/zazacattack" target="_blank" class="button coffee-button">
-        ☕ Buy Me a Coffee
-      </a>
-    </header>
+        
+            <section
+    class="hero  is-medium  is-bold is-primary"
+    
+>
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">Prompt Engineering Holy Grail</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
 
-    <!-- Main Content -->
-    <main>
-      <p>Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques!</p>
+        
+        
+
+        <section class="section">
+            <div class="container">
+                <div class="columns is-multiline">
+                    
+                    <div class="column is-12">
+                        
+
+                        
+
+                        
+
+                        
+
+                        <p>Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques.</p>
 
 <h2 id="table-of-contents">Table of Contents</h2>
 
@@ -179,6 +158,7 @@
       <li><a href="#prompt-collections">Prompt Collections</a></li>
       <li><a href="#gpt-stores-and-libraries">GPT Stores and Libraries</a></li>
       <li><a href="#datasets">Datasets</a></li>
+      <li><a href="#grok-prompts">Grok Prompts</a></li>
     </ul>
   </li>
   <li><a href="#5-prompt-engineering-communities">Prompt Engineering Communities</a>
@@ -989,48 +969,14 @@
 <h2 id="4-prompt-libraries-collections--datasets">4.	Prompt Libraries, Collections &amp; Datasets</h2>
 
 <h2 id="prompt-libraries">Prompt Libraries</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th><strong>Library</strong></th>
-      <th><strong>Description</strong></th>
-      <th><strong>Link</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>ai-boost/awesome-prompts</strong></td>
-      <td>Curated list of ChatGPT prompts with top-rated GPTs. Includes prompt engineering, attack &amp; protection techniques, and advanced papers.</td>
-      <td><a href="https://github.com/ai-boost/awesome-prompts">ai-boost/awesome-prompts</a></td>
-    </tr>
-    <tr>
-      <td><strong>B3o/GPTS-Prompt-Collection</strong></td>
-      <td>Extensive prompt collection for GPT models.</td>
-      <td><a href="https://github.com/B3o/GPTS-Prompt-Collection">B3o/GPTS-Prompt-Collection</a></td>
-    </tr>
-    <tr>
-      <td><strong>abilzerian/LLM-Prompt-Library</strong></td>
-      <td>Advanced code and text manipulation prompts for various LLMs, including GPT-4o, Claude, and Llama3.</td>
-      <td><a href="https://github.com/abilzerian/LLM-Prompt-Library">abilzerian/LLM-Prompt-Library</a></td>
-    </tr>
-    <tr>
-      <td><strong>yunwei37/prompt-hacker-collections</strong></td>
-      <td>Prompt hacking and defense, with injection and reverse engineering examples.</td>
-      <td><a href="https://github.com/yunwei37/prompt-hacker-collections">yunwei37/prompt-hacker-collections</a></td>
-    </tr>
-    <tr>
-      <td><strong>alphatrait/100000-ai-prompts-by-contentifyai</strong></td>
-      <td>Extensive collection of 100,000+ prompts for ChatGPT, covering various topics like business and entertainment.</td>
-      <td><a href="https://github.com/alphatrait/100000-ai-prompts-by-contentifyai">alphatrait/100000-ai-prompts-by-contentifyai</a></td>
-    </tr>
-    <tr>
-      <td><strong>DummyKitty/Cyber-Security-chatGPT-prompt</strong></td>
-      <td>Security-focused ChatGPT prompt library.</td>
-      <td><a href="https://github.com/DummyKitty/Cyber-Security-chatGPT-prompt">DummyKitty/Cyber-Security-chatGPT-prompt</a></td>
-    </tr>
-  </tbody>
-</table>
+<p>| <strong>Library</strong>                   | <strong>Description</strong> | <strong>Link</strong> |
+|——————————-|—————–|———-|
+| <strong>ai-boost/awesome-prompts</strong>  | Curated list of ChatGPT prompts with top-rated GPTs. Includes prompt engineering, attack &amp; protection techniques, and advanced papers. | <a href="https://github.com/ai-boost/awesome-prompts">ai-boost/awesome-prompts</a> |
+| <strong>B3o/GPTS-Prompt-Collection</strong>| Extensive prompt collection for GPT models. | <a href="https://github.com/B3o/GPTS-Prompt-Collection">B3o/GPTS-Prompt-Collection</a> |
+| <strong>abilzerian/LLM-Prompt-Library</strong> | Advanced code and text manipulation prompts for various LLMs, including GPT-4o, Claude, and Llama3. | <a href="https://github.com/abilzerian/LLM-Prompt-Library">abilzerian/LLM-Prompt-Library</a> |
+| <strong>yunwei37/prompt-hacker-collections</strong> | Prompt hacking and defense, with injection and reverse engineering examples. | <a href="https://github.com/yunwei37/prompt-hacker-collections">yunwei37/prompt-hacker-collections</a> |
+| <strong>alphatrait/100000-ai-prompts-by-contentifyai</strong> | Extensive collection of 100,000+ prompts for ChatGPT, covering various topics like business and entertainment. | <a href="https://github.com/alphatrait/100000-ai-prompts-by-contentifyai">alphatrait/100000-ai-prompts-by-contentifyai</a> |
+| <strong>DummyKitty/Cyber-Security-chatGPT-prompt</strong> | Security-focused ChatGPT prompt library. | <a href="https://github.com/DummyKitty/Cyber-Security-chatGPT-prompt">DummyKitty/Cyber-Security-chatGPT-prompt</a> |</p>
 
 <h2 id="prompt-collections">Prompt Collections</h2>
 
@@ -1165,6 +1111,27 @@
       <td><strong>Stable Diffusion Prompts</strong></td>
       <td>A set of about 80,000 prompts from “Lexica.art” for Stable Diffusion. Data extraction was challenging due to API limitations.</td>
       <td><a href="https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts">HuggingFace</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="grok-prompts">Grok Prompts</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Resource Title</strong></th>
+      <th><strong>Link</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>9 Prompt Tests: Grok 2.0/Flux.1, Midjourney</strong></td>
+      <td><a href="https://medium.com/@tanshaoyu160/9-prompt-tests-grok-2-0-flux-1-midjourney-whos-more-powerful-595e3012d48b">9 Prompt Tests: Grok 2.0/Flux.1, Midjourney</a></td>
+    </tr>
+    <tr>
+      <td><strong>Grok 2 Prompts &amp; Examples</strong></td>
+      <td><a href="https://grokaimodel.com/prompts/">Grok 2 Prompts &amp; Examples</a></td>
     </tr>
   </tbody>
 </table>
@@ -1473,32 +1440,51 @@ If you have ideas for improvements, feel free to open an issue or submit a pull 
 
 <p>Looking forward to hearing from you!</p>
 
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+            <footer class="footer">
+    <div class="container">
+        
+            <div class="columns is-multiline">
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/" class="link">Home</a>
+                        </div>
+                    </div>
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/blog/" class="link">Blog</a>
+                        </div>
+                    </div>
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/products/" class="link">Products</a>
+                        </div>
+                    </div>
+                
+                    <div class="column has-text-centered">
+                        <div>
+                            <a href="/privacy-policy/" class="link">Privacy Policy</a>
+                        </div>
+                    </div>
+                
+            </div>
+        
 
-    </main>
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
 
-    <!-- Footer Section -->
-    <footer>
-      <p>
-        &copy; 2025 
-        <a href="https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail" target="_blank">
-          Prompt-Engineering-Holy-Grail
-        </a>. All rights reserved.
-      </p>
-      <p>
-        Built with ❤️ using GitHub Pages and Jekyll.
-      </p>
-    </footer>
-
-    <!-- Fetch GitHub Star Count -->
-    <script>
-      fetch("https://api.github.com/repos/zacfrulloni/Prompt-Engineering-Holy-Grail")
-        .then(response => response.json())
-        .then(data => {
-          document.getElementById("star-count").textContent = data.stargazers_count || "0";
-        })
-        .catch(() => {
-          document.getElementById("star-count").textContent = "0";
-        });
-    </script>
-  </body>
+        
+        <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
 </html>
