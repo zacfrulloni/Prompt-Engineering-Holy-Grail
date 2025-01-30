@@ -65,6 +65,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 
 
 1. **Learn Prompting** - Overview of Prompt Engineering and various techniques.
+   - [Prompt Engineering Guide by Learn Prompting](https://learnprompting.org/docs/introduction)
    - [A Complete Guide to Meta Prompting](https://www.prompthub.us/blog/a-complete-guide-to-meta-prompting#what-is-meta-prompting?) - Meta prompting is a prompt engineering method that uses large language models (LLMs) to create and refine prompts.
 2. **Best Practices for Prompt Engineering with the OpenAI API** - OpenAI guide on best practices for prompt engineering.
    - [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) - Tips and tricks for working with Large Language Models like OpenAI's GPT-4.
@@ -138,6 +139,22 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | [Master Generative AI: Automate Content Effortlessly with AI](https://www.udemy.com/course/ai-content-generation/?couponCode=LEARNNOWPLANS) | Udemy | ⭐ 4.4 (5081 reviews)  | 11 hours                          | £39.99      | ✔️ Yes               |
 | [How to ChatGPT: Master the Art of Prompt Engineering](https://www.udemy.com/course/chatgpt-a-master-guide-for-professionals/?couponCode=LEARNNOWPLANS) | Udemy | ⭐ 4.4 (19634 reviews) | 2.5 hours                         | £29.99      | ✔️ Yes               |
 | [LangChain- Develop LLM powered applications with LangChain](https://www.udemy.com/course/langchain/?couponCode=LEARNNOWPLANS) | Udemy | ⭐ 4.6 (19450 reviews) | 9.5 hours                         | £54.99      | ✔️ Yes               |
+| [ChatGPT for Everyone](https://learnprompting.org/courses/chatgpt-for-everyone)                                       | Learn Prompting       | ⭐ 4.8 (409 reviews)              | 1 hour                           | Free          | ✔️ Yes               |
+| [Introduction to Prompt Engineering](https://learnprompting.org/courses/introduction_to_prompt_engineering)           | Learn Prompting       | ⭐ 4.7 (43 reviews)               | 3 Days                           | n/a           | ✔️ Yes               |
+| [Advanced Prompt Engineering](https://learnprompting.org/courses/advanced-prompt-engineering)                         | Learn Prompting       | ⭐ 4.8 (39 reviews)               | 3 Days                           | n/a           | ✔️ Yes               |
+| [Introduction to Generative AI Agents for Business Professionals](https://learnprompting.org/courses/introduction-to-agents) | Learn Prompting  | ⭐ 4.3 (18 reviews)               | 3 Days                           | n/a           | ✔️ Yes               |
+| [Introduction to Prompt Hacking](https://learnprompting.org/courses/intro-to-prompt-hacking)                          | Learn Prompting       | ⭐ 4.9 (17 reviews)               | 3 Days                           | n/a           | ✔️ Yes               |
+| [Introduction to Generative AI in Marketing](https://learnprompting.org/courses/introduction-to-generative-ai-in-marketing) | Learn Prompting  | ⭐ 4.6 (16 reviews)               | 3 Days                           | n/a           | ✔️ Yes               |
+| [Advanced Prompt Hacking](https://learnprompting.org/courses/advanced-prompt-hacking)                                 | Learn Prompting       | ⭐ 4.9 (11 reviews)               | 3 Days                           | n/a           | ✔️ Yes               |
+| [Image Creation with DALL·E 3](https://learnprompting.org/courses/image-creation-with-dalle3)                         | Learn Prompting       | ⭐ 5.0 (5 reviews)                | 3 Days                           | n/a           | ✔️ Yes               |
+| [AI Safety](https://learnprompting.org/courses/ai-safety)                                                             | Learn Prompting       | ⭐ 4.8 (5 reviews)                | 3 Days                           | n/a           | ✔️ Yes               |
+| [Runway ML for Everyone](https://learnprompting.org/courses/runway-ml-for-everyone)                                   | Learn Prompting       | ⭐ 5.0 (4 reviews)                | 3 Days                           | n/a           | ✔️ Yes               |
+| [Advanced OpenAI Playground](https://learnprompting.org/courses/advanced-openai-playground)                           | Learn Prompting       | ⭐ 5.0 (4 reviews)                | 3 Days                           | n/a           | ✔️ Yes               |
+| [Boost Your Day-to-Day Efficiency With Generative AI](https://learnprompting.org/courses/boost-your-day-to-day-efficiency-with-generative-ai) | Learn Prompting | ⭐ 5.0 (1 review)                | 3 Days                           | n/a           | ✔️ Yes               |
+| [Introduction to Large Language Models (LLMs) for Business Professionals](https://learnprompting.org/courses/introduction-to-llms) | Learn Prompting | ⭐ 5.0 (1 review)                | 3 Days                           | n/a           | ✔️ Yes               |
+| [Introduction to Retrieval-Augmented Generation (RAG) for Business Professionals](https://learnprompting.org/courses/introduction-to-rag) | Learn Prompting | ⭐ n/a                     | 3 Days                           | n/a           | ✔️ Yes               |
+| [Introduction to Generative AI for Business Professionals](https://learnprompting.org/courses/intro-to-gen-ai)         | Learn Prompting       | ⭐ 5.0 (10 reviews)               | 3 Days                           | N/A           | ✔️ Yes    
+
 
 ## Essential Books on Prompt Engineering and ChatGPT
 
@@ -277,6 +294,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **PromptDen**                 | Platform with thousands of prompts for text and image generation, with profile features for prompt engineers. | [PromptDen](https://promptden.com) |
 | **PromptChains**              | Prompt chains maximize intelligence and results when using LLMs. | [PromptChains](https://github.com/MIATECHPARTNERS/PromptChains) |
 
+
 ## GPT Stores and Libraries
 
 | **Store/Library**             | **Description** | **Link** |
@@ -296,6 +314,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | **DiffusionDB**                         | A large-scale text-to-image prompt dataset, providing a gallery of prompts based on Stable Diffusion models.                                                                                                | [GitHub](https://github.com/poloclub/diffusiondb) |
 | **Real Toxicity Prompts**               | A dataset of 100k sentence snippets from the web for research on reducing toxic degeneration in neural models.                                                                                              | [HuggingFace](https://huggingface.co/datasets/allenai/real-toxicity-prompts) |
 | **Stable Diffusion Prompts**            | A set of about 80,000 prompts from "Lexica.art" for Stable Diffusion. Data extraction was challenging due to API limitations.                                                                              | [HuggingFace](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) |
+| **HackaPrompt**       | Dataset of submissions from a prompt hacking competition. | [HackaPrompt Dataset](https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset)
 
 ## Grok Prompts
 
@@ -345,7 +364,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 | ChatGPT Community             | General ChatGPT community on Discord. | [ChatGPT Community](https://discord.gg/yourlink) |
 | Reddit's ChatGPT Discord      | r/chatgpt's official Discord server. | [Reddit ChatGPT](https://discord.gg/yourlink) |
 | PromptsLab                    | Knowledge-sharing community for generative models and LLMs. | [PromptsLab](https://discord.gg/yourlink) |
-| Learn Prompting               | Discord server dedicated to learning prompt techniques. | [Learn Prompting](https://discord.gg/yourlink) |
+| Learn Prompting               | Discord server dedicated to learning prompt techniques. | [Learn Prompting](https://discord.com/invite/learn-prompting-1046228027434086460) |
 | Artificial Intelligence       | Discord server for AI enthusiasts and prompt engineers. | [Artificial Intelligence](https://discord.gg/yourlink) |
 | OpenAI Discord                | Official Discord server for OpenAI. | [OpenAI Discord](https://discord.gg/yourlink) |
 | Promptify Discord             | Promptify's Discord for prompt engineering and LLMs. | [Promptify Discord](https://discord.gg/m88xfYMbK6) |
