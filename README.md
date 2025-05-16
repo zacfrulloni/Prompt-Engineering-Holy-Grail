@@ -1,5 +1,7 @@
 Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques.
+
 [**Join the online community**](https://www.skool.com/lovable-vibe-coding-4202)
+
 [**Prompt Engineering Hub ⭐️ Earn up to $1000 by referring a client**](https://www.aidevelopers.tech/)
 
 ## Table of Contents
