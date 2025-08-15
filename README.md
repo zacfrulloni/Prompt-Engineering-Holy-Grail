@@ -359,6 +359,7 @@ Each section is crafted to support your growth in prompt engineering, making it 
 
 | **Platform**   | **Description** | **Link** |
 |----------------|-----------------|----------|
+| God Tier Prompts | AI Prompt leaderboard. Discover the best of best prompts | [God Tier Prompts](https://www.godtierprompts.com) |
 | altenens.is    | Forum for sharing ChatGPT tools and resources. | [altenens ChatGPT Tools](https://altenens.is/forums/chatgpt-tools) |
 | onehack.us     | Platform for discovering and sharing GPT prompts. | [onehack.us Prompts](https://onehack.us/prompt) |
 | Hugging Face Forum | Forum for discussing Hugging Face models, including transformers and GPT. | [Hugging Face Forum](https://discuss.huggingface.co/) |
