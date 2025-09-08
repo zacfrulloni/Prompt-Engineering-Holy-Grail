@@ -5,11 +5,7 @@ title: Prompt Engineering Holy Grail
 
 Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques.
 
-<<<<<<< Updated upstream
-[**⭐️ Land Your First Client With Vibe Coding ⭐️**](https://www.skool.com/lovable-vibe-coding-4202)
-=======
-[**⭐️ Land Your First Client With Vibe Coding ⭐️**](https://www.skool.com/lovable-vibe-coding)
->>>>>>> Stashed changes
+[**⭐️ Land Your First Client With Vibe Coding ⭐️**](https://www.skool.com/lovable-vibe-coding/about)
 
 [**⭐️ Earn up to $1000 by referring a client ⭐️**](https://www.aidevelopers.tech/)
 
