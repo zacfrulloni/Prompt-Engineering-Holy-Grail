@@ -4,6 +4,8 @@ Welcome to the Prompt Engineering Hub! This repository is a curated resource for
 
 [**⭐️ Earn up to $1000 by referring a client ⭐️**](https://www.aidevelopers.tech/)
 
+[**⭐️ Learn Vibe Coding ⭐️**](https://www.youtube.com/@Zac-Frulloni)
+
 ## Table of Contents
 
 1. [Introduction](#1-introduction)
