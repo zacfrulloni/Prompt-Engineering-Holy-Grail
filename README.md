@@ -1,10 +1,11 @@
 Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques.
 
+[**⭐️ Subscribe to my Youtube ⭐️**](https://www.youtube.com/@Zac-Frulloni)
+
 [**⭐️ Land Your First Client With Vibe Coding ⭐️**](https://www.skool.com/lovable-vibe-coding/about)
 
 [**⭐️ Earn up to $1000 by referring a client ⭐️**](https://www.aidevelopers.tech/)
 
-[**⭐️ Learn Vibe Coding ⭐️**](https://www.youtube.com/@Zac-Frulloni)
 
 ## Table of Contents
 
