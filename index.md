@@ -5,6 +5,8 @@ title: Prompt Engineering Holy Grail
 
 Welcome to the Prompt Engineering Hub! This repository is a curated resource for anyone interested in learning and advancing prompt engineering techniques.
 
+[**⭐️ Vibe Coding Free Starter Kit ⭐️**](https://vibe-codingschool.com/)
+
 [**⭐️ Subscribe to my Youtube ⭐️**](https://www.youtube.com/@Zac-Frulloni)
 
 [**⭐️ Land Your First Client With Vibe Coding ⭐️**](https://www.skool.com/lovable-vibe-coding/about)
